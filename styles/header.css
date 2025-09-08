@@ -1,22 +1,24 @@
-* {
-    margin: 0;
-}
-
-:root {
-    --primary: #0079BC;
-    --secoundary: white;
-    --background: rgb(201, 230, 236);
-    font-family: sans-serif;
-}
-
 header {
+
     display: flex;
+    position: fixed;
     flex-direction: row;
-    padding: 15px;
+    padding: 20px;
+    /* padding-left: 15px; */
+    width: 100vw;
     background-color: var(--background);
+    border-color: rgb(219, 219, 219);
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+
+    box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.02);
+
+
+
+
 }
 
 .header-title {
-    color: white;
+    color: var(--text-color);
 
 }

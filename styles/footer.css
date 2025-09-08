@@ -1,0 +1,24 @@
+footer {
+
+    text-align: center;
+    padding: 20px;
+    margin-left: 20vw;
+    width: calc(100vw - 20vw - 60px);
+    background-color: var(--selected-color);
+    border-color: rgb(219, 219, 219);
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+
+    box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.02);
+    z-index: 999;
+    bottom: 0;
+
+
+
+
+}
+
+.footer-title {
+    color: var(--text-color);
+    font-family: cursive
+}
