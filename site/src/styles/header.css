@@ -16,6 +16,19 @@ header {
     background-color: var(--background);
 }
 
+.header-logo {
+    height: 60px;
+    padding-right: 20px;
+}
+
 .header-title {
-    color: white;
+    color: #1b236c;
+}
+
+.header-navigation > * {
+    color: #1b236c;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
 }

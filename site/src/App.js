@@ -1,5 +1,6 @@
 // styles
 import './App.css';
+import './styles/header.css'
 
 // different pages
 import { Flashcards } from './Flashcards';
@@ -17,10 +18,10 @@ function App() {
       <div className="App">
         <header>
           {/* School Logo */}
-          <img src="assets/images/CASTlogo.png" alt="cast logo"/>
-          <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
+          <img src="assets/images/CASTlogo.png" alt="cast logo" className="header-logo"/>
+          {/* <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3> */}
           {/* Navigation */}
-          <nav>
+          <nav class="header-navigation">
             <Link to="/">Home</Link>
             <Link to="/flashcards">Flash cards</Link>
             <Link to="/formtime">Form time</Link>
