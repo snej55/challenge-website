@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --primary: #0079BC;
+    --secoundary: white;
+    --background: black;
+    font-family: sans-serif;
+}
+
+header {
+    flex-direction: row;
+    padding: 15px;
+    background-color: var(--background);
+}
+
+.header-title {
+    color: white;
+
+}
