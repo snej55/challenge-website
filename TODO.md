@@ -2,8 +2,6 @@
 
 - [ ] Choose framework
 
-
-
 - [ ] Make main page
 
 - [ ] Make pages about parts of the school
