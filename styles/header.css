@@ -5,11 +5,12 @@
 :root {
     --primary: #0079BC;
     --secoundary: white;
-    --background: black;
+    --background: rgb(201, 230, 236);
     font-family: sans-serif;
 }
 
 header {
+    display: flex;
     flex-direction: row;
     padding: 15px;
     background-color: var(--background);
