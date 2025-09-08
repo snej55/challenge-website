@@ -1,4 +1,14 @@
+// styles
 import './App.css';
+
+// different pages
+import { Flashcards } from './Flashcards';
+import { Formtime } from './Formtime';
+import { Games } from './Games';
+import { Wiki } from './Wiki';
+import { Home } from './Home';
+
+// modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -6,19 +16,26 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header>
+          {/* School Logo */}
           <img src="assets/images/CASTlogo.png" alt="cast logo"/>
           <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
+          {/* Navigation */}
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/flashcards">Flash cards</Link>
+            <Link to="/formtime">Form time</Link>
+            <Link to="/games">Games</Link>
+            <Link to="/wiki">Wiki</Link>
+          </nav>
         </header>
         <main>
-            <h2>Content to be added:</h2><br />
-            <ul>
-                <li>School homework/revision websites with info on each of them</li><br />
-                <li>Location of useful things, such as water fountains</li><br />
-                <li>Basic overview of school rules</li><br />
-                <li>uniform and equipment policy</li><br />
-                <li>school day timings</li><br />
-                <li>other useful info</li><br />
-            </ul>
+            <Routes>
+              <Route path="/" element={<Home />}/>
+              <Route path="/flashcards" element={<Flashcards />} />
+              <Route path="/formtime" element={<Formtime />} />
+              <Route path="/games" element={<Games />} />
+              <Route path="/wiki" element={<Wiki />} />
+            </Routes>
         </main>
         <footer>
             <p>&copy; 2025 Challenge Website!</p>

@@ -4,10 +4,12 @@
 
 - [ ] Flashcard page
 
-- [ ] Games page
+- [ ] Form time ideas
 
-- [ ] Forum page
+- [ ] Games page
 
 - [ ] Wiki page
 
-- [ ] Chatbot
+- [ ] Forum page or chatbot?
+
+- [ ] Timetable generator?
