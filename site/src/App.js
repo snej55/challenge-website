@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <header>
+        <img src="assets/images/CASTlogo.png" />
         <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
       </header>
       <main>
