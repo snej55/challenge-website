@@ -1,17 +1,13 @@
 ## TODO:
 
-- [ ] Choose framework
+- [x] Choose framework
 
-- [ ] Make main page
+- [ ] Flashcard page
 
-- [ ] Make pages about parts of the school
+- [ ] Games page
 
-- [ ] Make a search bar on the main page
+- [ ] Forum page
 
-- [ ] Make a list of trivia on the main page
+- [ ] Wiki page
 
-- [ ] Make a forum complete with language filter
-
-- [ ] Make a games section with veto option
-
-- [ ] Make a petition section with veto option
+- [ ] Chatbot
