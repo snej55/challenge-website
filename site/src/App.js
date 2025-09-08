@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <img src="assets/images/CASTlogo.png" />
+        <img src="assets/images/CASTlogo.png" alt="cast logo"/>
         <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
       </header>
       <main>
