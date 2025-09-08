@@ -6,18 +6,4 @@ Run `./gen_docs.sh` to regenerate the README.
 
 ---
 
-## TODO:
-
-- [x] Choose framework
-
-- [ ] Flashcard page
-
-- [ ] Form time ideas
-
-- [ ] Games page
-
-- [ ] Wiki page
-
-- [ ] Forum page or chatbot?
-
-- [ ] Timetable generator?
+[TODO.md]
