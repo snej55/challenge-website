@@ -1,13 +1,12 @@
 // styles
 import './App.css';
-import './styles/header.css'
 
 // different pages
-import { Flashcards } from './Flashcards';
-import { Formtime } from './Formtime';
-import { Games } from './Games';
-import { Wiki } from './Wiki';
-import { Home } from './Home';
+import { Flashcards } from './Components/Flashcards';
+import { Formtime } from './Components/Formtime';
+import { Games } from './Components/Games';
+import { Wiki } from './Components/Wiki';
+import { Home } from './Components/Home';
 
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
