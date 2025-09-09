@@ -17,7 +17,7 @@ function App() {
       <div className="App">
         <header>
           {/* School Logo */}
-          <img src="assets/images/CASTlogo.png" alt="cast logo" className="header-logo"/>
+          <img src="assets/images/newCASTlogo.png" alt="cast logo" className="header-logo"/>
           {/* <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3> */}
           {/* Navigation */}
           <nav class="header-navigation">
