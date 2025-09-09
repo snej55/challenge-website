@@ -55,7 +55,8 @@ main {
 
     font-weight: normal;
     font-size: larger;
-    transition: padding-left 0.5s ease, background-color 0.7s ease, color 0.05s ease-out;
+    transition: padding-left 0.5s, background-color 0.7s , color 0.05s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, -0.25, -1);
     cursor: pointer;
     user-select: none;
     text-decoration: none;

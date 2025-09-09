@@ -22,8 +22,6 @@ export function About() {
                 them how to do basic things, like where is the water fountain, or how to submit homework.</p>
             <p>Because of this, we decided that a WIKI about the school should be made. The objective of the guide is to
                 make students' everyday life around the school smoother and easier. </p>
-
-
         </div>
     );
 }
