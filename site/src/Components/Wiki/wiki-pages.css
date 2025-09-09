@@ -4,14 +4,18 @@
 /* Position of wiki */
 .wiki-pages-div {
     margin-left: 20vw;
-    overflow-x: hidden;
-    overscroll-behavior-x: none;
-    overscroll-behavior-y: none;
+    /* overflow: hidden; */
+    /* overscroll-behavior-x: none; */
+    /* overscroll-behavior-y: none; */
     padding: 20px;
+    /* padding-bottom: none; */
     border: none;
     height: calc(100vh - 63px);
     width: calc(100vw - 20vw - 60px);
+    scroll-behavior: smooth;
 }
+
+
 
 .nav-label {
     background-color: gainsboro;
