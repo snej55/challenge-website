@@ -12,7 +12,7 @@ export function About() {
             <h1 id="title">✈️ Welcome to CAST WIKI</h1>
 
             <h2 id="subtitle">This is the <i>unofficial</i> wiki of Cambridge Academy for Science and Technology</h2>
-            <img src="/assets/images/CAST_WIKI_Logo.png" className="cast-wiki-logo" />
+            <img src="/assets/images/CAST_WIKI_Logo.png" className="cast-wiki-logo" alt="CAST Wiki Logo" />
 
 
             {/* Spacer 50px */}
@@ -27,7 +27,7 @@ export function About() {
             <p>Because of this, we decided that a WIKI about the school should be made. The objective of the guide is to
                 make students' everyday life around the school smoother and easier. </p>
             <div className="spacer-20"></div>
-            <div id="creative" class="info-card card-blue">
+            {/* <div id="creative" class="info-card card-blue">
                 <h3>Why was this WIKI Made?</h3>
 
                 <p>This page was made by five Year 11 CAST students. We realised that many students
@@ -37,7 +37,8 @@ export function About() {
                 <p>Because of this, we decided that a WIKI about the school should be made. The objective of the guide is to
                     make students' everyday life around the school smoother and easier. </p>
 
-            </div>
+            </div> */}
+            {/* <div className="spacer-1000">e</div> */}
 
         </div>
     );

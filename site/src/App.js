@@ -33,19 +33,40 @@ import { Contact } from './Components/Wiki/pages/Contact.js';
 
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 
 function App() {
+  // State to control button visibility
+  const [showBtn, setShowBtn] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setShowBtn(true);
+      } else {
+        setShowBtn(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Smooth scroll to top
+  const topFunction = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <BrowserRouter>
       <div className="App">
         <header>
           {/* School Logo */}
           <img src="/assets/images/CAST_PictureOnly_Logo.png" alt="cast logo" className="cast-logo-header" />
-          <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
+          <h3 className="header-title">Cambridge Academy for Science and Technology WIKI</h3>
 
 
           {/* Navigation */}
-          <nav class="header-navigation">
+          <nav className="header-navigation">
             {/* <Link to="/">Home</Link> */}
             <Link to="/flashcards">Flash cards</Link>
             <Link to="/formtime">Form time</Link>
@@ -82,9 +103,25 @@ function App() {
             </Route>
             <Route path="*" element={<NoMatch />} />
           </Routes>
+          <button
+            onClick={topFunction}
+            id="myBtn"
+            title="Go to top"
+            style={{
+              position: 'fixed',
+              bottom: 20,
+              right: 20,
+              zIndex: 1000,
+              opacity: showBtn ? 1 : 0,
+              pointerEvents: showBtn ? 'auto' : 'none',
+              transition: 'opacity 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease'
+            }}
+          >
+            <i className="fa-solid fa-chevron-up"></i>
+          </button>
         </main>
         <footer>
-          {/* <h3 class="footer-title">Hi</h3> */}
+          {/* <h3 className="footer-title">Hi</h3> */}
         </footer>
       </div>
     </BrowserRouter>

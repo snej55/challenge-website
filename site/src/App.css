@@ -131,3 +131,30 @@ footer {
     background: transparent;
     margin-top: 5px;
 }
+
+#myBtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #4285F4;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    
+}
+
+#myBtn:hover {
+    transform: translateY(-5px);
+    background-color: #1e69e2;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    /* Add a dark-grey background on hover */
+}

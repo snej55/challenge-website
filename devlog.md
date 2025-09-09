@@ -14,5 +14,6 @@ Adjusted spacing for TOC
 Intergrated with React framework
 Made a better 404 page
 Added a python script to automatically generate WIKI pages
+Added "Back to top" button
 TODO:
 [ ] Add quote API
