@@ -4,34 +4,30 @@
 }
 
 .header-navigation>* {
-    color: #1b236c;
+    color: #000000;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
     font-size: larger;
-    background-color: rgba(0, 0, 0, 0.102);
+    border-radius: 20px;
     transition: 0.1s ease-in;
     text-decoration: none;
 }
 
 .header-navigation>*:hover {
-    background-color: #1b236c49;
-    color: #1b236c;
+    background-color: gainsboro;
+
 }
 
-.vertical-divider {
-    border-left: 1px solid #1b236c;
-    height: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    display: fixed;
     background-color: rgb(201, 230, 236);
     color: #1b236c;
     text-align: center;
@@ -48,7 +44,7 @@ header {
     /* padding-left: 15px; */
     width: 100vw;
     background-color: var(--background);
-    border-color: #1b236c;
+    border-color: rgb(219, 219, 219);
     border-width: 0px 0px 1px 0px;
     border-style: solid;
     height: 40px;

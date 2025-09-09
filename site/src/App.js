@@ -40,8 +40,9 @@ function App() {
         <header>
           {/* School Logo */}
           <img src="/assets/images/CAST_PictureOnly_Logo.png" alt="cast logo" className="cast-logo-header" />
-          <h3 class="header-title">CAST WIKI</h3>
-          <div class="vertical-divider"></div>
+          <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
+
+
           {/* Navigation */}
           <nav class="header-navigation">
             {/* <Link to="/">Home</Link> */}
@@ -80,9 +81,9 @@ function App() {
             <Route path="*" element={<NoMatch />} />
           </Routes>
         </main>
-        {/* <footer>
+        <footer>
           <h3 class="footer-title">Hi</h3>
-        </footer> */}
+        </footer>
       </div>
     </BrowserRouter>
   );
