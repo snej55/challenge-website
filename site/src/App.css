@@ -39,6 +39,26 @@ header {
 
 
 
+
+}
+
+.header-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.header-navigation>* {
+
+    /* background-color: gainsboro;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .header-title {

@@ -43,7 +43,7 @@ function App() {
           <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
           {/* Navigation */}
           <nav class="header-navigation">
-            <Link to="/">Home</Link>
+            {/* <Link to="/">Home</Link> */}
             <Link to="/flashcards">Flash cards</Link>
             <Link to="/formtime">Form time</Link>
             <Link to="/games">Games</Link>
