@@ -6,3 +6,7 @@ We also made the basic page of the WIKI, ignoring JS fornow and focusing on HTML
 We decided to go with a minimal style for the wiki, because this will guide the students using this WIKI to focus on the content, rather than the fancy styles.
 
 ![Basic Page Demo](/assets/dev/#1_Basic_Page_Demo.jpeg, "Page Demo")
+
+## September 8th 2025
+Changed the TOC from an iframe to a scrollable div.
+Added Icon to the header

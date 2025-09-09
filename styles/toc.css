@@ -3,15 +3,24 @@
     padding-bottom: 5px;
     padding-left: 20px;
     font-weight: normal;
-    transition: padding-left 0.5s ease, background-color 0.7s ease;
+    transition: padding-left 0.5s ease, background-color 0.7s ease, color 0.05s ease-out;
     cursor: pointer;
+    user-select: none;
+
 
 
 }
 
 .toc-item:hover {
     padding-left: 30px;
+
     background-color: var(--selected-color);
     /* font-weight: bold; */
 
+}
+
+.toc-item:active {
+    color: #000a;
+
+    padding-left: 40px;
 }
