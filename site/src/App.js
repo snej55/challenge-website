@@ -7,6 +7,7 @@ import { Formtime } from './Components/Formtime';
 import { Games } from './Components/Games';
 import { Wiki } from './Components/Wiki';
 import { Home } from './Components/Home';
+import { NoMatch } from './Components/NoMatch';
 
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -35,6 +36,7 @@ function App() {
               <Route path="/formtime" element={<Formtime />} />
               <Route path="/games" element={<Games />} />
               <Route path="/wiki" element={<Wiki />} />
+              <Route path="*" element={<NoMatch />} />
             </Routes>
         </main>
         <footer class="footer">

@@ -19,6 +19,8 @@ import { SupportWellbeing } from './Wiki/SupportWellbeing.js';
 import { UsefulLinks } from './Wiki/UsefulLinks.js';
 import { Contact } from './Wiki/Contact.js';
 
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+
 export function Wiki() {
     let pages = [
         {"title": "About", "desc": "📚 About Us"},
