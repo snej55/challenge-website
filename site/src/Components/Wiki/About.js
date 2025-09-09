@@ -27,7 +27,7 @@ export function About() {
             <p>Because of this, we decided that a WIKI about the school should be made. The objective of the guide is to
                 make students' everyday life around the school smoother and easier. </p>
             <div className="spacer-20"></div>
-            <div id="creative" class="info-card card-gradient-orange-red">
+            <div id="creative" class="info-card card-blue">
                 <h3>Why was this WIKI Made?</h3>
 
                 <p>This page was made by five Year 11 CAST students. We realised that many students

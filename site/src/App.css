@@ -96,3 +96,38 @@ footer {
     text-align: center;
     font-family: serif;
 }
+
+
+
+::-webkit-scrollbar {
+    display: block;
+    width: 7px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+    border-radius: 20px;
+    border-right: none;
+    border-left: none;
+    transition: background-color 0.5s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background-color: rgb(168, 168, 168);
+}
+
+::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 5px;
+}
