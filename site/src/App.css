@@ -32,3 +32,13 @@ header {
     padding-right: 10px;
     font-size: larger;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 179, 255, 0.368);
+  color: rgb(30, 0, 162);
+  text-align: center;
+}

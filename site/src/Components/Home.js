@@ -4,15 +4,12 @@ export function Home()
 {
     return (
         <div>
-            <h2>Content to be added:</h2><br />
-            <ul>
-                <li>School homework/revision websites with info on each of them</li><br />
-                <li>Location of useful things, such as water fountains</li><br />
-                <li>Basic overview of school rules</li><br />
-                <li>uniform and equipment policy</li><br />
-                <li>school day timings</li><br />
-                <li>other useful info</li><br />
-            </ul>
+            <h2>Welcome to the Wiki</h2><br />
+            This wiki is a non-profit community project, launched by 5 year 11s who wanted to make things easier for others.<br/>
+            Like you, we once started at this school, and felt confused by the bustling hive of activity and learning.<br/>
+            But you don't have to! Because now, this wiki is here to help.<br/>
+            Packed with games, flashcards, and an exhaustive amount of info on every school related subject you could name, we're here to assist in any way we can.<br/>
+            We've poured our heart and soul into this webpage, and would love to see it help. Have fun!<br/>
         </div>
     );
 }
