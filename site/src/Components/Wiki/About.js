@@ -3,12 +3,16 @@ import './wiki-pages.css'
 
 export function About() {
     return (
+
         <div className="wiki-pages-div">
-            {/* 📚 About Us */}
+            <div className="spacer-20"></div>
+            <h3 className="nav-label"><i class="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>📚 About Us</h3>
+
+            <div className="spacer-20"></div>
             <h1 id="title">✈️ Welcome to CAST WIKI</h1>
 
-            <h2 id="subtitle">This is the unofficial wiki of Cambridge Academy for Science and Technology</h2>
-            <img src="/assets/images/CASTlogo.png" className="cast-logo" />
+            <h2 id="subtitle">This is the <i>unofficial</i> wiki of Cambridge Academy for Science and Technology</h2>
+            <img src="/assets/images/CAST_WIKI_logo.png" className="cast-wiki-logo" />
 
 
             {/* Spacer 50px */}
