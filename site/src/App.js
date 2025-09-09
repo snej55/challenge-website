@@ -38,7 +38,7 @@ function App() {
             </Routes>
         </main>
         <footer class="footer">
-            <p>&copy; 2025 Challenge Website!</p>
+            <p>2025 Challenge Website!</p>
         </footer>
       </div>
     </BrowserRouter>
