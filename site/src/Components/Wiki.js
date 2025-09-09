@@ -1,5 +1,24 @@
 import "./Wiki.css";
 
+import { About } from './Wiki/About.js';
+import { SchoolOverview } from './Wiki/SchoolOverview.js';
+import { SubjectsCourses } from './Wiki/SubjectsCourses.js';
+import { Sciences } from './Wiki/Sciences.js';
+import { ComputerScience } from './Wiki/ComputerScience.js';
+import { Mathematics } from './Wiki/Mathematics.js';
+import { Sports } from './Wiki/Sports.js';
+import { Geography } from './Wiki/Geography.js';
+import { Clubs } from './Wiki/Clubs.js';
+import { Achievements } from './Wiki/Achievements.js';
+import { Exams } from './Wiki/Exams.js';
+import { LunchMenu } from './Wiki/LunchMenu.js';
+import { Transport } from './Wiki/Transport.js';
+import { SchoolPolicies } from './Wiki/SchoolPolicies.js';
+import { StudentVoices } from './Wiki/StudentVoices.js';
+import { SupportWellbeing } from './Wiki/SupportWellbeing.js';
+import { UsefulLinks } from './Wiki/UsefulLinks.js';
+import { Contact } from './Wiki/Contact.js';
+
 export function Wiki() {
     let pages = [
         {"title": "About", "desc": "📚 About Us"},
