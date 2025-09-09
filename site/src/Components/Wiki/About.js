@@ -12,7 +12,7 @@ export function About() {
             <h1 id="title">✈️ Welcome to CAST WIKI</h1>
 
             <h2 id="subtitle">This is the <i>unofficial</i> wiki of Cambridge Academy for Science and Technology</h2>
-            <img src="/assets/images/CAST_WIKI_logo.png" className="cast-wiki-logo" />
+            <img src="/assets/images/CAST_WIKI_Logo.png" className="cast-wiki-logo" />
 
 
             {/* Spacer 50px */}
@@ -26,8 +26,6 @@ export function About() {
                 them how to do basic things, like where is the water fountain, or how to submit homework.</p>
             <p>Because of this, we decided that a WIKI about the school should be made. The objective of the guide is to
                 make students' everyday life around the school smoother and easier. </p>
-
-
         </div>
     );
 }
