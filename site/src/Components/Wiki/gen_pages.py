@@ -20,9 +20,9 @@ pages = [
 ]
 
 for page_info in pages:
+    lb = "{"
+    rb = "}"
     with open(list(page_info.keys())[0] + ".js", "w") as f:
-        lb = "{"
-        rb = "}"
         f.write(f"""import './{list(page_info.keys())[0]}.css';
 
 export function {list(page_info.keys())[0]}() {lb}
@@ -39,3 +39,5 @@ export function {list(page_info.keys())[0]}() {lb}
     with open(list(page_info.keys())[0] + ".css", "w") as f:
         f.write("")
         f.close()
+
+    print(f"import {lb} {list(page_info.keys())[0]} {rb} from './Wiki/{list(page_info.keys())[0]}.js';")
