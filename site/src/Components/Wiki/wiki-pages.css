@@ -1,0 +1,10 @@
+.wiki-pages-div {
+    margin-left: calc(20vw + 20px);
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    overscroll-behavior-y: none;
+    padding: 20px;
+    border: none;
+    height: calc(100vh - 63px);
+    width: calc(100vw - 20vw - 60px);
+}
