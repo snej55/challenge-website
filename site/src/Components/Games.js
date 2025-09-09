@@ -4,7 +4,7 @@ export function Games() {
     return (
         <div className="Games-Text">
             Games page
-            <iframe src="https://editor.p5js.org/sebastianthornton/full/jFhNQftjk" width="600" height="480" allowfullscreen></iframe>
+            <iframe src="https://editor.p5js.org/snej55/full/pq3lk0NZH" width="400" height="480" allowFullScreen="true"></iframe>
         </div>
     );
 }
