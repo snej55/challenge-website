@@ -3,7 +3,7 @@ footer {
     text-align: center;
     padding: 20px;
     margin-left: 20vw;
-    width: calc(100vw - 20vw - 60px);
+    width: calc(100vw - 20vw - 40px);
     background-color: var(--selected-color);
     border-color: rgb(219, 219, 219);
     border-width: 0px 0px 1px 0px;
