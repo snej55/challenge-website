@@ -9,6 +9,7 @@ import { Wiki } from './Components/Wiki';
 import { Home } from './Components/Home';
 import { NoMatch } from './Components/NoMatch';
 
+// ALL THE WIKI PAGES
 import { About } from './Components/Wiki/About.js';
 import { SchoolOverview } from './Components/Wiki/SchoolOverview.js';
 import { SubjectsCourses } from './Components/Wiki/SubjectsCourses.js';
