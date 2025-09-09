@@ -12,7 +12,7 @@ export function About() {
             <h1 id="title">✈️ Welcome to CAST WIKI</h1>
 
             <h2 id="subtitle">This is the <i>unofficial</i> wiki of Cambridge Academy for Science and Technology</h2>
-            <img src="/assets/images/CAST_WIKI_logo.png" className="cast-wiki-logo" />
+            <img src="/assets/images/CAST_WIKI_Logo.png" className="cast-wiki-logo" />
 
 
             {/* Spacer 50px */}
