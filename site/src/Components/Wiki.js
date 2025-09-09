@@ -19,7 +19,7 @@ import { SupportWellbeing } from './Wiki/SupportWellbeing.js';
 import { UsefulLinks } from './Wiki/UsefulLinks.js';
 import { Contact } from './Wiki/Contact.js';
 
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
 export function Wiki() {
     let pages = [
@@ -47,8 +47,12 @@ export function Wiki() {
     
     return (
         <div className="Wiki">
-            {/* spacer */}
-            {pages.map(page => <li>{page.desc}</li>)}
+            <div className="wiki-contents">
+                {/* spacer */}
+                {pages.map(page => <Link to={`/wiki/${page.title.toLowerCase()}`} className="wikilink">{page.desc}</Link>)}
+            </div>
+
+            <Outlet />
         </div>
     );
 }
