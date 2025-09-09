@@ -12,7 +12,6 @@ export function SchoolPolicies() {
                 <li>We are expected to wear grey trousers, or grey shorts during the warm times of year.</li>
                 <li>White shirts, short or long sleeve, are allowed, but no polo shirts.</li>
                 <li>The school jumper (the only one allowed) </li>
-
             </ul>
         </div>
     );
