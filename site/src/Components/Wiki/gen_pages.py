@@ -22,22 +22,23 @@ pages = [
 for page_info in pages:
     lb = "{"
     rb = "}"
-    with open(list(page_info.keys())[0] + ".js", "w") as f:
-        f.write(f"""import './{list(page_info.keys())[0]}.css';
+#     with open(list(page_info.keys())[0] + ".js", "w") as f:
+#         f.write(f"""import './{list(page_info.keys())[0]}.css';
 
-export function {list(page_info.keys())[0]}() {lb}
-    return (
-        <div>
-            {page_info[list(page_info.keys())[0]]}
-        </div>
-    );
-{rb}
-""")
+# export function {list(page_info.keys())[0]}() {lb}
+#     return (
+#         <div>
+#             {page_info[list(page_info.keys())[0]]}
+#         </div>
+#     );
+# {rb}
+# """)
         
-        f.close()
+#         f.close()
     
-    with open(list(page_info.keys())[0] + ".css", "w") as f:
-        f.write("")
-        f.close()
+#     with open(list(page_info.keys())[0] + ".css", "w") as f:
+#         f.write("")
+#         f.close()
 
-    print(f"import {lb} {list(page_info.keys())[0]} {rb} from './Wiki/{list(page_info.keys())[0]}.js';")
+    print(f"<Route path='/wiki/{list(page_info.keys())[0].lower()}' element={lb} <{list(page_info.keys())[0]} />{rb} />")
+    # print(f"import {lb} {list(page_info.keys())[0]} {rb} from './Wiki/{list(page_info.keys())[0]}.js';")
