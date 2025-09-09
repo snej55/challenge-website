@@ -11,24 +11,25 @@ import { Home } from './Components/Home';
 import { NoMatch } from './Components/NoMatch';
 
 // ALL THE WIKI PAGES
-import { About } from './Components/Wiki/About.js';
-import { SchoolOverview } from './Components/Wiki/SchoolOverview.js';
-import { SubjectsCourses } from './Components/Wiki/SubjectsCourses.js';
-import { Sciences } from './Components/Wiki/Sciences.js';
-import { ComputerScience } from './Components/Wiki/ComputerScience.js';
-import { Mathematics } from './Components/Wiki/Mathematics.js';
-import { Sports } from './Components/Wiki/Sports.js';
-import { Geography } from './Components/Wiki/Geography.js';
-import { Clubs } from './Components/Wiki/Clubs.js';
-import { Achievements } from './Components/Wiki/Achievements.js';
-import { Exams } from './Components/Wiki/Exams.js';
-import { LunchMenu } from './Components/Wiki/LunchMenu.js';
-import { Transport } from './Components/Wiki/Transport.js';
-import { SchoolPolicies } from './Components/Wiki/SchoolPolicies.js';
-import { StudentVoices } from './Components/Wiki/StudentVoices.js';
-import { SupportWellbeing } from './Components/Wiki/SupportWellbeing.js';
-import { UsefulLinks } from './Components/Wiki/UsefulLinks.js';
-import { Contact } from './Components/Wiki/Contact.js';
+
+import { About } from './Components/Wiki/pages/About.js';
+import { SchoolOverview } from './Components/Wiki/pages/SchoolOverview.js';
+import { SubjectsCourses } from './Components/Wiki/pages/SubjectsCourses.js';
+import { Sciences } from './Components/Wiki/pages/Sciences.js';
+import { ComputerScience } from './Components/Wiki/pages/ComputerScience.js';
+import { Mathematics } from './Components/Wiki/pages/Mathematics.js';
+import { Sports } from './Components/Wiki/pages/Sports.js';
+import { Geography } from './Components/Wiki/pages/Geography.js';
+import { Clubs } from './Components/Wiki/pages/Clubs.js';
+import { Achievements } from './Components/Wiki/pages/Achievements.js';
+import { Exams } from './Components/Wiki/pages/Exams.js';
+import { LunchMenu } from './Components/Wiki/pages/LunchMenu.js';
+import { Transport } from './Components/Wiki/pages/Transport.js';
+import { SchoolPolicies } from './Components/Wiki/pages/SchoolPolicies.js';
+import { StudentVoices } from './Components/Wiki/pages/StudentVoices.js';
+import { SupportWellbeing } from './Components/Wiki/pages/SupportWellbeing.js';
+import { UsefulLinks } from './Components/Wiki/pages/UsefulLinks.js';
+import { Contact } from './Components/Wiki/pages/Contact.js';
 
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -50,6 +51,7 @@ function App() {
             <Link to="/formtime">Form time</Link>
             <Link to="/games">Games</Link>
             <Link to="/wiki/About">Wiki</Link>
+
           </nav>
         </header>
         <main>

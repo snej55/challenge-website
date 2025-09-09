@@ -12,6 +12,7 @@ Changed the TOC from an iframe to a scrollable div.
 Added Icon to the header
 Adjusted spacing for TOC
 Intergrated with React framework
-
+Made a better 404 page
+Added a python script to automatically generate WIKI pages
 TODO:
 [ ] Add quote API

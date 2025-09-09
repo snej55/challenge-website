@@ -24,9 +24,9 @@ pages = [
 
 # Template for JS file
 template = """
-import './styles/wiki-pages.css'
-import './styles/{key}.css';
-import './styles/info-card.css'
+import './wiki-pages.css'
+import './{key}.css';
+import './info-card.css'
 
 export function {key}() {{
     return (
@@ -39,11 +39,10 @@ export function {key}() {{
             <h1 id="title">{value}</h1>
 
             <h2 id="subtitle">This is the subtitle, change me</h2>
-            <img src="/assets/images/CAST_WIKI_Logo.png" className="cast-wiki-logo" />
 
 
-            {/* Spacer 50px */}
-            <div className="spacer-50"></div>
+            
+      
 
             <h2 className="paragraph-title">This is paragraph title</h2>
 
@@ -55,8 +54,8 @@ export function {key}() {{
 """
 
 # Output directories
-js_dir = "./Wiki/pages"
-css_dir = "./Wiki/styles"
+js_dir = "./site/src/Components/Wiki/pages"
+css_dir = "./site/src/Components/Wiki/pages"
 
 os.makedirs(js_dir, exist_ok=True)
 os.makedirs(css_dir, exist_ok=True)
@@ -73,3 +72,6 @@ for page in pages:
         with open(css_filename, "w", encoding="utf-8") as cssf:
             cssf.write(f"/* Styles for {key} */\n")
 
+print("JS dir:", os.path.abspath(js_dir))
+print("CSS dir:", os.path.abspath(css_dir))
+print("done")
