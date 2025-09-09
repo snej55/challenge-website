@@ -38,7 +38,7 @@ header {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
+  background-color: rgba(0, 251, 255, 0.368);
+  color: rgb(47, 0, 255);
   text-align: center;
 }
