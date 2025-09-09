@@ -39,15 +39,15 @@ function App() {
       <div className="App">
         <header>
           {/* School Logo */}
-          <img src="./public/CAST_PictureOnly_Logo.png" alt="cast logo" className="header-logo" />
-          {/* <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3> */}
+          <img src="/assets/images/CAST_PictureOnly_Logo.png" alt="cast logo" className="cast-logo-header" />
+          <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3>
           {/* Navigation */}
           <nav class="header-navigation">
             <Link to="/">Home</Link>
             <Link to="/flashcards">Flash cards</Link>
             <Link to="/formtime">Form time</Link>
             <Link to="/games">Games</Link>
-            <Link to="/wiki">Wiki</Link>
+            <Link to="/wiki/About">Wiki</Link>
           </nav>
         </header>
         <main>
@@ -79,8 +79,9 @@ function App() {
             <Route path="*" element={<NoMatch />} />
           </Routes>
         </main>
-        <footer class="footer">
-          {/* <p>2025 Challenge Website!</p>x */}
+        <footer>
+          {/* Change Me! */}
+          <h3 class="footer-title">"I am a famous quote, change me" | Web Devlopers</h3>
         </footer>
       </div>
     </BrowserRouter>

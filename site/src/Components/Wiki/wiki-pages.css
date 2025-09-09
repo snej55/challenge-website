@@ -1,5 +1,9 @@
+/* This is the global CSS styling sheet used by all WIKI Pages */
+
+
+/* Position of wiki */
 .wiki-pages-div {
-    margin-left: calc(20vw + 20px);
+    margin-left: 20vw;
     overflow-x: hidden;
     overscroll-behavior-x: none;
     overscroll-behavior-y: none;
@@ -7,4 +11,32 @@
     border: none;
     height: calc(100vh - 63px);
     width: calc(100vw - 20vw - 60px);
+}
+
+
+/* Main title */
+#title {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+#subtitle {
+    font-size: larger;
+    margin-bottom: 40px;
+}
+
+.spacer-20 {
+    height: 20px;
+}
+
+.spacer-50 {
+    height: 50px;
+}
+
+.paragraph-title {
+    margin-bottom: 20px;
+}
+
+.p {
+    margin-bottom: 10px;
 }
