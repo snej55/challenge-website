@@ -82,7 +82,7 @@ function App() {
           </Routes>
         </main>
         <footer>
-          <h3 class="footer-title">Hi</h3>
+          {/* <h3 class="footer-title">Hi</h3> */}
         </footer>
       </div>
     </BrowserRouter>
