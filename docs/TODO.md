@@ -2,13 +2,9 @@
 
 - [x] Choose framework
 
-- [ ] Flashcard page
+- [ ] Add footer
 
-- [ ] Form time ideas
-
-- [ ] Games page
-
-- [ ] Wiki page
+- [ ] Add wiki contents list
 
 - [ ] Forum page or chatbot?
 
