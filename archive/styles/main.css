@@ -3,16 +3,6 @@ main {
 
 }
 
-.toc-iframe {
-    position: fixed;
-    border: none;
-    height: calc(100vh - 63px);
-    width: 20vw;
-    overflow: auto;
-
-    /* scrollbar-width: 2px; */
-    /* z-index: 999; */
-}
 
 .toc-div {
     display: flex;

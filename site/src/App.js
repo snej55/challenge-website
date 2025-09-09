@@ -1,5 +1,6 @@
 // styles
 import './App.css';
+import './global.css'
 
 // different pages
 import { Flashcards } from './Components/Flashcards';
@@ -38,7 +39,7 @@ function App() {
       <div className="App">
         <header>
           {/* School Logo */}
-          <img src="assets/images/newCASTlogo.png" alt="cast logo" className="header-logo"/>
+          <img src="./public/CAST_PictureOnly_Logo.png" alt="cast logo" className="header-logo" />
           {/* <h3 class="header-title">Cambridge Academy for Science and Technology WIKI</h3> */}
           {/* Navigation */}
           <nav class="header-navigation">
@@ -50,36 +51,36 @@ function App() {
           </nav>
         </header>
         <main>
-            <Routes>
-              <Route path="/" element={<Home />}/>
-              <Route path="/flashcards" element={<Flashcards />} />
-              <Route path="/formtime" element={<Formtime />} />
-              <Route path="/games" element={<Games />} />
-              <Route path="/wiki" element={<Wiki />}>                                                                                                                             ✔  09:42:47 
-                <Route path='/wiki/about' element={ <About />} />
-                <Route path='/wiki/schooloverview' element={ <SchoolOverview />} />
-                <Route path='/wiki/subjectscourses' element={ <SubjectsCourses />} />
-                <Route path='/wiki/sciences' element={ <Sciences />} />
-                <Route path='/wiki/computerscience' element={ <ComputerScience />} />
-                <Route path='/wiki/mathematics' element={ <Mathematics />} />
-                <Route path='/wiki/sports' element={ <Sports />} />
-                <Route path='/wiki/geography' element={ <Geography />} />
-                <Route path='/wiki/clubs' element={ <Clubs />} />
-                <Route path='/wiki/achievements' element={ <Achievements />} />
-                <Route path='/wiki/exams' element={ <Exams />} />
-                <Route path='/wiki/lunchmenu' element={ <LunchMenu />} />
-                <Route path='/wiki/transport' element={ <Transport />} />
-                <Route path='/wiki/schoolpolicies' element={ <SchoolPolicies />} />
-                <Route path='/wiki/studentvoices' element={ <StudentVoices />} />
-                <Route path='/wiki/supportwellbeing' element={ <SupportWellbeing />} />
-                <Route path='/wiki/usefullinks' element={ <UsefulLinks />} />
-                <Route path='/wiki/contact' element={ <Contact />} />
-              </Route>
-              <Route path="*" element={<NoMatch />} />
-            </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/flashcards" element={<Flashcards />} />
+            <Route path="/formtime" element={<Formtime />} />
+            <Route path="/games" element={<Games />} />
+            <Route path="/wiki" element={<Wiki />}>                                                                                                                             ✔  09:42:47
+              <Route path='/wiki/about' element={<About />} />
+              <Route path='/wiki/schooloverview' element={<SchoolOverview />} />
+              <Route path='/wiki/subjectscourses' element={<SubjectsCourses />} />
+              <Route path='/wiki/sciences' element={<Sciences />} />
+              <Route path='/wiki/computerscience' element={<ComputerScience />} />
+              <Route path='/wiki/mathematics' element={<Mathematics />} />
+              <Route path='/wiki/sports' element={<Sports />} />
+              <Route path='/wiki/geography' element={<Geography />} />
+              <Route path='/wiki/clubs' element={<Clubs />} />
+              <Route path='/wiki/achievements' element={<Achievements />} />
+              <Route path='/wiki/exams' element={<Exams />} />
+              <Route path='/wiki/lunchmenu' element={<LunchMenu />} />
+              <Route path='/wiki/transport' element={<Transport />} />
+              <Route path='/wiki/schoolpolicies' element={<SchoolPolicies />} />
+              <Route path='/wiki/studentvoices' element={<StudentVoices />} />
+              <Route path='/wiki/supportwellbeing' element={<SupportWellbeing />} />
+              <Route path='/wiki/usefullinks' element={<UsefulLinks />} />
+              <Route path='/wiki/contact' element={<Contact />} />
+            </Route>
+            <Route path="*" element={<NoMatch />} />
+          </Routes>
         </main>
         <footer class="footer">
-            <p>2025 Challenge Website!</p>
+          {/* <p>2025 Challenge Website!</p>x */}
         </footer>
       </div>
     </BrowserRouter>
