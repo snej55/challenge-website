@@ -22,7 +22,7 @@
 
 
 
-.footer {
+/* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -32,7 +32,7 @@
     color: #1b236c;
     text-align: center;
     font-family: serif;
-}
+} */
 
 header {
     overflow: hidden;
@@ -85,8 +85,9 @@ header {
     margin: none;
 }
 
-.footer {
-    position: fixed;
+footer {
+    position: none;
+    display: none;
     left: 0;
     bottom: 0;
     width: 100%;
