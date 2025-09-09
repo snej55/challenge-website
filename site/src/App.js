@@ -37,7 +37,7 @@ function App() {
               <Route path="/wiki" element={<Wiki />} />
             </Routes>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy; 2025 Challenge Website!</p>
         </footer>
       </div>
