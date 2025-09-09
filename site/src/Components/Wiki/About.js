@@ -1,5 +1,5 @@
-import './About.css';
 import './wiki-pages.css'
+import './About.css';
 import './info-card.css'
 export function About() {
     return (
