@@ -1,5 +1,9 @@
 * {
     margin: 0;
+    transition: color 0.3s ease;
+    transition: border-color 0.3s ease;
+    transition: background-color 0.3s ease;
+
 }
 
 p,
@@ -25,7 +29,7 @@ h3,
     font-family: sans-serif;
 }
 
-:root {
+[data-theme="dark"] {
     --accent: #4285F4;
     --top-button-selected: #4285F4;
     --text-color: #dfdfdf;

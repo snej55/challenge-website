@@ -1,5 +1,5 @@
 .Games-Text {
     line-height: 2;
     padding: 30px;
-    color: #1b236c;
+    color: var(--accent);
 }

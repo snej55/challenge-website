@@ -9,6 +9,8 @@ import { Games } from './Components/Games';
 import { Wiki } from './Components/Wiki';
 import { Home } from './Components/Home';
 import { NoMatch } from './Components/NoMatch';
+// Small components
+import ThemeChanger from './Components/Global/theme.js';
 
 // ALL THE WIKI PAGES
 
@@ -38,6 +40,7 @@ import React, { useEffect, useState } from 'react';
 function App() {
   // State to control button visibility
   const [showBtn, setShowBtn] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -78,7 +81,8 @@ function App() {
             <Link to="/games">Games</Link>
             <Link to="/wiki/About">Wiki</Link>
             <a href="https://github.com/snej55/challenge-website"><i class="fa-brands fa-github github-icon header-icon"></i></a>
-            <i class="fa-solid fa-moon header-icon"></i>
+            <ThemeChanger />
+
 
           </nav>
         </header>

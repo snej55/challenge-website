@@ -110,6 +110,10 @@ header {
 
 }
 
+.header-icon {
+    padding: 7px;
+}
+
 /* footer {
     position: none;
     display: none;
