@@ -12,13 +12,11 @@ Scroll past the todo for info on how to run the website (for editing see `CONTRI
 
 - [x] Choose framework
 
-- [ ] Flashcard page
+- [ ] Add footer
 
-- [ ] Form time ideas
+- [X] Add wiki contents list
 
-- [ ] Games page
-
-- [ ] Wiki page
+- [ ] Fix dark mode links
 
 - [ ] Forum page or chatbot?
 
