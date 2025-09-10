@@ -9,11 +9,11 @@ import { Games } from './Components/Games';
 import { Wiki } from './Components/Wiki';
 import { Home } from './Components/Home';
 import { NoMatch } from './Components/NoMatch';
+
 // Small components
 import ThemeChanger from './Components/Global/theme.js';
 
 // ALL THE WIKI PAGES
-
 import { About } from './Components/Wiki/pages/About.js';
 import { SchoolOverview } from './Components/Wiki/pages/SchoolOverview.js';
 import { SubjectsCourses } from './Components/Wiki/pages/SubjectsCourses.js';
@@ -35,12 +35,11 @@ import { Contact } from './Components/Wiki/pages/Contact.js';
 
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
   // State to control button visibility
   const [showBtn, setShowBtn] = useState(false);
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -70,29 +69,25 @@ function App() {
             <h3 className="header-subtitle">Student Panel</h3>
           </div>
 
-
-
-
           {/* Navigation */}
           <nav className="header-navigation">
-
             <Link to="/flashcards">Flash cards</Link>
             <Link to="/formtime">Form time</Link>
             <Link to="/games">Games</Link>
             <Link to="/wiki/About">Wiki</Link>
             <a href="https://github.com/snej55/challenge-website"><i class="fa-brands fa-github github-icon header-icon"></i></a>
             <ThemeChanger />
-
-
           </nav>
         </header>
         <main>
+          {/* react-router-dom routes */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/flashcards" element={<Flashcards />} />
             <Route path="/formtime" element={<Formtime />} />
             <Route path="/games" element={<Games />} />
-            <Route path="/wiki" element={<Wiki />}>                                                                                                                             ✔  09:42:47
+            <Route path="/wiki" element={<Wiki />}>
+              {/* TODO: Autogenerate this */}
               <Route path='/wiki/about' element={<About />} />
               <Route path='/wiki/schooloverview' element={<SchoolOverview />} />
               <Route path='/wiki/subjectscourses' element={<SubjectsCourses />} />
@@ -114,6 +109,7 @@ function App() {
             </Route>
             <Route path="*" element={<NoMatch />} />
           </Routes>
+          {/* Scroll to top button */}
           <button
             onClick={topFunction}
             id="myBtn"

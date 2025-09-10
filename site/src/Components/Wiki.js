@@ -24,15 +24,18 @@ export function Wiki() {
         { "title": "Contact", "desc": "📨 Contact Us" }
     ];
 
+    // sort pages alphabetically
     pages.sort((a, b) => a.title.localeCompare(b.title));
 
     return (
         <div className="Wiki">
+            {/* wiki contents */}
             <div className="wiki-contents">
                 {/* spacer */}
                 {pages.map(page => <Link to={`/wiki/${page.title.toLowerCase()}`} className="wikilink">{page.desc}</Link>)}
             </div>
 
+            {/* Outlet is current page */}
             <Outlet />
         </div>
     );
