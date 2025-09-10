@@ -38,7 +38,7 @@ export function About() {
                     make students' everyday life around the school smoother and easier. </p>
 
             </div> */}
-            {/* <div className="spacer-1000">e</div> */}
+            <div className="spacer-1000">e</div>
 
         </div>
     );

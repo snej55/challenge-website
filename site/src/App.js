@@ -72,6 +72,7 @@ function App() {
             <Link to="/formtime">Form time</Link>
             <Link to="/games">Games</Link>
             <Link to="/wiki/About">Wiki</Link>
+            <a href="https://github.com/snej55/challenge-website"><i class="fa-brands fa-github github-icon"></i></a>
 
           </nav>
         </header>

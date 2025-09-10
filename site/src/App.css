@@ -1,6 +1,7 @@
 .header-navigation {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .header-navigation>* {
@@ -149,7 +150,7 @@ footer {
     height: 50px;
     font-size: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    
+
 }
 
 #myBtn:hover {
@@ -157,4 +158,9 @@ footer {
     background-color: #1e69e2;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
     /* Add a dark-grey background on hover */
+}
+
+
+.github-icon {
+    scale: 1.3;
 }
