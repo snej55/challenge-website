@@ -22,6 +22,10 @@ Scroll past the todo for info on how to run the website (for editing see `CONTRI
 
 - [ ] Timetable generator?
 
+- [ ] Dynamic pages based on screen size
+
+- [ ] Touch Grass...
+
 ---
 
 ## Running the website
