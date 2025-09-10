@@ -21,7 +21,8 @@ export function Wiki() {
         { "title": "StudentVoices", "desc": "💬 Student Voice" },
         { "title": "SupportWellbeing", "desc": "🆘 Support & Wellbeing" },
         { "title": "UsefulLinks", "desc": "🔗 Useful Links" },
-        { "title": "Contact", "desc": "📨 Contact Us" }
+        { "title": "Contact", "desc": "📨 Contact Us" },
+        { "title": "SparxLogin", "desc": "🔑 Sparx Login" }
     ];
 
     pages.sort((a, b) => a.title.localeCompare(b.title));

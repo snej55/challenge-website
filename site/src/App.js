@@ -32,6 +32,8 @@ import { StudentVoices } from './Components/Wiki/pages/StudentVoices.js';
 import { SupportWellbeing } from './Components/Wiki/pages/SupportWellbeing.js';
 import { UsefulLinks } from './Components/Wiki/pages/UsefulLinks.js';
 import { Contact } from './Components/Wiki/pages/Contact.js';
+import { SparxLogin } from './Components/Wiki/pages/SparxLogin.js';
+
 
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -111,6 +113,7 @@ function App() {
               <Route path='/wiki/supportwellbeing' element={<SupportWellbeing />} />
               <Route path='/wiki/usefullinks' element={<UsefulLinks />} />
               <Route path='/wiki/contact' element={<Contact />} />
+              <Route path='/wiki/SparxLogin' element={<SparxLogin />} />
             </Route>
             <Route path="*" element={<NoMatch />} />
           </Routes>

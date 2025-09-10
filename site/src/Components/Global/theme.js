@@ -23,7 +23,7 @@ export default function themeChanger() {
     return (
         <section>
 
-            <i className="fa-solid fa-circle-half-stroke header-icon" onClick={handleClick} title="Switch to dark mode"></i>
+            <i className="fa-solid fa-circle-half-stroke header-icon theme-choice" onClick={handleClick} title="Switch to dark mode"></i>
 
         </section>
 

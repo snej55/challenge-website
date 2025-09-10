@@ -1,0 +1,19 @@
+/* @keyframes spin {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+} */
+
+
+.theme-choice {
+    rotate: 0deg;
+    transition: rotate 0.2s ease;
+}
+
+.theme-choice:not(:active) {
+    rotate: 360deg;
+}

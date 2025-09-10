@@ -1,9 +1,6 @@
 * {
     margin: 0;
-    transition: color 0.3s ease;
-    transition: border-color 0.3s ease;
-    transition: background-color 0.3s ease;
-
+    transition: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
 }
 
 p,
@@ -12,13 +9,13 @@ h2,
 h3,
 .wikilink {
     color: var(--text-color) !important;
-
+    font-family: sans-serif !important;
 }
 
 
 
 
-:root {
+[data-theme="light"] {
     --accent: #4285F4;
     --top-button-selected: #4285F4;
     --text-color: black;
@@ -37,7 +34,7 @@ h3,
     --primary: black;
     --selected-color: #3f475c;
     --border-color: #282d3b;
-    font-family: sans-serif;
+
 }
 
 p {
