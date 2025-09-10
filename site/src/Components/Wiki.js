@@ -1,6 +1,11 @@
 import "./Wiki.css";
-import "./Wiki/pages/global.css"
+import "./Wiki/pages/global.css";
 import { Link, Outlet } from 'react-router-dom';
+
+export function WikiPage()
+{
+    
+}
 
 export function Wiki() {
     let pages = [
