@@ -1,0 +1,106 @@
+.info-card {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+} */
+
+.info-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #2d3436;
+}
+
+.info-card p {
+    color: var(--card-text-color);
+    /* margin-bottom: 20px; */
+}
+
+.card-list {
+    margin-bottom: 25px;
+}
+
+.card-list li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    color: #636e72;
+}
+
+.card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    color: #4285F4;
+    transition: color 0.2s ease;
+}
+
+.card-link:hover {
+    color: #1e88e5;
+}
+
+
+.card-blue {
+    border-left: 4px solid var(--blue-accent);
+    background-color: var(--blue-background);
+}
+
+.card-blue h3 {
+    color: var(--blue-accent);
+    /* background-color: #F1F8FF; */
+}
+
+
+
+.card-green {
+    border-left: 4px solid var(--green-accent);
+    background-color: var(--green-background);
+}
+
+.card-green h3 {
+    color: var(--green-accent);
+
+}
+
+
+.card-orange {
+    border-left: 4px solid var(--orange-accent);
+    background-color: var(--orange-background);
+}
+
+.card-orange h3 {
+    color: var(--orange-accent)
+}
+
+
+
+.card-red {
+    border-left: 4px solid var(--red-accent);
+    background-color: var(--red-background);
+}
+
+.card-red h3 {
+    color: var(--red-accent);
+
+}
+
+
+
+.card-yellow {
+    border-left: 4px solid #FFC107;
+    background-color: #FFFDE7;
+}

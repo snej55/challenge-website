@@ -1,6 +1,7 @@
 * {
     margin: 0;
     transition: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+    font-family: sans-serif;
 }
 
 p,
@@ -8,7 +9,7 @@ h1,
 h2,
 h3,
 .wikilink {
-    color: var(--text-color) !important;
+    color: var(--text-color);
     font-family: sans-serif !important;
 }
 
@@ -19,21 +20,42 @@ h3,
     --accent: #4285F4;
     --top-button-selected: #4285F4;
     --text-color: black;
+    --card-text-color: #68747b;
     --background: white;
     --primary: black;
     --selected-color: gainsboro;
     --border-color: #dbdbdb;
-    font-family: sans-serif;
+
+    /* Cards */
+    --blue-accent: #4285F4;
+    --blue-background: #cae2f9;
+    --green-accent: #34A853;
+    --green-background: #c8f7d9;
+    --orange-accent: #E67C00;
+    --orange-background: #ffe9be;
+    --red-accent: #ef4a4a;
+    --red-background: #f6cbd2;
 }
 
 [data-theme="dark"] {
     --accent: #4285F4;
     --top-button-selected: #4285F4;
     --text-color: #dfdfdf;
+    --card-text-color: #f2f2f2;
     --background: #14161c;
     --primary: black;
     --selected-color: #3f475c;
     --border-color: #282d3b;
+
+    /* Cards */
+    --blue-accent: #448cff;
+    --blue-background: rgba(0, 78, 156, 0.5);
+    --green-accent: #12db48;
+    --green-background: rgba(1, 162, 57, 0.5);
+    --orange-accent: #fe8700;
+    --orange-background: rgba(219, 125, 39, 0.5);
+    --red-accent: #e91313;
+    --red-background: rgba(153, 0, 23, 0.5);
 
 }
 
