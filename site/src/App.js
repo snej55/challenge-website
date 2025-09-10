@@ -1,6 +1,6 @@
 // styles
 import './App.css';
-import './global.css'
+import './Components/Wiki/pages/global.css'
 
 // different pages
 import { Flashcards } from './Components/Flashcards';
@@ -61,18 +61,24 @@ function App() {
       <div className="App">
         <header>
           {/* School Logo */}
-          <img src="/assets/images/CAST_PictureOnly_Logo.png" alt="cast logo" className="cast-logo-header" />
-          <h3 className="header-title">Cambridge Academy for Science and Technology WIKI</h3>
+          <Link to="/"><img src="/assets/images/CAST_PictureOnly_Logo_nobg.png" alt="cast logo" className="cast-logo-header" /></Link>
+          <div className="title-stack">
+            <h3 className="header-title">Cambridge Academy for Science and Technology</h3>
+            <h3 className="header-subtitle">Student Panel</h3>
+          </div>
+
+
 
 
           {/* Navigation */}
           <nav className="header-navigation">
-            {/* <Link to="/">Home</Link> */}
+
             <Link to="/flashcards">Flash cards</Link>
             <Link to="/formtime">Form time</Link>
             <Link to="/games">Games</Link>
             <Link to="/wiki/About">Wiki</Link>
-            <a href="https://github.com/snej55/challenge-website"><i class="fa-brands fa-github github-icon"></i></a>
+            <a href="https://github.com/snej55/challenge-website"><i class="fa-brands fa-github github-icon header-icon"></i></a>
+            <i class="fa-solid fa-moon header-icon"></i>
 
           </nav>
         </header>

@@ -18,13 +18,13 @@
 
 
 .nav-label {
-    background-color: gainsboro;
+    background-color: var(--selected-color);
     display: inline;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
-    color: black;
+    color: var(--text-color);
 
 }
 
