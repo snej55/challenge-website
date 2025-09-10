@@ -7,7 +7,7 @@ We decided to go with a minimal style for the wiki, because this will guide the 
 
 ![Basic Page Demo](/assets/dev/#1_Basic_Page_Demo.jpeg, "Page Demo")
 
-## September 8th 2025
+## September 9th 2025
 Changed the TOC from an iframe to a scrollable div.
 Added Icon to the header
 Adjusted spacing for TOC
@@ -17,3 +17,7 @@ Added a python script to automatically generate WIKI pages
 Added "Back to top" button
 TODO:
 [ ] Add quote API
+
+## September 9th 2025
+Added darkmode, theme toggle button is added through a seperate component
+Slight adjustments to the file sturucture
