@@ -38,8 +38,20 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function App() {
+  // --------- WIKI JSON DATA --------- //
+  // state to store json data
+  const [wikiData, setWikiData] = useState(null);
   // State to control button visibility
   const [showBtn, setShowBtn] = useState(false);
+
+  useEffect(() => {
+    fetch("/assets/wiki.json")
+      .then(response => response.json())
+      .then(data => setWikiData(data))
+      .catch(error => console.error(`ERROR: Error fetching wiki data ${error}`))
+  }, []);
+
+  // --------- SCROLL TO TOP BUTTON --------- //
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,6 +64,13 @@ function App() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // wait until wiki data has been loaded
+  if (!wikiData)
+  {
+    return <div className="loading-splash">Loading...</div>
+  }
+
 
   // Smooth scroll to top
   const topFunction = () => {
