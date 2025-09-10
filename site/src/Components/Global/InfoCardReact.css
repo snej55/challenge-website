@@ -28,6 +28,11 @@
     /* margin-bottom: 20px; */
 }
 
+.info-card a {
+    color: var(--blue-accent);
+    /* margin-bottom: 20px; */
+}
+
 .card-list {
     margin-bottom: 25px;
 }

@@ -16,11 +16,11 @@ h3,
 
 
 
-[data-theme="light"] {
+:root {
     --accent: #4285F4;
     --top-button-selected: #4285F4;
     --text-color: black;
-    --card-text-color: #68747b;
+    --card-text-color: #535d62;
     --background: white;
     --primary: black;
     --selected-color: gainsboro;
@@ -41,7 +41,7 @@ h3,
     --accent: #4285F4;
     --top-button-selected: #4285F4;
     --text-color: #dfdfdf;
-    --card-text-color: #f2f2f2;
+    --card-text-color: #eaeaea;
     --background: #14161c;
     --primary: black;
     --selected-color: #3f475c;

@@ -3,9 +3,13 @@ import './wiki-pages.css'
 import './SchoolPolicies.css';
 
 // Import all the cards
+// eslint-disable-next-line
 import { Info } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
 import { Tips } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
 import { Important } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
 import { Warning } from '../../Global/InfoCardReact.js'
 
 export function SchoolPolicies() {
@@ -23,20 +27,24 @@ export function SchoolPolicies() {
 
 
 
-            <h2 className="paragraph-title">Uniform</h2>
+            <h2 className="paragraph-title">School Uniforms - Non Sixth-form</h2>
+
+            <h3>Allowed clothing</h3>
+            <div className='spacer-20'></div>
+            <p>Students are expected to wear grey trousers, or grey shorts during the warm times of year.</p>
+            <p>White shirts, short or long sleeve, are allowed, but no polo shirts.</p>
+            <p>The school jumper is a grey v-neck, and bears the school logo on the front(Must be purchased from SWI - details below).*</p>
+            <p>Shoes are required to be solid black, no coloured insignia or logos, but other than that there are no restrictions.</p>
+            <div className='spacer-20'></div>
             <Info>
-                <p>Login to sparx using your Microsoft account</p>
+                <p><i>Our uniform supplier is Sportswear International Ltd (SWI). Orders can be placed online at <a href='www.swischoolwear.co.uk'>www.swischoolwear.co.uk</a> or by phone on <a href='tel:01928 752610'>01928 752610 (Option1)</a>. Enquiries can be sent to <a href='e:customerservice@swi.co.uk'>customerservice@swi.co.uk</a></i></p>
             </Info>
-            <Tips>
-                <p>Choose a easy to remember but hard to guess password!</p>
-            </Tips>
-            <Important>
-                <p>Finish your Sparx Science before Monday each week</p>
-            </Important>
-            <Warning>
-                <p>Phones are banned anywhere in school</p>
-            </Warning>
-            <p>This is the paragraph</p>
+            <img src="../assets/SchoolPolicies/CAST Uniform Images for Website - Items.svg" alt='CAST Uniform Images for Website - Items'></img>
+            {/* <Tips>
+                <p>Non-uniform days are relatively frequent, usually to raise money for charity, and allow everyone to enjoy themselves. Have fun!</p>
+            </Tips> */}
+
+
         </div>
 
     );
@@ -51,6 +59,6 @@ export function SchoolPolicies() {
 //         <li>White shirts, short or long sleeve, are allowed, but no polo shirts.</li>
 //         <li>The school jumper (the only one allowed) is a grey v-neck, and bears the school logo on the front.</li>
 //         <li>Shoes are required to be solid black, no coloured insignia or logos, but other than that there are no restrictions.</li>
-//         <li>Non-uniform days are relatively frequent, usually to raise money for charity, and allow everyone to enjoy themselves. Have fun!</li>
+//         <li></li>
 //     </ul>
 // </div>
