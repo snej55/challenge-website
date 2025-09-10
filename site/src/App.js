@@ -41,17 +41,17 @@ function App() {
   // --------- WIKI JSON DATA --------- //
   // state to store json data
   const [wikiData, setWikiData] = useState(null);
-  // State to control button visibility
-  const [showBtn, setShowBtn] = useState(false);
-
+  
   useEffect(() => {
     fetch("/assets/wiki.json")
-      .then(response => response.json())
-      .then(data => setWikiData(data))
-      .catch(error => console.error(`ERROR: Error fetching wiki data ${error}`))
+    .then(response => response.json())
+    .then(data => setWikiData(data))
+    .catch(error => console.error(`ERROR: Error fetching wiki data ${error}`))
   }, []);
-
+  
   // --------- SCROLL TO TOP BUTTON --------- //
+  // State to control button visibility
+  const [showBtn, setShowBtn] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,6 +65,7 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // NOTE: useEffect stuff must be above this condition, as useEffect must be same every render
   // wait until wiki data has been loaded
   if (!wikiData)
   {
@@ -105,7 +106,7 @@ function App() {
             <Route path="/flashcards" element={<Flashcards />} />
             <Route path="/formtime" element={<Formtime />} />
             <Route path="/games" element={<Games />} />
-            <Route path="/wiki" element={<Wiki />}>
+            <Route path="/wiki" element={<Wiki wikiData={wikiData}/>}>
               {/* TODO: Autogenerate this */}
               <Route path='/wiki/about' element={<About />} />
               <Route path='/wiki/schooloverview' element={<SchoolOverview />} />

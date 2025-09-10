@@ -4,7 +4,9 @@
 
 - [ ] Add footer
 
-- [ ] Add wiki contents list
+- [X] Add wiki contents list
+
+- [ ] Fix dark mode links
 
 - [ ] Forum page or chatbot?
 

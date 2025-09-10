@@ -14,7 +14,9 @@ Scroll past the todo for info on how to run the website (for editing see `CONTRI
 
 - [ ] Add footer
 
-- [ ] Add wiki contents list
+- [X] Add wiki contents list
+
+- [ ] Fix dark mode links
 
 - [ ] Forum page or chatbot?
 
