@@ -1,12 +1,13 @@
 import './wiki-pages.css'
 import './About.css';
 import './info-card.css'
-export function About() {
+
+export default function About() {
     return (
 
         <div className="wiki-pages-div">
             <div className="spacer-20"></div>
-            <h3 className="nav-label"><i class="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>📚 About Us</h3>
+            <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>📚 About Us</h3>
 
             <div className="spacer-20"></div>
             <h1 id="title">✈️ Welcome to CAST WIKI</h1>

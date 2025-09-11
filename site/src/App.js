@@ -13,28 +13,6 @@ import { NoMatch } from './Components/NoMatch';
 // Small components
 import ThemeChanger from './Components/Global/theme.js';
 
-// ALL THE WIKI PAGES
-import { About } from './Components/Wiki/pages/About.js';
-import { SchoolOverview } from './Components/Wiki/pages/SchoolOverview.js';
-import { SubjectsCourses } from './Components/Wiki/pages/SubjectsCourses.js';
-import { Sciences } from './Components/Wiki/pages/Sciences.js';
-import { ComputerScience } from './Components/Wiki/pages/ComputerScience.js';
-import { Mathematics } from './Components/Wiki/pages/Mathematics.js';
-import { Sports } from './Components/Wiki/pages/Sports.js';
-import { Geography } from './Components/Wiki/pages/Geography.js';
-import { Clubs } from './Components/Wiki/pages/Clubs.js';
-import { Achievements } from './Components/Wiki/pages/Achievements.js';
-import { Exams } from './Components/Wiki/pages/Exams.js';
-import { LunchMenu } from './Components/Wiki/pages/LunchMenu.js';
-import { Transport } from './Components/Wiki/pages/Transport.js';
-import { SchoolPolicies } from './Components/Wiki/pages/SchoolPolicies.js';
-import { StudentVoices } from './Components/Wiki/pages/StudentVoices.js';
-import { SupportWellbeing } from './Components/Wiki/pages/SupportWellbeing.js';
-import { UsefulLinks } from './Components/Wiki/pages/UsefulLinks.js';
-import { Contact } from './Components/Wiki/pages/Contact.js';
-import { SparxLogin } from './Components/Wiki/pages/SparxLogin.js';
-
-
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
@@ -74,11 +52,19 @@ function App() {
     return <div className="loading-splash">Loading...</div>
   }
 
-
   // Smooth scroll to top
   const topFunction = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  let pageComponents = {};
+  for (var i = 0; i < wikiData.pages.length; ++i)
+  {
+    const obj = wikiData.pages[i];
+    const PA = require(`./Components/Wiki/pages/${obj.title}.js`).default;
+    const Component = <PA />;
+    pageComponents[obj.title] = Component;
+  }
 
   return (
     <BrowserRouter>
@@ -97,7 +83,7 @@ function App() {
             <Link to="/formtime">Form time</Link>
             <Link to="/games">Games</Link>
             <Link to="/wiki/About">Wiki</Link>
-            <a href="https://github.com/snej55/challenge-website"><i class="fa-brands fa-github github-icon header-icon"></i></a>
+            <a href="https://github.com/snej55/challenge-website"><i className="fa-brands fa-github github-icon header-icon"></i></a>
             <ThemeChanger />
           </nav>
         </header>
@@ -110,8 +96,9 @@ function App() {
             <Route path="/games" element={<Games />} />
             <Route path="/wiki" element={<Wiki wikiData={wikiData}/>}>
               {/* TODO: Autogenerate this */}
-              <Route path='/wiki/about' element={<About />} />
-              <Route path='/wiki/schooloverview' element={<SchoolOverview />} />
+              {wikiData.pages.map(obj => <Route path={`/wiki/${obj.title}`} element={<div>{pageComponents[obj.title]}</div>} />)}
+              
+              {/* <Route path='/wiki/schooloverview' element={<SchoolOverview />} />
               <Route path='/wiki/subjectscourses' element={<SubjectsCourses />} />
               <Route path='/wiki/sciences' element={<Sciences />} />
               <Route path='/wiki/computerscience' element={<ComputerScience />} />
@@ -128,7 +115,7 @@ function App() {
               <Route path='/wiki/supportwellbeing' element={<SupportWellbeing />} />
               <Route path='/wiki/usefullinks' element={<UsefulLinks />} />
               <Route path='/wiki/contact' element={<Contact />} />
-              <Route path='/wiki/SparxLogin' element={<SparxLogin />} />
+              <Route path='/wiki/SparxLogin' element={<SparxLogin />} /> */}
             </Route>
             <Route path="*" element={<NoMatch />} />
           </Routes>

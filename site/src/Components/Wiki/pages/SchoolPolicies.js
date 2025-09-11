@@ -12,7 +12,7 @@ import { Important } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Warning } from '../../Global/InfoCardReact.js'
 
-export function SchoolPolicies() {
+export default function SchoolPolicies() {
     return (
 
         <div className="wiki-pages-div">

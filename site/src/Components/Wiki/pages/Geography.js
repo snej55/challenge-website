@@ -1,9 +1,17 @@
 
 import './wiki-pages.css'
 import './Geography.css';
-import './info-card.css'
+// Import all the cards
+// eslint-disable-next-line
+import { Info } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
+import { Tips } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
+import { Important } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
+import { Warning } from '../../Global/InfoCardReact.js'
 
-export function Geography() {
+export default function Geography() {
     return (
 
         <div className="wiki-pages-div">

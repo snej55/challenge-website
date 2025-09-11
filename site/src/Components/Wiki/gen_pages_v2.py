@@ -26,9 +26,17 @@ pages = [
 template = """
 import './wiki-pages.css'
 import './{key}.css';
-import './info-card.css'
+// Import all the cards
+// eslint-disable-next-line
+import { Info } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
+import { Tips } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
+import { Important } from '../../Global/InfoCardReact.js'
+// eslint-disable-next-line
+import { Warning } from '../../Global/InfoCardReact.js'
 
-export function {key}() {{
+export default function {key}() {{
     return (
 
         <div className="wiki-pages-div">
