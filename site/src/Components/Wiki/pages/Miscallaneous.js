@@ -23,9 +23,10 @@ export default function Miscallaneous() {
 
             <h2 id="subtitle">A page full of random tips and links</h2>
 
-            <h2 className="paragraph-title">The tips:</h2>
-
-            <p>No tips yet HAHAHAHAHAHA!</p>
+            <h2 className="paragraph-title">No tips yet :(</h2>
+            <p>Thee shalt anon suff'r in silence, despairing in the fact yond this page may nev'r bewray t's secrets to thy greedy eyes, thee scurvy mongrel!
+                <br /> <br />
+                thee wisheth to continueth? bwahahaha! thou art a meddling daw, thee falsing sacketh of filth.  Forswear thee to me? thy bluff is a joketh! a fusty sacketh of turnips is m're fiteth to uncov'r the secrets of this page than thee.  Begone! thee bottom feeding fiend! thou art a beetle brain'd bootless lout!</p>
         </div>
 
     );
