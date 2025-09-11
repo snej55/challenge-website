@@ -5,10 +5,6 @@ import "./Wiki/pages/global.css";
 import PropTypes from 'prop-types';
 import { Link, Outlet } from 'react-router-dom';
 
-export function WikiPage() {
-
-}
-
 export function Wiki({ wikiData }) {
     let pages = wikiData["pages"];
 
