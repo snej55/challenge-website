@@ -7,7 +7,7 @@ import { Info } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Tips } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
-import { Important }from '../../Global/InfoCardReact.js'
+import { Important } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Warning } from '../../Global/InfoCardReact.js'
 
@@ -22,7 +22,14 @@ export default function Miscallaneous() {
             <h1 id="title">😈 Miscallaneous Info</h1>
 
             <h2 id="subtitle">A page full of random tips and links</h2>
-
+            <Important><p>Don't read this page if you don't want emotional damage... Please</p></Important>
+            <div className='spacer-100'></div>
+            <div className='spacer-100'></div>
+            <div className='spacer-100'></div>
+            <div className='spacer-100'></div>
+            <div className='spacer-100'></div>
+            <div className='spacer-100'></div>
+            <p>YOU HAVE BEEN WARNED</p>
             <h2 className="paragraph-title">No tips yet :(</h2>
             <p>Avast, ye scurvy dogs! <br /> <br />Thee shalt anon suff'r in silence, despairing in the fact yond this page may nev'r bewray t's secrets to thy greedy eyes, thee scurvy mongrel!
                 <br /> <br />
@@ -30,7 +37,9 @@ export default function Miscallaneous() {
 
             <br />
 
-            <Warning>You might need to wait two unnonagintanongentillion two duoseptuagintanongentillion twenty duosexagintanongentillion twenty tresquadragintanongentillion twenty quattuorvigintinongentillion twenty quinnongentillion twenty sexoctogintaoctingentillion twenty septensexagintaoctingentillion two hundred septenquinquagintaoctingentillion two hundred octotrigintaoctingentillion two hundred novendecioctingentillion two hundred octingentillion two hundred unoctogintaseptingentillion two hundred duosexagintaseptingentillion two tresquinquagintaseptingentillion two quattuortrigintaseptingentillion two quindeciseptingentillion two senonagintasescentillion two septenseptuagintasescentillion two octoquinquagintasescentillion twenty octoquadragintasescentillion twenty novemvigintisescentillion twenty decisescentillion twenty unnonagintaquingentillion twenty duoseptuagintaquingentillion twenty tresquinquagintaquingentillion two hundred tresquadragintaquingentillion two hundred quattuorvigintiquingentillion two hundred quinquingentillion two hundred sexoctogintaquadringentillion two hundred septensexagintaquadringentillion two hundred octoquadragintaquadringentillion two noventrigintaquadringentillion two vigintiquadringentillion two unquadringentillion two duooctogintatrecentillion two tresexagintatrecentillion two quattuorquadragintatrecentillion twenty quattuortrigintatrecentillion twenty quindecitrecentillion twenty senonagintaducentillion twenty septenseptuagintaducentillion twenty octoquinquagintaducentillion twenty noventrigintaducentillion two hundred novemvigintiducentillion two hundred deciducentillion two hundred unnonagintacentillion two hundred duoseptuagintacentillion two hundred tresquinquagintacentillion two hundred quattuortrigintacentillion twenty duodecicentillion twenty trenonagintillion twenty quattuorseptuagintillion twenty quinquinquagintillion twenty sextrigintillion twenty septendecillion years before this page shows something useful.</Warning>
+
+            <Warning><p>You might need to wait two unnonagintanongentillion two duoseptuagintanongentillion twenty duosexagintanongentillion twenty tresquadragintanongentillion twenty quattuorvigintinongentillion twenty quinnongentillion twenty sexoctogintaoctingentillion twenty septensexagintaoctingentillion two hundred septenquinquagintaoctingentillion two hundred octotrigintaoctingentillion two hundred novendecioctingentillion two hundred octingentillion two hundred unoctogintaseptingentillion two hundred duosexagintaseptingentillion two tresquinquagintaseptingentillion two quattuortrigintaseptingentillion two quindeciseptingentillion two senonagintasescentillion two septenseptuagintasescentillion two octoquinquagintasescentillion twenty octoquadragintasescentillion twenty novemvigintisescentillion twenty decisescentillion twenty unnonagintaquingentillion twenty duoseptuagintaquingentillion twenty tresquinquagintaquingentillion two hundred tresquadragintaquingentillion two hundred quattuorvigintiquingentillion two hundred quinquingentillion two hundred sexoctogintaquadringentillion two hundred septensexagintaquadringentillion two hundred octoquadragintaquadringentillion two noventrigintaquadringentillion two vigintiquadringentillion two unquadringentillion two duooctogintatrecentillion two tresexagintatrecentillion two quattuorquadragintatrecentillion twenty quattuortrigintatrecentillion twenty quindecitrecentillion twenty senonagintaducentillion twenty septenseptuagintaducentillion twenty octoquinquagintaducentillion twenty noventrigintaducentillion two hundred novemvigintiducentillion two hundred deciducentillion two hundred unnonagintacentillion two hundred duoseptuagintacentillion two hundred tresquinquagintacentillion two hundred quattuortrigintacentillion twenty duodecicentillion twenty trenonagintillion twenty quattuorseptuagintillion twenty quinquinquagintillion twenty sextrigintillion twenty septendecillion years before this page shows something useful.</p></Warning>
+
         </div>
 
     );
