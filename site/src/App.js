@@ -57,8 +57,7 @@ function App() {
   };
 
   let pageComponents = {};
-  for (var i = 0; i < wikiData.pages.length; ++i)
-  {
+  for (var i = 0; i < wikiData.pages.length; ++i) {
     const obj = wikiData.pages[i];
     const PA = require(`./Components/Wiki/pages/${obj.title}.js`).default;
     const Component = <PA />;
@@ -73,7 +72,7 @@ function App() {
           <Link to="/"><img src="/assets/images/CAST_PictureOnly_Logo_nobg.png" alt="cast logo" className="cast-logo-header" /></Link>
           <div className="title-stack">
             <h3 className="header-title"><Link to="/">Cambridge Academy for Science and Technology</Link></h3>
-            <h3 className="header-subtitle"><Link to="/">Virtual Plaza</Link></h3> {/* very ugly name, plz change asap */}
+            <h3 className="header-subtitle"><Link to="/"><s>Virtual Plaza</s> Student Panel</Link></h3> {/* very ugly name, plz change asap */}
           </div>
 
           {/* Navigation */}
@@ -96,7 +95,7 @@ function App() {
             <Route path="/wiki" element={<Wiki wikiData={wikiData} />}>
               {/* TODO: Autogenerate this */}
               {wikiData.pages.map(obj => <Route path={`/wiki/${obj.title}`} element={<div>{pageComponents[obj.title]}</div>} />)}
-              
+
               {/* <Route path='/wiki/schooloverview' element={<SchoolOverview />} />
               <Route path='/wiki/subjectscourses' element={<SubjectsCourses />} />
               <Route path='/wiki/sciences' element={<Sciences />} />
