@@ -73,7 +73,7 @@ function App() {
           <Link to="/"><img src="/assets/images/CAST_PictureOnly_Logo_nobg.png" alt="cast logo" className="cast-logo-header" /></Link>
           <div className="title-stack">
             <h3 className="header-title"><Link to="/">Cambridge Academy for Science and Technology</Link></h3>
-            <h3 className="header-subtitle"><Link to="/">Student Panel</Link></h3>
+            <h3 className="header-subtitle"><Link to="/">Virtual Plaza</Link></h3>
           </div>
 
           {/* Navigation */}
