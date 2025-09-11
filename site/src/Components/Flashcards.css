@@ -1,5 +1,11 @@
-.Flashcards {
+.flashcards-container {
     line-height: 2;
     padding: 30px;
-    color: var(--accent);
+    color: var(--text-color);
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }
