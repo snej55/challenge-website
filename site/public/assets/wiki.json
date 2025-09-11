@@ -1,20 +1,80 @@
-{"pages": [
-    { "title": "About", "desc": "📚 About Us" },
-    { "title": "SchoolOverview", "desc": "🏫 School Overview" },
-    { "title": "SubjectsCourses", "desc": "📖 Subjects & Courses" },
-    { "title": "Sciences", "desc": "🧪 Sciences" },
-    { "title": "ComputerScience", "desc": "💻 Computer Science" },
-    { "title": "Mathematics", "desc": "🧮 Mathematics" },
-    { "title": "Sports", "desc": "🏃‍♂️ Sports & PE" },
-    { "title": "Geography", "desc": "🌍 Geography" },
-    { "title": "Clubs", "desc": "🧑‍🔬 Clubs & Societies" },
-    { "title": "Achievements", "desc": "🏆 Achievements" },
-    { "title": "Exams", "desc": "📝 Exams & Revision" },
-    { "title": "LunchMenu", "desc": "🍽️ Lunch Menu" },
-    { "title": "Transport", "desc": "🚌 Transport" },
-    { "title": "SchoolPolicies", "desc": "📄 School Policies" },
-    { "title": "StudentVoices", "desc": "💬 Student Voice" },
-    { "title": "SupportWellbeing", "desc": "🆘 Support & Wellbeing" },
-    { "title": "UsefulLinks", "desc": "🔗 Useful Links" },
-    { "title": "Contact", "desc": "📨 Contact Us" }
-]}
+{
+    "pages": [
+        {
+            "desc": "\ud83d\udcda About Us",
+            "title": "About"
+        },
+        {
+            "desc": "\ud83c\udfeb School Overview",
+            "title": "SchoolOverview"
+        },
+        {
+            "desc": "\ud83d\udcd6 Subjects & Courses",
+            "title": "SubjectsCourses"
+        },
+        {
+            "desc": "\ud83e\uddea Sciences",
+            "title": "Sciences"
+        },
+        {
+            "desc": "\ud83d\udcbb Computer Science",
+            "title": "ComputerScience"
+        },
+        {
+            "desc": "\ud83e\uddee Mathematics",
+            "title": "Mathematics"
+        },
+        {
+            "desc": "\ud83c\udfc3\u200d\u2642\ufe0f Sports & PE",
+            "title": "Sports"
+        },
+        {
+            "desc": "\ud83c\udf0d Geography",
+            "title": "Geography"
+        },
+        {
+            "desc": "\ud83e\uddd1\u200d\ud83d\udd2c Clubs & Societies",
+            "title": "Clubs"
+        },
+        {
+            "desc": "\ud83c\udfc6 Achievements",
+            "title": "Achievements"
+        },
+        {
+            "desc": "\ud83d\udcdd Exams & Revision",
+            "title": "Exams"
+        },
+        {
+            "desc": "\ud83c\udf7d\ufe0f Lunch Menu",
+            "title": "LunchMenu"
+        },
+        {
+            "desc": "\ud83d\ude8c Transport",
+            "title": "Transport"
+        },
+        {
+            "desc": "\ud83d\udcc4 School Policies",
+            "title": "SchoolPolicies"
+        },
+        {
+            "desc": "\ud83d\udcac Student Voice",
+            "title": "StudentVoices"
+        },
+        {
+            "desc": "\ud83c\udd98 Support & Wellbeing",
+            "title": "SupportWellbeing"
+        },
+        {
+            "desc": "\ud83d\udd17 Useful Links",
+            "title": "UsefulLinks"
+        },
+        {
+            "desc": "\ud83d\udce8 Contact Us",
+            "title": "Contact"
+        },
+        {
+            "desc": "\ud83d\ude08 Miscallaneous Info",
+            "title": "Miscallaneous"
+        }
+    ]
+}
