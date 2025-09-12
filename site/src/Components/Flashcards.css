@@ -110,9 +110,9 @@ main {
     flex-direction: column;
     gap: 10px;
     width: auto;
-    border-style: solid;
+    /* border-style: solid;
     border-color: var(--accent);
-    border-width: 3px;
+    border-width: 3px; */
     padding: 10px;
     border-radius: 10px;
 
@@ -128,7 +128,7 @@ main {
 #file-input-label {
 
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: var(--blue-accent);
     background-color: var(--background);
     padding: 10px;
@@ -145,7 +145,7 @@ main {
 
 .flashcards-buttons {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: var(--border-color);
     background-color: var(--background);
     padding: 10px;
@@ -174,9 +174,9 @@ main {
     flex-direction: column;
     gap: 10px;
     width: auto;
-    border-style: solid;
+    /* border-style: solid;
     border-color: green;
-    border-width: 3px;
+    border-width: 3px; */
     /* background-color: var(--green-background); */
     padding: 10px;
     border-radius: 10px;
@@ -190,7 +190,7 @@ main {
 
 .flashcards-textarea {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: green;
     background-color: var(--background);
     padding: 10px;
