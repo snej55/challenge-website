@@ -8,6 +8,12 @@
 
 .left-panel {
     min-width: 70%;
+    background-color: #f00;
+}
+
+.left-panel-header {
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 
 .right-panel {
@@ -22,4 +28,8 @@
 
 .answer-input {
     height: 75%;
+}
+
+.left-panel-header-buttons {
+    align-self: right;
 }

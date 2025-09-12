@@ -19,10 +19,15 @@ export function Flashcards() {
     return (
         <div className="flashcards-container">
             <div className="left-panel">
-                <h1>Flashcards</h1>
-                <button>Save flashcards</button>
-                <button>Open flashcards</button>
-                <button>Clear flashcards</button>
+                <div className="left-panel-header">
+                    <h1>Flashcards</h1>
+                    <div className="left-panel-header-buttons">
+                        <button >Save flashcards</button>
+                        <button>Open flashcards</button>
+                        <button>Clear flashcards</button>
+                    </div>
+                </div>
+                <div></div>
             </div>
 
             <div className="right-panel">
