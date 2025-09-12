@@ -75,6 +75,14 @@
         {
             "desc": "\ud83d\ude08 Miscallaneous Info",
             "title": "Miscallaneous"
+        },
+        {
+            "desc": "\u2728 Sparx Homework",
+            "title": "Sparx"
+        },
+        {
+            "desc": "\ud83e\udde6 Uniform Policies",
+            "title": "UniformPolicies"
         }
     ]
 }

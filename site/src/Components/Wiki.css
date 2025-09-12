@@ -6,12 +6,15 @@
 
 main {
     padding-top: 63px;
+    /* padding-bottom: 20px; */
 
 }
 
 .wiki-contents {
 
     padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 
 
     display: flex;
@@ -24,13 +27,18 @@ main {
     border-color: var(--border-color);
     border-width: 0px 1px 0px 0px;
     border-style: solid;
-    height: 100vh;
+    height: calc(100vh - 93px);
+    /* height: 100vh; */
     margin-left: 0px;
 }
 
 */ .wiki-contents::-webkit-scrollbar {
     width: 2px;
 
+}
+
+.spacer-20 {
+    height: 20px;
 }
 
 /* .Wiki {
