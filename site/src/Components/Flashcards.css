@@ -8,12 +8,12 @@
 
 .left-panel {
     min-width: 70%;
-    background-color: #f00;
 }
 
 .left-panel-header {
-    /* display: flex; */
-    /* flex-direction: row; */
+    height: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
 .right-panel {
