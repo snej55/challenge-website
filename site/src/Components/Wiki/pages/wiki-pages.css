@@ -1,5 +1,8 @@
 /* This is the global CSS styling sheet used by all WIKI Pages */
 
+* {
+    overscroll-behavior: none;
+}
 
 /* Position of wiki */
 .wiki-pages-div {
@@ -8,6 +11,7 @@
     /* overscroll-behavior-x: none; */
     /* overscroll-behavior-y: none; */
     padding: 20px;
+    /* margin-bottom: 20px; */
     /* margin-bottom: 20px; */
     border: none;
     height: calc(100vh - 63px - 20px);

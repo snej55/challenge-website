@@ -74,16 +74,35 @@ export function Flashcards() {
 
 
                 <h1 className="flashcards-title">Flashcards</h1>
+
                 <div className="flashcards-left-panel-button-div">
+                    <h3 className="flashcards-left-panel-h3">File Control</h3>
                     <div className="flashcards-buttons-div">
-                        <button onClick={() => { saveFlashcards() }}>Save flashcards</button>
-                        <input type="file" id="file-input" accept=".json" onChange={(e) => { loadFlashcards(e) }} />
-                        <button>Clear flashcards</button>
+                        <button onClick={() => { saveFlashcards() }} className="flashcards-buttons">Save Flashcards</button>
+                        <input type="file" id="file-input" accept=".json" onChange={(e) => { loadFlashcards(e) }} className="upload-flashcards flashcards-button" name="file-input" />
+                        <label id="file-input-label" for="file-input">Upload Flashcards</label>
+
+                        <button className="flashcards-buttons">Clear Flashcards</button>
                     </div>
+
+                    <div className="spacer"></div>
                 </div>
+
+                <div className="flashcards-left-panel-input-div">
+                    <h3 className="flashcards-left-panel-h3">Questions Maker</h3>
+                    <div className="flashcards-input-div">
+
+                        <textarea placeholder="Input Question..." className="flashcards-textarea question-input"></textarea>
+                        <textarea placeholder="Input Answer..." className="flashcards-textarea answer-input"></textarea>
+                        <button className="flashcards-buttons">Add Card</button>
+
+                    </div>
+
+                </div>
+
             </div>
 
-        </div>
+        </div >
 
 
 

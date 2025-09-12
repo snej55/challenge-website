@@ -73,7 +73,7 @@ main {
 }
 
 .flashcards-title {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .flashcard-left-panel {
@@ -110,5 +110,81 @@ main {
     flex-direction: column;
     gap: 10px;
     width: auto;
+    border-style: solid;
+    border-color: var(--accent);
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 10px;
 
+}
+
+
+
+
+#file-input {
+    display: none;
+}
+
+#file-input-label {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--border-color);
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 10px;
+
+    font-size: large;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.flashcards-buttons {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--border-color);
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 10px;
+
+    font-size: large;
+    color: var(--text-color);
+}
+
+.flashcards-left-panel-h3 {
+    padding-bottom: 5px;
+}
+
+
+/* Input region */
+
+.flashcards-input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.spacer {
+    height: 50px;
+
+}
+
+.flashcards-textarea {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--border-color);
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 10px;
+
+    font-size: large;
+    color: var(--text-color);
+    height: 50px;
 }
