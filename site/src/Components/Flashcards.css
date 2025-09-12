@@ -129,7 +129,7 @@ main {
 
     border-style: solid;
     border-width: 1px;
-    border-color: var(--border-color);
+    border-color: var(--blue-accent);
     background-color: var(--background);
     padding: 10px;
     border-radius: 10px;
@@ -137,6 +137,10 @@ main {
     font-size: large;
     text-align: center;
     color: var(--text-color);
+}
+
+#file-input-label:hover {
+    background-color: var(--blue-background);
 }
 
 .flashcards-buttons {
@@ -149,7 +153,14 @@ main {
 
     font-size: large;
     color: var(--text-color);
+    transition: scale 0.1s ease, background-color 0.3s ease;
 }
+
+.flashcards-buttons:active {
+    scale: 0.95;
+}
+
+
 
 .flashcards-left-panel-h3 {
     padding-bottom: 5px;
@@ -166,6 +177,7 @@ main {
     border-style: solid;
     border-color: green;
     border-width: 3px;
+    /* background-color: var(--green-background); */
     padding: 10px;
     border-radius: 10px;
 
@@ -179,7 +191,7 @@ main {
 .flashcards-textarea {
     border-style: solid;
     border-width: 1px;
-    border-color: var(--border-color);
+    border-color: green;
     background-color: var(--background);
     padding: 10px;
     border-radius: 10px;
@@ -187,4 +199,47 @@ main {
     font-size: large;
     color: var(--text-color);
     height: 50px;
+    resize: none;
+
+
+}
+
+.flashcards-textarea:focus {
+    border-color: greenyellow;
+    outline: transparent;
+}
+
+.green-button {
+    border-color: green;
+    /* background-color: var(--green-background); */
+}
+
+.green-button:hover {
+    border-color: green;
+    background-color: var(--green-background);
+}
+
+.green-button:focus {
+    outline: none;
+    border-color: greenyellow;
+    background-color: var(--green-background);
+}
+
+.blue-button {
+    border-color: var(--blue-accent);
+    /* background-color: var(--green-background); */
+}
+
+.blue-button:hover {
+    background-color: var(--blue-background);
+}
+
+
+
+.question-input {
+    height: 200px;
+}
+
+.answer-input {
+    height: 120px;
 }

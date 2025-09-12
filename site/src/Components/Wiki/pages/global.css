@@ -66,3 +66,8 @@ p {
 }
 
 /* --background: rgb(36, 39, 46); */
+
+
+*:focus {
+    outline: invert;
+}
