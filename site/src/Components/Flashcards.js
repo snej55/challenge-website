@@ -1,6 +1,6 @@
 import "./Flashcards.css";
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export function Flashcards() {
     const [cards, setCards] = useState([{"question": "what is this flash card about?", "answer": "This is a test flashcard."}]);
@@ -15,6 +15,10 @@ export function Flashcards() {
             ]
         )
     }
+
+    // these are for file save and load dialogs
+    // <button onClick={() => {saveFlashcards()}}>Save flashcards</button>
+    // <input type="file" id="file-input" accept=".json" onChange={(e) => {loadFlashcards(e)}}/>
 
     function saveFlashcards()
     {
@@ -34,16 +38,10 @@ export function Flashcards() {
             bubbles: true,
             cancelable: true
         });
+
         // download file
         a.dispatchEvent(clickEvent);
         a.remove();
-    }
-
-    try {
-        const fileInput = document.getElementById("file-input");
-        fileInput.addEventListener("change", loadFlashcards)
-    } catch {
-        
     }
 
     function loadFlashcards(event)
@@ -53,16 +51,20 @@ export function Flashcards() {
             alert("No file selected!");
             return;
         }
-        
-        if (!file.type.startsWith("text")) {
-            alert("Unsupported file type. Please select a text file.");
-            return;
-        }
 
         // read the file
         const reader = new FileReader();
         reader.onload = () => {
             console.log(reader.result);
+
+            try {
+                const json = JSON.parse(reader.result);
+                setCards(json.flashcards);
+            } catch {
+                alert(`Error parsing json: ${reader.result}`);
+            }
+
+            console.log(cards);
         };
 
         reader.readAsText(file);
@@ -75,7 +77,7 @@ export function Flashcards() {
                     <h1>Flashcards</h1>
                     <div className="left-panel-header-buttons">
                         <button onClick={() => {saveFlashcards()}}>Save flashcards</button>
-                        <input type="file" id="file-input"/>
+                        <input type="file" id="file-input" accept=".json" onChange={(e) => {loadFlashcards(e)}}/>
                         <button>Clear flashcards</button>
                     </div>
                 </div>
