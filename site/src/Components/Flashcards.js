@@ -68,18 +68,24 @@ export function Flashcards() {
     }
 
     return (
-        <div className="flashcards-container">
-            <div className="flashcard-left-panel">
+
+        <div className="flashcard-left-panel">
+            <div className="flashcard-left-panel-content-div">
+
+
                 <h1 className="flashcards-title">Flashcards</h1>
                 <div className="flashcards-left-panel-button-div">
-                    <button onClick={() => {saveFlashcards()}}>Save flashcards</button>
-                    <input type="file" id="file-input" accept=".json" onChange={(e) => {loadFlashcards(e)}}/>
-                    <button>Clear flashcards</button>
+                    <div className="flashcards-buttons-div">
+                        <button onClick={() => { saveFlashcards() }}>Save flashcards</button>
+                        <input type="file" id="file-input" accept=".json" onChange={(e) => { loadFlashcards(e) }} />
+                        <button>Clear flashcards</button>
+                    </div>
                 </div>
-
             </div>
 
-
         </div>
+
+
+
     );
 }
