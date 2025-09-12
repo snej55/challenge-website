@@ -1,6 +1,6 @@
-
 import './wiki-pages.css'
-import './SparxLogin.css';
+import './Sparx.css';
+
 // Import all the cards
 // eslint-disable-next-line
 import { Info } from '../../Global/InfoCardReact.js'
@@ -11,21 +11,17 @@ import { Important } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Warning } from '../../Global/InfoCardReact.js'
 
-export default function SparxLogin() {
+export default function Sparx() {
     return (
 
         <div className="wiki-pages-div">
             <div className="spacer-20"></div>
-            <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>🔑 Sparx Login</h3>
+            <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>✨ Sparx Homework</h3>
 
             <div className="spacer-20"></div>
-            <h1 id="title">🔑 Sparx Login</h1>
+            <h1 id="title">✨ Sparx Homework</h1>
 
             <h2 id="subtitle">This is the subtitle, change me</h2>
-
-
-
-
 
             <h2 className="paragraph-title">This is paragraph title</h2>
 
