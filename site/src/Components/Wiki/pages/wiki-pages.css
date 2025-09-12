@@ -69,3 +69,9 @@
 img {
     border-radius: 7px;
 }
+
+body,
+#root {
+    width: 100vw;
+    overflow-x: hidden;
+}
