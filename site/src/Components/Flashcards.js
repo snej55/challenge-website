@@ -18,14 +18,18 @@ export function Flashcards() {
 
     return (
         <div className="flashcards-container">
-            <h1>Flashcards</h1>
-
-            <footer>
-                <button>Add flashcard</button>
+            <div className="left-panel">
+                <h1>Flashcards</h1>
                 <button>Save flashcards</button>
                 <button>Open flashcards</button>
                 <button>Clear flashcards</button>
-            </footer>
+            </div>
+
+            <div className="right-panel">
+                <textarea className="question-input"></textarea>
+                <textarea className="answer-input"></textarea>
+                <button>Add flashcard</button>
+            </div>
         </div>
     );
 }
