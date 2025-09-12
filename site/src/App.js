@@ -12,6 +12,8 @@ import { NoMatch } from './Components/NoMatch';
 
 // Small components
 import ThemeChanger from './Components/Global/theme.js';
+import HeaderMobileButton from './Components/Global/HeaderMobileButton.js';
+import MobileHeader from './Components/Global/MobileHeader.js';
 
 // modules
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -72,20 +74,32 @@ function App() {
           <Link to="/"><img src="/assets/images/CAST_PictureOnly_Logo_nobg.png" alt="cast logo" className="cast-logo-header" /></Link>
           <div className="title-stack">
             <h3 className="header-title"><Link to="/">Cambridge Academy for Science and Technology</Link></h3>
-            <h3 className="header-subtitle"><Link to="/"><s>Virtual Plaza</s> Student Panel</Link></h3> {/* very ugly name, plz change asap */}
+            <h3 className="header-title header-title-mobile"><Link to="/">CAST</Link></h3>
+            <h3 className="header-subtitle"><Link to="/">Student Panel</Link></h3> {/* very ugly name, plz change asap */}
           </div>
 
           {/* Navigation */}
           <nav className="header-navigation">
-            <Link to="/flashcards">Flash cards</Link>
-            <Link to="/formtime">Form time</Link>
-            <Link to="/games">Games</Link>
-            <Link to="/wiki/About">Wiki</Link>
+
+            <Link to="/flashcards" className='header-nav-text'>Flash cards</Link>
+            <Link to="/formtime" className='header-nav-text'>Form time</Link>
+            <Link to="/games" className='header-nav-text'>Games</Link>
+            <Link to="/wiki/About" className='header-nav-text'>Wiki</Link>
+
             <a href="https://github.com/snej55/challenge-website"><i className="fa-brands fa-github github-icon header-icon"></i></a>
             <ThemeChanger />
+            {/* <HeaderMobileButton /> */}
+
+
+
+
+
           </nav>
+
         </header>
         <main>
+          {/* <MobileHeader id="mobile-header" /> */}
+
           {/* react-router-dom routes */}
           <Routes>
             <Route path="/" element={<Home />} />
@@ -141,7 +155,7 @@ function App() {
           {/* <div className='spacer-5'></div> */}
         </footer>
       </div>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 

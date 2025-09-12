@@ -25,6 +25,7 @@ h3,
     --primary: black;
     --selected-color: gainsboro;
     --border-color: #dbdbdb;
+    /* --popup-background: #dbdbdb; */
 
     /* Cards */
     --blue-accent: #4285F4;
@@ -46,6 +47,7 @@ h3,
     --primary: black;
     --selected-color: #3f475c;
     --border-color: #282d3b;
+    /* --popup-background: #1c1f29; */
 
     /* Cards */
     --blue-accent: #448cff;

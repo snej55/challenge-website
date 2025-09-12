@@ -2,6 +2,8 @@ body {
     background-color: var(--background);
 }
 
+
+
 .header-navigation {
     display: flex;
     flex-direction: row;
@@ -86,7 +88,7 @@ header {
     padding-left: 10px;
 }
 
-.header-title > * {
+.header-title>* {
     color: var(--text-color);
     text-decoration: none;
 }
@@ -96,7 +98,7 @@ header {
     /* padding-top: 1px; */
 }
 
-.header-subtitle > * {
+.header-subtitle>* {
     color: var(--accent) !important;
     text-decoration: none;
 }
@@ -195,4 +197,38 @@ header {
 .header-icon {
     color: var(--text-color);
     scale: 1.2;
+}
+
+
+/* Mobile Header */
+
+.header-title-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+
+
+    .header-title {
+        display: none;
+    }
+
+
+    .header-title-mobile {
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width: 830px) {
+
+
+    .header-nav-text {
+        display: none;
+    }
+
+
+
+
 }
