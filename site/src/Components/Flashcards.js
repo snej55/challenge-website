@@ -3,7 +3,7 @@ import "./Flashcards.css";
 import { useState } from 'react';
 
 export function Flashcards() {
-    const [cards, setCards] = useState([]);
+    const [cards, setCards] = useState([{"question": "what is this flash card about?", "answer": "This is a test flashcard."}]);
 
     // question, answer
     function addCard(q, a)
