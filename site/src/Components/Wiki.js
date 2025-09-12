@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import { Link, Outlet } from 'react-router-dom';
 
 export function Wiki({ wikiData }) {
+    // get pages from json
     let pages = wikiData["pages"];
 
     // sort pages alphabetically
@@ -25,6 +26,7 @@ export function Wiki({ wikiData }) {
     );
 }
 
+// json data
 Wiki.propTypes = {
     wikiData: PropTypes.any.isRequired
 };
