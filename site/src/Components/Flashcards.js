@@ -72,8 +72,8 @@ export function Flashcards() {
             <div className="flashcard-left-panel">
                 <h1 className="flashcards-title">Flashcards</h1>
                 <div className="flashcards-left-panel-button-div">
-                    <button >Save flashcards</button>
-                    <button>Open flashcards</button>
+                    <button onClick={() => {saveFlashcards()}}>Save flashcards</button>
+                    <input type="file" id="file-input" accept=".json" onChange={(e) => {loadFlashcards(e)}}/>
                     <button>Clear flashcards</button>
                 </div>
 
