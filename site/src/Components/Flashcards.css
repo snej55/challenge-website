@@ -15,6 +15,10 @@ main {
     padding: 20px;
     display: flex;
     flex-shrink: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .flashcards-title {
@@ -183,13 +187,17 @@ main {
 }
 
 .flashcard {
-    margin: 10px;
+    margin-left: 15px;
+    margin-right: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
     perspective: 1000px;
 }
 
@@ -202,6 +210,7 @@ main {
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
 }
 
 .flip-card .flip-card-inner {
@@ -228,38 +237,62 @@ main {
 }
 
 .flip-card-front {
-    display: block;
     background-color: var(--background);
     color: black;
     border-radius: 10px;
     border: 2px solid var(--border-color);
     padding-top: 10px;
     user-select: none;
-    align-items: center;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
-    font-size: larger;
-    font-weight: 700;
+    font-size: x-large;
+    font-weight: 600;
     word-break: break-word;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    vertical-align: middle
 }
 
 .flip-card-back {
-    display: block;
+    display: table-cell;
+    min-height: 10em;
     background-color: #4285f4;
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
     border: 2px solid var(--border-color);
     padding-top: 10px;
-    align-items: center;
-    user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    font-size: larger;
+    font-size: large;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 400;
+    line-height: 25px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    vertical-align: middle
+}
+
+.flashcard-question {
+    overflow-wrap: break-word;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+    position: absolute;               /* 2 */
+    /* top: 50%;                         3 */
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
+
+.flashcard-answer {
+    overflow-wrap: break-word;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    position: absolute;               /* 2 */
+    /* top: 50%;                         3 */
+    left: 50%;
+    transform: translate(-50%, 0%)
 }
