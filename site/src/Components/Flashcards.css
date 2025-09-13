@@ -1,71 +1,3 @@
-/* .flashcards-container {
-    line-height: 2;
-    padding: 30px;
-    color: var(--text-color);
-    display: flex;
-    flex-direction: row;
-}
-
-.left-panel {
-    min-width: 70%;
-}
-
-.left-panel-header {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-}
-
-.right-panel {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-
-.question-input {
-    height: 25%;
-}
-
-.answer-input {
-    height: 75%;
-}
-
-.left-panel-header-buttons {
-    align-self: right;
-} */
-
-/* .flashcards-container {
-    display: fixed;
-    margin-top: 71px;
-} */
-/* 
-.flashcards-header {
-    display: flex;
-    position: absolute;
-    flex-direction: row;
-    /* align-items: baseline; */
-/* background-color: var(--selected-color);
-width: 100vw;
-height: 71px;
-margin-top: 8px;
-
-align-items: center;
-} */
-
-
-/* .flashcards-title {
-    padding-left: 20px;
-}
-
-.flashcards-header-button-div {
-    display: flex;
-    flex-direction: row;
-
-
-    margin-left: 40vw;
-    /* margin-top: 20px; */
-/* gap: 40px; */
-
 main {
     padding-top: 63px;
     /* padding-bottom: 20px; */
@@ -154,6 +86,11 @@ main {
     font-size: large;
     color: var(--text-color);
     transition: scale 0.1s ease, background-color 0.3s ease;
+    user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
 }
 
 .flashcards-buttons:active {

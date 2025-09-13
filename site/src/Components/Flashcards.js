@@ -68,10 +68,8 @@ export function Flashcards() {
     }
 
     return (
-
         <div className="flashcard-left-panel">
             <div className="flashcard-left-panel-content-div">
-
 
                 <h1 className="flashcards-title">Flashcards</h1>
 
