@@ -1,6 +1,6 @@
 import "./Flashcards.css";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 function Flashcard({question, answer, cid})
@@ -9,16 +9,16 @@ function Flashcard({question, answer, cid})
         <div className="flashcard">
             <input type="checkbox" id={`flip-div ${cid}`} className={`flip-div ${cid}`}/>
             <label for={`flip-div ${cid}`}>
-            <div class="flip-card">
+                <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <h1>{question}</h1>
+                            <p>{question}</p>
                         </div>
                         <div class="flip-card-back">
-                            <h1>{answer}</h1> 
+                            <p>{answer}</p>
                         </div>
                     </div>
-            </div>
+                </div>
             </label>
         </div>
     )
