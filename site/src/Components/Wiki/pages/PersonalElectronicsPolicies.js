@@ -7,7 +7,7 @@ import { Info } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Tips } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
-import { Important }from '../../Global/InfoCardReact.js'
+import { Important } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Warning } from '../../Global/InfoCardReact.js'
 
@@ -26,6 +26,7 @@ export default function PersonalElectronicsPolicies() {
             <h2 className="paragraph-title">This is paragraph title</h2>
 
             <p>This is the paragraph</p>
+            <Warning><p>Hello</p></Warning>
         </div>
 
     );
