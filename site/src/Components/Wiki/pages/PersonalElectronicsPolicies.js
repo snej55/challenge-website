@@ -29,12 +29,14 @@ export default function PersonalElectronicsPolicies() {
             <p>If you feel the need to contact someone, such as a member of family, please do so via the school office, and tell those you know to send messages to the school rather than directly to your phone</p>
             <p>The only times at which you are allowed to use your phones or similar devices are before and after the school day, not during</p>
             <Tips><p>However, for Y11s who are allowed to leave the school, there are no restrictions regarding device usage outside the school grounds</p></Tips>
+            <i><p>Y11s are no longer allowed to use their phones at break times due to difficulties.<b>Please blame the 6th formers.</b></p></i>
 
             <h2 className="paragraph-title">Laptops and other personal devices</h2>
 
             <p>However, those with permission, due to issues such as writing speed, are allowed to type instead of writing in lessons.</p>
             <p>Please see the SEND team in the canteen if you think you qualify for this.</p>
-            <p>Due to students abusing the privilege, previous legislation allowing students to do work during break times has been removed. <b>Please blame the 6th formers.</b></p>
+            <i><p>Due to students abusing the privilege, previous legislation allowing students to do work during break times has been removed. </p></i>
+            <p>If you wish to study in school, there is a designated study space for use after school for those who sign up, next to the information desk.</p>
         </div>
 
     );
