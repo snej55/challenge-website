@@ -31,11 +31,13 @@ export default function About() {
             <h2 className='paragraph-title'>Who made this WIKI?</h2>
             <div class="github-card" data-user="lepture" data-repo="github-cards"></div>
             <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
-            <github-card data-user="snej55" className="github-card"></github-card>
-            <github-card data-user="zibuyin" className="github-card"></github-card>
-            <github-card data-user="j4mik" className="github-card"></github-card>
-            <github-card data-user="Tdem1" className="github-card"></github-card>
-            <github-card data-user="Cheerio2" className="github-card"></github-card>
+            <div className='github-cards-div'>
+                <github-card data-user="snej55" className="github-card"></github-card>
+                <github-card data-user="zibuyin" className="github-card"></github-card>
+                <github-card data-user="Tdem1" className="github-card"></github-card>
+                <github-card data-user="j4mik" className="github-card"></github-card>
+                <github-card data-user="Cheerio2" className="github-card"></github-card>
+            </div>
             <p></p>
 
 

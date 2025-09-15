@@ -19,8 +19,22 @@
     background: linear-gradient(red, blue);
 } */
 
+.github-cards-div {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    /* horizontal centering */
+
+    /* Optional: also center vertically on the page */
+    /* min-height: 100vh;
+    justify-content: center; */
+}
 
 .github-card {
-    /* display: ; */
-    height: 100px;
+    /* display: block;
+    margin: 0 auto; */
+    /* centers fixed-width cards */
+    /* width: 1000px; */
+    /* keep if desired */
+    /* height: 100px !important; */
 }
