@@ -21,13 +21,13 @@ export default function Exams() {
             <div className="spacer-20"></div>
             <h1 id="title">📝 Exams & Revision</h1>
 
-            <h2 id="subtitle">CAST is determined to give pupils great results in relevant GCSEs and A-Levels.</h2>
+            <h2 id="subtitle">CAST is determined to give pupils great results in relevant GCSEs.</h2>
             
       
 
             <h2 className="paragraph-title">Exam board information</h2>
 
-            <p>Across various GCSEs and A-Levels, we use AQA, OCR, WJEC, and Edexcel. <a href="https://www.bbc.co.uk/bitesize/articles/zw27tcw#zmhtfdm">These are the dates for all GCSEs in the country</a></p>
+            <p>Across various GCSEs we use AQA, OCR, WJEC, and Edexcel. <a href="https://www.bbc.co.uk/bitesize/articles/zw27tcw#zmhtfdm">These are the dates for all GCSEs in the country</a></p>
         </div>
 
     );
