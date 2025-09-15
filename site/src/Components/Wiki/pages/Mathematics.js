@@ -21,13 +21,13 @@ export default function Mathematics() {
             <div className="spacer-20"></div>
             <h1 id="title">🧮 Mathematics</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">Always remember: the square of this webpage is equal to the sum of all uncountable infinities.</h2>
 
 
             
       
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
+            <h2 className="paragraph-title">Mathematics is the fundamental language of the universe. Without it, we simply wouldn't exist. So at CAST, everyone studies it in rigorous detail, with three of our four sets studying Higher Tier maths at GCSE.</h2>
 
             <p>This is the paragraph</p>
         </div>
