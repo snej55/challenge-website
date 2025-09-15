@@ -1,6 +1,6 @@
 import "./Flashcards.css";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 function Flashcard({question, answer, cid})
@@ -9,16 +9,16 @@ function Flashcard({question, answer, cid})
         <div className="flashcard">
             <input type="checkbox" id={`flip-div ${cid}`} className={`flip-div ${cid}`}/>
             <label for={`flip-div ${cid}`}>
-            <div class="flip-card">
+                <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <h1>{question}</h1>
+                            <p class="flashcard-question">{question}</p>
                         </div>
                         <div class="flip-card-back">
-                            <h1>{answer}</h1> 
+                            <p class="flashcard-answer">{answer}</p>
                         </div>
                     </div>
-            </div>
+                </div>
             </label>
         </div>
     )
@@ -49,6 +49,8 @@ export function Flashcards() {
             // clear text area
             document.getElementsByClassName("flashcards-textarea")[0].value = '';
             document.getElementsByClassName("flashcards-textarea")[1].value = '';
+            setAnswer('');
+            setQuestion('');
         }
     }
 
@@ -124,8 +126,8 @@ export function Flashcards() {
                     <div className="flashcards-left-panel-input-div">
                         <h3 className="flashcards-left-panel-h3">Questions Maker</h3>
                         <div className="flashcards-input-div">
-                            <textarea placeholder="Input Question..." className="flashcards-textarea question-input" onChange={e => setQuestion(e.target.value)}></textarea>
-                            <textarea placeholder="Input Answer..." className="flashcards-textarea answer-input" onChange={e => setAnswer(e.target.value)}></textarea>
+                            <textarea placeholder="Input Question..." maxLength="1000" className="flashcards-textarea question-input" onChange={e => setQuestion(e.target.value)}></textarea>
+                            <textarea placeholder="Input Answer..." maxLength="1000" className="flashcards-textarea answer-input" onChange={e => setAnswer(e.target.value)}></textarea>
                             <button className="flashcards-buttons green-button" onClick={addCard}>Add Card</button>
                         </div>
                     </div>
