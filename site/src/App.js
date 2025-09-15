@@ -89,17 +89,11 @@ function App() {
             <a href="https://github.com/snej55/challenge-website"><i className="fa-brands fa-github github-icon header-icon"></i></a>
             <ThemeChanger />
             {/* <HeaderMobileButton /> */}
-
-
-
-
-
           </nav>
-
         </header>
         <main>
           {/* <MobileHeader id="mobile-header" /> */}
-
+          
           {/* react-router-dom routes */}
           <Routes>
             <Route path="/" element={<Home />} />

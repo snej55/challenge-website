@@ -34,7 +34,8 @@ export default function Miscallaneous() {
             <p>Avast, ye scurvy dogs! <br /> <br />Thee shalt anon suff'r in silence, despairing in the fact yond this page may nev'r bewray t's secrets to thy greedy eyes, thee scurvy mongrel!
                 <br /> <br />
                 thee wisheth to continueth? bwahahaha! thou art a meddling daw, thee falsing sacketh of filth.  Forswear thee to me? thy bluff is a joketh! a fusty sacketh of turnips is m're fiteth to uncov'r the secrets of this page than thee.  Begone! thee bottom feeding fiend! thou art a beetle brain'd bootless lout!</p>
-
+                <br /><br />
+                Please, don't mind Jan. He likes to torture anyone who dares cross him. Now go! This webpage of tips is yours forevermore!
             <br />
 
             <Tips>

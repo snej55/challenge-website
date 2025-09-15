@@ -1,18 +1,57 @@
 import "./Flashcards.css";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+
+function Flashcard({question, answer, cid})
+{
+    return (
+        <div className="flashcard">
+            <input type="checkbox" id={`flip-div ${cid}`} className={`flip-div ${cid}`}/>
+            <label for={`flip-div ${cid}`}>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="flashcard-question">{question}</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flashcard-answer">{answer}</p>
+                        </div>
+                    </div>
+                </div>
+            </label>
+        </div>
+    )
+}
+
+Flashcard.propTypes = {
+    question: PropTypes.string.isRequired,
+    answer: PropTypes.string.isRequired,
+    cid: PropTypes.any.isRequired
+};
 
 export function Flashcards() {
-    const [cards, setCards] = useState([{ "question": "what is this flash card about?", "answer": "This is a test flashcard." }]);
+    const [cards, setCards] = useState([]);
+    const [question, setQuestion] = useState("");
+    const [answer, setAnswer] = useState("");
 
-    // question, answer
-    function addCard(q, a) {
-        setCards(
-            [
-                { question: q, answer: a },
-                ...cards
-            ]
-        )
+    // add new flash card
+    function addCard() {
+        if (question.trim() !== "" && answer.trim() !== "")
+        {
+            setCards(
+                [
+                    { question: question, answer: answer, id: cards.length },
+                    ...cards
+                ]
+            );
+
+            // clear text area
+            document.getElementsByClassName("flashcards-textarea")[0].value = '';
+            document.getElementsByClassName("flashcards-textarea")[1].value = '';
+            setAnswer('');
+            setQuestion('');
+        }
     }
 
     // these are for file save and load dialogs
@@ -68,43 +107,35 @@ export function Flashcards() {
     }
 
     return (
+        <div className="flashcard-container">
+            <div className="flashcard-left-panel">
+                <div className="flashcard-left-panel-content-div">
+                    <h1 className="flashcards-title">Flashcards</h1>
+                    <div className="flashcards-left-panel-button-div">
+                        <h3 className="flashcards-left-panel-h3">File Control</h3>
+                        <div className="flashcards-buttons-div">
+                            <button onClick={() => { saveFlashcards() }} className="flashcards-buttons blue-button">Save Flashcards</button>
+                            <input type="file" id="file-input" accept=".json" onChange={(e) => { loadFlashcards(e) }} className="upload-flashcards flashcards-button blue-button" name="file-input" />
+                            <label id="file-input-label" for="file-input" className="blue-button flashcards-buttons">Upload Flashcards</label>
 
-        <div className="flashcard-left-panel">
-            <div className="flashcard-left-panel-content-div">
-
-
-                <h1 className="flashcards-title">Flashcards</h1>
-
-                <div className="flashcards-left-panel-button-div">
-                    <h3 className="flashcards-left-panel-h3">File Control</h3>
-                    <div className="flashcards-buttons-div">
-                        <button onClick={() => { saveFlashcards() }} className="flashcards-buttons blue-button">Save Flashcards</button>
-                        <input type="file" id="file-input" accept=".json" onChange={(e) => { loadFlashcards(e) }} className="upload-flashcards flashcards-button blue-button" name="file-input" />
-                        <label id="file-input-label" for="file-input" className="blue-button flashcards-buttons">Upload Flashcards</label>
-
-                        <button className="flashcards-buttons blue-button">Clear Flashcards</button>
+                            <button className="flashcards-buttons blue-button" onClick={() => {setCards([])}}>Clear Flashcards</button>
+                        </div>
+                        <div className="spacer"></div>
                     </div>
 
-                    <div className="spacer"></div>
-                </div>
-
-                <div className="flashcards-left-panel-input-div">
-                    <h3 className="flashcards-left-panel-h3">Questions Maker</h3>
-                    <div className="flashcards-input-div">
-
-                        <textarea placeholder="Input Question..." className="flashcards-textarea question-input"></textarea>
-                        <textarea placeholder="Input Answer..." className="flashcards-textarea answer-input"></textarea>
-                        <button className="flashcards-buttons green-button">Add Card</button>
-
+                    <div className="flashcards-left-panel-input-div">
+                        <h3 className="flashcards-left-panel-h3">Questions Maker</h3>
+                        <div className="flashcards-input-div">
+                            <textarea placeholder="Input Question..." maxLength="1000" className="flashcards-textarea question-input" onChange={e => setQuestion(e.target.value)}></textarea>
+                            <textarea placeholder="Input Answer..." maxLength="1000" className="flashcards-textarea answer-input" onChange={e => setAnswer(e.target.value)}></textarea>
+                            <button className="flashcards-buttons green-button" onClick={addCard}>Add Card</button>
+                        </div>
                     </div>
-
                 </div>
-
+            </div >
+            <div className="flashcard-right-panel">
+                {cards.map(card => <Flashcard question={card.question} answer={card.answer} cid={card.id}/>)}
             </div>
-
-        </div >
-
-
-
+        </div>
     );
 }
