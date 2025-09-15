@@ -8,12 +8,27 @@
     }
 } */
 
-
-.theme-choice {
-    rotate: 0deg;
-    transition: rotate 0.2s ease;
+:root {
+    --margin-left-theme-slider: 0px;
+}
+[data-theme="dark"] {
+    --margin-left-theme-slider: 14px;
 }
 
-.theme-choice:not(:active) {
-    rotate: 360deg;
+
+.theme-choice {
+    width: 30px !important;
+    height: 16px;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: var(--text-color);
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    border-radius: 800px;
+    background-color: var(--background);
+    margin-left: var(--margin-left-theme-slider);
+    transition: 0.2069420s ease-out margin-left;
 }
