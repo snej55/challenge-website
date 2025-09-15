@@ -1,7 +1,7 @@
 import './wiki-pages.css'
 import './About.css';
 import './info-card.css'
-
+import '@rocktimsaikia/github-card'
 export default function About() {
     return (
 
@@ -29,6 +29,13 @@ export default function About() {
                 make students' everyday life around the school smoother and easier. </p>
             <div className="spacer-40"></div>
             <h2 className='paragraph-title'>Who made this WIKI?</h2>
+            <div class="github-card" data-user="lepture" data-repo="github-cards"></div>
+            <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
+            <github-card data-user="snej55" className="github-card"></github-card>
+            <github-card data-user="zibuyin" className="github-card"></github-card>
+            <github-card data-user="j4mik" className="github-card"></github-card>
+            <github-card data-user="Tdem1" className="github-card"></github-card>
+            <github-card data-user="Cheerio2" className="github-card"></github-card>
             <p></p>
 
 

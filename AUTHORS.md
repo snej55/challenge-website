@@ -8,3 +8,7 @@
 ## Content:
     TDem1 - https://github.com/Tdem1
     Cherrios2 - https://github.com/Cheerio2
+
+
+## Other Components:
+    Github Cards: https://github.com/RocktimSaikia/github-card?tab=MIT-1-ov-file
