@@ -1,6 +1,7 @@
 
 import './wiki-pages.css'
 import './Clubs.css';
+
 // Import all the cards
 // eslint-disable-next-line
 import { Info } from '../../Global/InfoCardReact.js'
@@ -23,9 +24,6 @@ export default function Clubs() {
 
             <h2 id="subtitle">CAST has many clubs and societies to join. Here are some of the best</h2>
 
-
-            
-      
             <br />
             <h2 className="paragraph-title">Chess Club</h2>
 
