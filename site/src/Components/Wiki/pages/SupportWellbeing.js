@@ -21,15 +21,15 @@ export default function SupportWellbeing() {
             <div className="spacer-20"></div>
             <h1 id="title">🆘 Support & Wellbeing</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">This is the mental health section.</h2>
 
 
             
       
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
+            <h2 className="paragraph-title">What is mental health?</h2>
 
-            <p>This is the paragraph</p>
+            <p>Mental health is a state of overall happiness, distinct from the highs and lows of life. If you, or someone you know, is struggling with mental health issues, do not be ashamed. We are here for you. However, if you or that person are just a bit unhappy with the game of life, <b>toughen up!</b></p>
         </div>
 
     );
