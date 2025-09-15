@@ -27,9 +27,9 @@ export default function Mathematics() {
             
       
 
-            <h2 className="paragraph-title">Mathematics is the fundamental language of the universe. Without it, we simply wouldn't exist. So at CAST, everyone studies it in rigorous detail, with three of our four sets studying Higher Tier maths at GCSE.</h2>
+            <h2 className="paragraph-title">What is Maths?</h2>
 
-            <p>This is the paragraph</p>
+            <p>Mathematics is the fundamental language of the universe. Without it, we simply wouldn't exist. So at CAST, everyone studies it in rigorous detail, with three of our four sets studying Higher Tier maths at GCSE.</p>
         </div>
 
     );
