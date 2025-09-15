@@ -37,7 +37,7 @@ export default function Clubs() {
 
             <h2 className="paragraph-title">Astro</h2>
 
-            <p>Football! Volleyball! Crazy Mixes! Sport is a matter of dog eat dog or dog be eaten by dog. Will you triumph at lunch, or will you fall foul?<p/>
+            <p>Football! Volleyball! Crazy Mixes! Sport is a matter of dog eat dog or dog be eaten by dog. Will you triumph at lunch, or will you fall foul?</p>
 
             
         </div>
