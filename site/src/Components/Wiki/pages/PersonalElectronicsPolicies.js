@@ -38,6 +38,8 @@ export default function PersonalElectronicsPolicies() {
             <p>Please see the SEND team in the canteen if you think you qualify for this.</p>
             <i><p>Due to students abusing the privilege, previous legislation allowing students to do work during break times has been removed. </p></i>
             <p>If you wish to study in school, there is a designated study space for use after school for those who sign up, next to the information desk.</p>
+            <p></p>
+            <p></p>
         </div>
 
     );
