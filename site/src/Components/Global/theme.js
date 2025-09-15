@@ -1,7 +1,7 @@
 import './theme.css';
 let theme = localStorage.getItem("theme")
 document.body.setAttribute('data-theme', theme)
-
+// button = document.getElementsByClassName()
 export default function themeChanger() {
     function handleClick() {
         if (localStorage.getItem("theme") === "dark") {
@@ -16,10 +16,11 @@ export default function themeChanger() {
         }
     }
     return (
-        <section>
-            <i className="fa-solid fa-circle-half-stroke header-icon theme-choice" onClick={handleClick} title="Switch to dark mode"></i>
-        </section>
-
+        <selection>
+            <div className="theme-choice" onClick={handleClick} title="Switch to dark mode">
+                <div class="dot"></div>
+            </div>
+        </selection>
     );
 
 }
