@@ -4,13 +4,13 @@ document.body.setAttribute('data-theme', theme)
 
 export default function themeChanger() {
     function handleClick() {
-        if (localStorage.getItem("theme") === "light") {
-            let theme = "dark"
+        if (localStorage.getItem("theme") === "dark") {
+            let theme = "light"
             localStorage.setItem("theme", theme)
             document.body.setAttribute('data-theme', theme);
         }
         else {
-            let theme = "light"
+            let theme = "dark"
             localStorage.setItem("theme", theme)
             document.body.setAttribute('data-theme', theme);
         }
