@@ -21,13 +21,9 @@ export default function ComputerScience() {
             <div className="spacer-20"></div>
             <h1 id="title">💻 Computer Science</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">This is the page about Computer Sciencee</h2>
 
-
-            
-      
-
-            <h2 className="paragraph-title">This is paragraph title</h2>
+            <h2 className="paragraph-title">CS Curriculum: </h2>
 
             <p>This is the paragraph</p>
         </div>

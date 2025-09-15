@@ -21,15 +21,14 @@ export default function UsefulLinks() {
             <div className="spacer-20"></div>
             <h1 id="title">🔗 Useful Links</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">Here are some useful links for school</h2>
 
+            <h2 className="paragraph-title">The links:</h2>
 
-            
-      
-
-            <h2 className="paragraph-title">This is paragraph title</h2>
-
-            <p>This is the paragraph</p>
+            <p><ul>
+                <li><a href="https://vert.sh/">https://vert.sh/</a></li>
+                <li><a href="/gfx/shadyman/shadyman.html" style={{textDecoration: "none", color: "var(--text-color)"}}>Shadyman</a></li>    
+            </ul></p>
         </div>
 
     );
