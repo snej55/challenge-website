@@ -35,6 +35,29 @@ export function Flashcards() {
     const [question, setQuestion] = useState("");
     const [answer, setAnswer] = useState("");
 
+    useEffect(() => {
+        loadFromLocalStorage();
+    }, []);
+
+    function loadFromLocalStorage()
+    {
+        try {
+            const flashcards = JSON.parse(localStorage.getItem("flashcards-json"));
+            setCards(flashcards.flashcards);
+        } catch (err) {
+            console.log(err);
+        }
+    }
+
+    function saveToLocalStorage()
+    {
+        const flashcards = {
+            "flashcards": cards
+        };
+        console.log(`Saved flashcards: ${JSON.stringify(flashcards)}`)
+        localStorage.setItem("flashcards-json", JSON.stringify(flashcards));
+    }
+
     // add new flash card
     function addCard() {
         if (question.trim() !== "" && answer.trim() !== "")
@@ -45,6 +68,7 @@ export function Flashcards() {
                     ...cards
                 ]
             );
+            saveToLocalStorage();
 
             // clear text area
             document.getElementsByClassName("flashcards-textarea")[0].value = '';
@@ -101,6 +125,7 @@ export function Flashcards() {
             }
 
             console.log(cards);
+            saveToLocalStorage();
         };
 
         reader.readAsText(file);
