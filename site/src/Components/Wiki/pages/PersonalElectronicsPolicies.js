@@ -7,7 +7,7 @@ import { Info } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Tips } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
-import { Important }from '../../Global/InfoCardReact.js'
+import { Important } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Warning } from '../../Global/InfoCardReact.js'
 
@@ -29,9 +29,9 @@ export default function PersonalElectronicsPolicies() {
             <p>If you feel the need to contact someone, such as a member of family, please do so via the school office, and tell those you know to send messages to the school rather than directly to your phone</p>
             <p>The only times at which you are allowed to use your phones or similar devices are before and after the school day, not during</p>
             <i><p>Y11s are no longer allowed to use their phones at break times due to difficulties.<b>Please blame the 6th formers.</b></p></i>
-            <Tips><p>However, for Y11s who are allowed to leave the school, there are no restrictions regarding device usage outside the school grounds</p></Tips>
-            <img src="../assets/SchoolPolicies/Tech policies phones.jpg" alt='Phones, Tablets and any other personal devices used recreationally' className='cast-computers'></img>            
-
+            <Tips><p>However, for Y11s who are allowed to leave the school during lunch time, there are no restrictions regarding device usage outside the school grounds</p></Tips>
+            <img src="../assets/SchoolPolicies/Tech policies phones.jpg" alt='Phones, Tablets and any other personal devices used recreationally' className='cast-computers'></img>
+            <div className='spacer-50'></div>
             <h2 className="paragraph-title">Laptops and other work devices</h2>
 
             <p>However, those with permission, due to issues such as writing speed, are allowed to type instead of writing in lessons.</p>
