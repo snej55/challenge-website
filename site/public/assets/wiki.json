@@ -83,6 +83,10 @@
         {
             "desc": "\ud83e\udde6 Uniform Policies",
             "title": "UniformPolicies"
+        },
+        {
+            "desc": "\ud83d\udcbb Personal Electronics Policies",
+            "title": "PersonalElectronicsPolicies"
         }
     ]
 }

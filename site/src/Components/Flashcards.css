@@ -184,7 +184,7 @@ main {
 }
 
 .spacer {
-    height: 50px;
+    height: 20px;
 
 }
 
@@ -237,7 +237,7 @@ main {
 
 
 .question-input {
-    height: 200px;
+    height: 150px;
 }
 
 .answer-input {
