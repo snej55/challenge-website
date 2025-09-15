@@ -28,8 +28,9 @@ export default function PersonalElectronicsPolicies() {
             <p>The school policies state that personal devices such as phones, tablets, and other devices are not allowed to be used on school premises during Break and Lunch time.</p>
             <p>If you feel the need to contact someone, such as a member of family, please do so via the school office, and tell those you know to send messages to the school rather than directly to your phone</p>
             <p>The only times at which you are allowed to use your phones or similar devices are before and after the school day, not during</p>
-            <Tips><p>However, for Y11s who are allowed to leave the school, there are no restrictions regarding device usage outside the school grounds</p></Tips>
             <i><p>Y11s are no longer allowed to use their phones at break times due to difficulties.<b>Please blame the 6th formers.</b></p></i>
+            <Tips><p>However, for Y11s who are allowed to leave the school, there are no restrictions regarding device usage outside the school grounds</p></Tips>
+            
 
             <h2 className="paragraph-title">Laptops and other personal devices</h2>
 
