@@ -32,14 +32,12 @@ export default function PersonalElectronicsPolicies() {
             <Tips><p>However, for Y11s who are allowed to leave the school, there are no restrictions regarding device usage outside the school grounds</p></Tips>
             
 
-            <h2 className="paragraph-title">Laptops and other personal devices</h2>
+            <h2 className="paragraph-title">Laptops and other work devices</h2>
 
             <p>However, those with permission, due to issues such as writing speed, are allowed to type instead of writing in lessons.</p>
             <p>Please see the SEND team in the canteen if you think you qualify for this.</p>
             <i><p>Due to students abusing the privilege, previous legislation allowing students to do work during break times has been removed. </p></i>
             <p>If you wish to study in school, there is a designated study space for use after school for those who sign up, next to the information desk.</p>
-            <p></p>
-            <p></p>
         </div>
 
     );
