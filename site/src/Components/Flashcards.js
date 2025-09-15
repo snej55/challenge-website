@@ -54,6 +54,7 @@ export function Flashcards() {
         const flashcards = {
             "flashcards": cards
         };
+        console.log(`Saved flashcards: ${JSON.stringify(flashcards)}`)
         localStorage.setItem("flashcards-json", JSON.stringify(flashcards));
     }
 
@@ -67,13 +68,13 @@ export function Flashcards() {
                     ...cards
                 ]
             );
+            saveToLocalStorage();
 
             // clear text area
             document.getElementsByClassName("flashcards-textarea")[0].value = '';
             document.getElementsByClassName("flashcards-textarea")[1].value = '';
             setAnswer('');
             setQuestion('');
-            saveToLocalStorage();
         }
     }
 
@@ -102,7 +103,6 @@ export function Flashcards() {
         // download file
         a.dispatchEvent(clickEvent);
         a.remove();
-        saveToLocalStorage();
     }
 
     function loadFlashcards(event) {
