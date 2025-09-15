@@ -1,6 +1,6 @@
 
 import './wiki-pages.css'
-import './Miscellaneous.css';
+import './Miscallaneous.css';
 // Import all the cards
 // eslint-disable-next-line
 import { Info } from '../../Global/InfoCardReact.js'
@@ -11,7 +11,7 @@ import { Important } from '../../Global/InfoCardReact.js'
 // eslint-disable-next-line
 import { Warning } from '../../Global/InfoCardReact.js'
 
-export default function Miscellaneous() {
+export default function Miscallaneous() {
     return (
 
         <div className="wiki-pages-div">
