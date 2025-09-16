@@ -209,7 +209,7 @@ main {
     vertical-align: middle;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
@@ -222,8 +222,9 @@ main {
     transition: 0.2s;
 }
 
-.flip-div:checked ~ label .flip-card-inner {
+.flip-div:checked~label .flip-card-inner {
     transform: rotateY(180deg);
+
 }
 
 .flip-card-front,
@@ -234,13 +235,16 @@ main {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.5s;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .flip-card-front {
-    background-color: var(--background);
+    background-color: var(--selected-color);
     color: black;
     border-radius: 10px;
-    border: 2px solid var(--border-color);
+    /* border: 2px solid var(--border-color); */
     padding-top: 10px;
     user-select: none;
     -moz-user-select: none;
@@ -252,17 +256,19 @@ main {
     word-break: break-word;
     overflow-y: scroll;
     scrollbar-width: none;
-    vertical-align: middle
+    vertical-align: middle;
+
+
 }
 
 .flip-card-back {
     display: table-cell;
     min-height: 10em;
-    background-color: #4285f4;
+    background-color: var(--blue-background);
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
-    border: 2px solid var(--border-color);
+    /* border: 2px solid var(--border-color); */
     padding-top: 10px;
     font-size: large;
     font-style: italic;
@@ -279,7 +285,8 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 12em;
-    position: absolute;               /* 2 */
+    position: absolute;
+    /* 2 */
     /* top: 50%;                         3 */
     left: 50%;
     transform: translate(-50%, 0%)
@@ -291,7 +298,8 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 16em;
-    position: absolute;               /* 2 */
+    position: absolute;
+    /* 2 */
     /* top: 50%;                         3 */
     left: 50%;
     transform: translate(-50%, 0%)

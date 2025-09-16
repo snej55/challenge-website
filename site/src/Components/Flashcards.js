@@ -3,11 +3,10 @@ import "./Flashcards.css";
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-function Flashcard({question, answer, cid})
-{
+function Flashcard({ question, answer, cid }) {
     return (
         <div className="flashcard">
-            <input type="checkbox" id={`flip-div ${cid}`} className={`flip-div ${cid}`}/>
+            <input type="checkbox" id={`flip-div ${cid}`} className={`flip-div ${cid}`} />
             <label for={`flip-div ${cid}`}>
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -39,8 +38,7 @@ export function Flashcards() {
         loadFromLocalStorage();
     }, []);
 
-    function loadFromLocalStorage()
-    {
+    function loadFromLocalStorage() {
         try {
             const flashcards = JSON.parse(localStorage.getItem("flashcards-json"));
             setCards(flashcards.flashcards);
@@ -49,8 +47,7 @@ export function Flashcards() {
         }
     }
 
-    function saveToLocalStorage()
-    {
+    function saveToLocalStorage() {
         const flashcards = {
             "flashcards": cards
         };
@@ -60,8 +57,7 @@ export function Flashcards() {
 
     // add new flash card
     function addCard() {
-        if (question.trim() !== "" && answer.trim() !== "")
-        {
+        if (question.trim() !== "" && answer.trim() !== "") {
             setCards(
                 [
                     { question: question, answer: answer, id: cards.length },
@@ -143,7 +139,7 @@ export function Flashcards() {
                             <input type="file" id="file-input" accept=".json" onChange={(e) => { loadFlashcards(e) }} className="upload-flashcards flashcards-button blue-button" name="file-input" />
                             <label id="file-input-label" for="file-input" className="blue-button flashcards-buttons">Upload Flashcards</label>
 
-                            <button className="flashcards-buttons blue-button" onClick={() => {setCards([])}}>Clear Flashcards</button>
+                            <button className="flashcards-buttons blue-button" onClick={() => { setCards([]) }}>Clear Flashcards</button>
                         </div>
                         <div className="spacer"></div>
                     </div>
@@ -159,7 +155,7 @@ export function Flashcards() {
                 </div>
             </div >
             <div className="flashcard-right-panel">
-                {cards.map(card => <Flashcard question={card.question} answer={card.answer} cid={card.id}/>)}
+                {cards.map(card => <Flashcard question={card.question} answer={card.answer} cid={card.id} />)}
             </div>
         </div>
     );
