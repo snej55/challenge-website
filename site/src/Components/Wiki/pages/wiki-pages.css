@@ -19,8 +19,6 @@
     scroll-behavior: smooth;
 }
 
-
-
 .nav-label {
     background-color: var(--selected-color);
     display: inline;
