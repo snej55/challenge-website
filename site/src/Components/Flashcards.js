@@ -85,7 +85,7 @@ export function Flashcards() {
         }
     }
 
-    // download flash card json data
+    // download flash card json data (https://developer.mozilla.org/en-US/docs/Web/API/FileReader)
     function saveFlashcards() {
         // create json object
         const flashcards = {
