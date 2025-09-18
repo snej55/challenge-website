@@ -1,11 +1,13 @@
 import "./Flashcards.css";
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
+// flash card with fancy 3D rotate animation (taken from here: https://www.w3schools.com/howto/howto_css_flip_card.asp)
 function Flashcard({ question, answer, cid }) {
     return (
         <div className="flashcard">
+            {/* invisible checkbox to flip card */}
             <input type="checkbox" id={`flip-div ${cid}`} className={`flip-div ${cid}`} />
             <label for={`flip-div ${cid}`}>
                 <div class="flip-card">
@@ -26,6 +28,7 @@ function Flashcard({ question, answer, cid }) {
 Flashcard.propTypes = {
     question: PropTypes.string.isRequired,
     answer: PropTypes.string.isRequired,
+    // card id makes each check box label unique
     cid: PropTypes.any.isRequired
 };
 
@@ -34,10 +37,12 @@ export function Flashcards() {
     const [question, setQuestion] = useState("");
     const [answer, setAnswer] = useState("");
 
+    // load previous flashcards from local storage
     useEffect(() => {
         loadFromLocalStorage();
     }, []);
 
+    // load json data from local storage
     function loadFromLocalStorage() {
         try {
             const flashcards = JSON.parse(localStorage.getItem("flashcards-json"));
@@ -47,23 +52,29 @@ export function Flashcards() {
         }
     }
 
+    // save flashcard json data to local storage
     function saveToLocalStorage() {
+        // create json object
         const flashcards = {
             "flashcards": cards
         };
-        console.log(`Saved flashcards: ${JSON.stringify(flashcards)}`)
+        // write object
         localStorage.setItem("flashcards-json", JSON.stringify(flashcards));
+        console.log(`Saved flashcards: ${JSON.stringify(flashcards)}`)
     }
 
     // add new flash card
     function addCard() {
+        // check if card isn't empty
         if (question.trim() !== "" && answer.trim() !== "") {
+            // add new card
             setCards(
                 [
                     { question: question, answer: answer, id: cards.length },
                     ...cards
                 ]
             );
+            // update local storage
             saveToLocalStorage();
 
             // clear text area
@@ -74,11 +85,9 @@ export function Flashcards() {
         }
     }
 
-    // these are for file save and load dialogs
-    // <button onClick={() => {saveFlashcards()}}>Save flashcards</button>
-    // <input type="file" id="file-input" accept=".json" onChange={(e) => {loadFlashcards(e)}}/>
-
+    // download flash card json data
     function saveFlashcards() {
+        // create json object
         const flashcards = {
             "flashcards": cards
         };
@@ -86,10 +95,12 @@ export function Flashcards() {
         const json = JSON.stringify(flashcards);
         // create blob with data to download
         const blob = new Blob([json], { type: 'text/json' });
+
         // create anchor element and dispatch click to trigger download
         const a = document.createElement('a');
         a.download = "flashcards.json";
         a.href = window.URL.createObjectURL(blob);
+        // click event
         const clickEvent = new MouseEvent('click', {
             view: window,
             bubbles: true,
@@ -101,7 +112,9 @@ export function Flashcards() {
         a.remove();
     }
 
+    // load flashcards from json file
     function loadFlashcards(event) {
+        // get file from file dialog event
         const file = event.target.files[0];
         if (!file) {
             alert("No file selected!");
@@ -113,6 +126,7 @@ export function Flashcards() {
         reader.onload = () => {
             console.log(reader.result);
 
+            // parse json cards
             try {
                 const json = JSON.parse(reader.result);
                 setCards(json.flashcards);
@@ -120,10 +134,12 @@ export function Flashcards() {
                 alert(`Error parsing json: ${reader.result}`);
             }
 
-            console.log(cards);
+            // update local storage
             saveToLocalStorage();
+            console.log(cards);
         };
 
+        // read json text data
         reader.readAsText(file);
     }
 
@@ -132,6 +148,7 @@ export function Flashcards() {
             <div className="flashcard-left-panel">
                 <div className="flashcard-left-panel-content-div">
                     <h1 className="flashcards-title">Flashcards</h1>
+                    {/* file dialog interface */}
                     <div className="flashcards-left-panel-button-div">
                         <h3 className="flashcards-left-panel-h3">File Control</h3>
                         <div className="flashcards-buttons-div">
@@ -144,6 +161,7 @@ export function Flashcards() {
                         <div className="spacer"></div>
                     </div>
 
+                    {/* flashcard creator interface */}
                     <div className="flashcards-left-panel-input-div">
                         <h3 className="flashcards-left-panel-h3">Questions Maker</h3>
                         <div className="flashcards-input-div">
