@@ -63,7 +63,7 @@ export default function LunchMenu() {
             <p>As the name of the day surely suggests, the food served on Mondays is entirely meat free!</p>
             <p>While some barbaric carnivores dislike it, the vast majority of the school view it as a vital opportunity to reduce their environmental impact and sample new cuisine.</p>
             <p>However, other events cater more towards those who disagree with healthy, sustainable eating...</p>
-            <tips>(If you really can't bear to go veggie, there's always the option of a sneaky chicken sandwich from the cold food. I didn't tell you that, though.)</tips>
+            <tips><p>(If you really can't bear to go veggie, there's always the option of a sneaky chicken sandwich from the cold food. I didn't tell you that, though.)</p></tips>
 
             <h3 classname = "paragraph-title">Fish'n'Chips Friday</h3>
 
