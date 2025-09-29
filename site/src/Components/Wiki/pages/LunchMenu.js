@@ -34,7 +34,7 @@ export default function LunchMenu() {
             <p>There are traditionally two hot meals on offer each lunchtime, a meat option and a vegetarian option.</p>
             <p>You can have the meals on a plate or disposable container, and commmon options range from jacket potato to pizza and chips.</p>
             <p>The standard charge for a hot meal is £2.25, so it's the place to go for a hungry student looking for something nutritional and filling.</p>
-            <hint><p>A Meal Deal is available, a great bargain at £2.50 for a Hot meal and a dessert.</p></hint>
+            <Tips><p>A Meal Deal is available, a great bargain at £2.50 for a Hot meal and a dessert.</p></Tips>
 
             <h2 className="paragraph-title">Grab and Go</h2>
 
@@ -51,22 +51,26 @@ export default function LunchMenu() {
             <p>The pots normally contain jelly or cream, with chopped fruit options available for the healthier consumer.</p>
             <p>Sandwiches are a popular alternative to Hot meals for those seeking a filling meal, and offer a wide selection of both meat and vegetarian flavours.</p>
             <p>With so many exciting things on offer, it's no wonder the Cold food section is a vital destination for many students looking for a meal.</p>
-            <warning>Please don't stomp on the drinks sold, as it makes a frightful mess... Which you will have to clean up, of course.</warning>
+            <Warning><p>Please don't stomp on the drinks sold, as it makes a frightful mess... Which you will have to clean up, of course.</p></Warning>
 
             <h2 classname = "paragraph-title">Special Events</h2>
+
             <p>A lot of special events only happen once a year, like the special christmas dinner at, you guessed it, christmas!</p>
             <p>However, some occur more frequently, with two of the most popular occuring every single week.</p>
 
             <h3 classname = "paragraph-title">Meat-Free Monday</h3>
+
             <p>As the name of the day surely suggests, the food served on Mondays is entirely meat free!</p>
             <p>While some barbaric carnivores dislike it, the vast majority of the school view it as a vital opportunity to reduce their environmental impact and sample new cuisine.</p>
             <p>However, other events cater more towards those who disagree with healthy, sustainable eating...</p>
-            <tips>(If you really can't bear to go veggie, there's always the option of a sneaky chicken sandwich from the cold food. I didn't tell you that, though.)</tips>
+            <Tips><p>(If you really can't bear to go veggie, there's always the option of a sneaky chicken sandwich from the cold food. I didn't tell you that, though.)</p></Tips>
 
             <h3 classname = "paragraph-title">Fish'n'Chips Friday</h3>
+
             <p>The food on offer at this time has a wide variety, swinging from pizza with chips all the way to chicken with chips.</p>
             <p>Every Friday lunchtime, the hot food and grab and go sections are entirely filled with such items, and even the cold food sector is often hollowed out to make room.</p>
             <p>Beloved by staff and students alike, this day is second to none in the standing of many.</p>
+            
         </div>
 
     );
