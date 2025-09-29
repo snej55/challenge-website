@@ -58,6 +58,7 @@ export default function Mathematics() {
             <p>From binomials to cubic sequences, Further Maths is a challenging task even for the best, the pinnacle of what GCSE Maths can teach.</p>
             <p>Don't feel scared, though - it's not too different from regular maths. Just a tad more advanced, but a lot less content.</p>
             <p>This means you can really focus on what you do cover, and master it to the fullest extent. </p>
+            <Tips><p>If you really feel like you can't do it, the exam is optional, though it may seem a mite pointless to have sat through all those classes for nothing. Your choice, though.</p></Tips>
         </div>
 
     );
