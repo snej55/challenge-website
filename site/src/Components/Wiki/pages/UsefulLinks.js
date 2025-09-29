@@ -25,6 +25,8 @@ export default function UsefulLinks() {
 
             <h2 className="paragraph-title">The links:</h2>
 
+            <iframe src="https://apod.nasa.gov/apod/astropix.html" height="450" width="800" title="Astronomy Picture of the Day"></iframe>
+
             <p><ul>
                 <li><a href="https://vert.sh/">https://vert.sh/</a></li>
                 <li><a href="https://xkcd.com">https://xkcd.com/</a></li>
