@@ -26,8 +26,7 @@ export default function UsefulLinks() {
             <h2 className="paragraph-title">The links:</h2>
 
             <p><ul>
-                <li><a href="https://vert.sh/">https://vert.sh/</a></li>
-                <li><a href="/gfx/shadyman/shadyman.html" style={{textDecoration: "none", color: "var(--text-color)"}}>Shadyman</a></li>    
+                <li><a href="https://vert.sh/">https://vert.sh/</a></li>   
             </ul></p>
         </div>
 
