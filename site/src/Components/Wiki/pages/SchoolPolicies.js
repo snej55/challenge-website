@@ -22,31 +22,6 @@ export default function SchoolPolicies() {
             <div className="spacer-20"></div>
             <h1 id="title">📄 School Policies</h1>
 
-            <h2 id="subtitle">This section explains the school rules and policies</h2>
-
-
-
-
-            <h2 className="paragraph-title">School Uniforms - Non Sixth-form</h2>
-
-            <h3>Allowed clothing</h3>
-            <div className='spacer-20'></div>
-            <p>Students are expected to wear grey trousers, or grey shorts during the warm times of year.</p>
-            <p>White shirts, short or long sleeve, are allowed, but no polo shirts.</p>
-            <p>The school jumper is a grey v-neck, and bears the school logo on the front(Must be purchased from SWI - details below).*</p>
-            <p>Shoes are required to be solid black, no coloured insignia or logos, but other than that there are no restrictions.</p>
-            <div className='spacer-20'></div>
-            <Info>
-                <p><i>Our uniform supplier is Sportswear International Ltd (SWI). Orders can be placed online at <a href='www.swischoolwear.co.uk'>www.swischoolwear.co.uk</a> or by phone on <a href='tel:01928 752610'>01928 752610 (Option1)</a>. Enquiries can be sent to <a href='e:customerservice@swi.co.uk'>customerservice@swi.co.uk</a></i></p>
-            </Info>
-            <img src="../assets/SchoolPolicies/CAST Uniform Images for Website - Items.svg" alt='CAST Uniform Images for Website - Items' className='cast-uniform-image'></img>
-            {/* <Tips>
-                <p>Non-uniform days are relatively frequent, usually to raise money for charity, and allow everyone to enjoy themselves. Have fun!</p>
-            </Tips> */}
-            <Tips>
-                <p>Debug</p>
-            </Tips>
-            {/* <div className='spacer-5'></div> */}
 
 
         </div>
