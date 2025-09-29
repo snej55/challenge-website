@@ -28,7 +28,7 @@ export default function LunchMenu() {
             <p>There are typically three sections in the canteen: Hot meals, Grab and go, or Cold food.</p>
             <p>At break time and Friday lunchtimes, however, the Hot meals section is replaced by an expanded Grab and go.</p>
             <p>Each section offers different choices every day, but we'll give you an idea of what to look for.</p>
-
+            <div className="spacer-20"></div>
             <h2 className="paragraph-title">Hot meals</h2>
 
             <p>There are traditionally two hot meals on offer each lunchtime, a meat option and a vegetarian option.</p>
@@ -57,7 +57,7 @@ export default function LunchMenu() {
 
             <p>A lot of special events only happen once a year, like the special christmas dinner at, you guessed it, christmas!</p>
             <p>However, some occur more frequently, with two of the most popular occuring every single week.</p>
-
+            <div className="spacer-20"></div>
             <h3 classname = "paragraph-title">Meat-Free Monday</h3>
 
             <p>As the name of the day surely suggests, the food served on Mondays is entirely meat free!</p>
@@ -70,7 +70,7 @@ export default function LunchMenu() {
             <p>The food on offer at this time has a wide variety, swinging from pizza with chips all the way to chicken with chips.</p>
             <p>Every Friday lunchtime, the hot food and grab and go sections are entirely filled with such items, and even the cold food sector is often hollowed out to make room.</p>
             <p>Beloved by staff and students alike, this day is second to none in the standing of many.</p>
-            
+            <div className="spacer-20"></div>
         </div>
 
     );
