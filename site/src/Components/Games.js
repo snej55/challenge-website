@@ -8,6 +8,7 @@ export function Games() {
             Games page
             <ul>
                 <li>P5js platformer: <a href="https://editor.p5js.org/snej55/sketches/pq3lk0NZH">https://editor.p5js.org/snej55/sketches/pq3lk0NZH</a></li>
+                <li><a href="/gfx/shadyman/shadyman.html" style={{textDecoration: "none", color: "var(--text-color)"}}>Shadyman</a></li> 
             </ul>
         </div>
     );

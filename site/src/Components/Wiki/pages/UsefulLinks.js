@@ -27,7 +27,9 @@ export default function UsefulLinks() {
 
             <p><ul>
                 <li><a href="https://vert.sh/">https://vert.sh/</a></li>
-                <li><a href="/gfx/shadyman/shadyman.html" style={{textDecoration: "none", color: "var(--text-color)"}}>Shadyman</a></li>    
+                <li><a href="https://xkcd.com">https://xkcd.com/</a></li>
+                <li><a href="https://p5js.org/">https://p5js.org/</a></li>
+                <li><a href="https://cambridgeast.org.uk/">https://cambridgeast.org.uk/</a></li>
             </ul></p>
         </div>
 
