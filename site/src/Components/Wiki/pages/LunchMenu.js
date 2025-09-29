@@ -47,10 +47,11 @@ export default function LunchMenu() {
 
             <p>The last section before the tills, Cold food often has the same food on offer year-round; the school favourites.</p>
             <p>There are generally three options: Drinks, Pots, and Sandwiches.</p>
-            <p>The drinks generally consist of Flavoured milks, usually chocolate or strawberry, and Radnor drinks, a great favourite among those who like to make a mess.</p>
+            <p>The drinks generally consist of Flavoured milks, usually chocolate or strawberry, and Radnor drinks, a great favourite among those who like a less healthy option.</p>
             <p>The pots normally contain jelly or cream, with chopped fruit options available for the healthier consumer.</p>
             <p>Sandwiches are a popular alternative to Hot meals for those seeking a filling meal, and offer a wide selection of both meat and vegetarian flavours.</p>
             <p>With so many exciting things on offer, it's no wonder the Cold food section is a vital destination for many students looking for a meal.</p>
+            <warning>Please don't stomp on the drinks sold, as it makes a frightful mess... Which you will have to clean up, of course.</warning>
 
             <h2 classname = "paragraph-title">Special Events</h2>
             <p>A lot of special events only happen once a year, like the special christmas dinner at, you guessed it, christmas!</p>
@@ -58,9 +59,9 @@ export default function LunchMenu() {
 
             <h3 classname = "paragraph-title">Meat-Free Monday</h3>
             <p>As the name of the day surely suggests, the food served on Mondays is entirely meat free!</p>
-            <hint>(Except for the occasional chicken sandwich in the Cold Food section, of course)</hint>
             <p>While some barbaric carnivores dislike it, the vast majority of the school view it as a vital opportunity to reduce their environmental impact and sample new cuisine.</p>
             <p>However, other events cater more towards those who disagree with healthy, sustainable eating...</p>
+            <tips>(If you really can't bear to go veggie, there's always the option of a sneaky chicken sandwich from the cold food. I didn't tell you that, though.)</tips>
 
             <h3 classname = "paragraph-title">Fish'n'Chips Friday</h3>
             <p>The food on offer at this time has a wide variety, swinging from pizza with chips all the way to chicken with chips.</p>
