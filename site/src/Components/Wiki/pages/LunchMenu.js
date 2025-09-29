@@ -51,6 +51,21 @@ export default function LunchMenu() {
             <p>The pots normally contain jelly or cream, with chopped fruit options available for the healthier consumer.</p>
             <p>Sandwiches are a popular alternative to Hot meals for those seeking a filling meal, and offer a wide selection of both meat and vegetarian flavours.</p>
             <p>With so many exciting things on offer, it's no wonder the Cold food section is a vital destination for many students looking for a meal.</p>
+
+            <h2 classname = "paragraph-title">Special Events</h2>
+            <p>A lot of special events only happen once a year, like the special christmas dinner at, you guessed it, christmas!</p>
+            <p>However, some occur more frequently, with two of the most popular occuring every single week.</p>
+
+            <h3 classname = "paragraph-title">Meat-Free Monday</h3>
+            <p>As the name of the day surely suggests, the food served on Mondays is entirely meat free!</p>
+            <hint>(Except for the occasional chicken sandwich in the Cold Food section, of course)</hint>
+            <p>While some barbaric carnivores dislike it, the vast majority of the school view it as a vital opportunity to reduce their environmental impact and sample new cuisine.</p>
+            <p>However, other events cater more towards those who disagree with healthy, sustainable eating...</p>
+
+            <h3 classname = "paragraph-title">Fish'n'Chips Friday</h3>
+            <p>The food on offer at this time has a wide variety, swinging from pizza with chips all the way to chicken with chips.</p>
+            <p>Every Friday lunchtime, the hot food and grab and go sections are entirely filled with such items, and even the cold food sector is often hollowed out to make room.</p>
+            <p>Beloved by staff and students alike, this day is second to none in the standing of many.</p>
         </div>
 
     );
