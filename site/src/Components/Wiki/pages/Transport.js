@@ -21,13 +21,15 @@ export default function Transport() {
             <div className="spacer-20"></div>
             <h1 id="title">🚌 Transport</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">Public Transport Websites</h2>
 
 
             
       
 
             <h2 className="paragraph-title">This is paragraph title</h2>
+
+            <iframe src="stagecoachbus.com" height="450" width="800" title="stagecoachbus.com"></iframe>
 
             <p>This is the paragraph</p>
         </div>
