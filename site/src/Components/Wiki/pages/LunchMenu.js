@@ -35,14 +35,14 @@ export default function LunchMenu() {
             <p>You can have the meals on a plate or disposable container, and commmon options range from jacket potato to pizza and chips.</p>
             <p>The standard charge for a hot meal is £2.25, so it's the place to go for a hungry student looking for something nutritional and filling.</p>
             <Tips><p>A Meal Deal is available, a great bargain at £2.50 for a Hot meal and a dessert.</p></Tips>
-            <div className="spacer-20"></div>
-            
+
             <h2 className="paragraph-title">Grab and Go</h2>
 
             <p>The Grab and Go section has a variety of items on offer, usually involving Pasta pots, sausage rolls, or hot dogs. </p>
             <p>The price varies from 95p to £1.80, so there's always a lot to choose from.</p>
             <p>Additionally, for those with a sweet tooth there's a dessert section of the Grab and Go, containing cookies and cakes, for prices of 80p to £1.20.</p>
             <p>With a great variety of sweet and savoury, Grab and Go is a first stop for many students as they grab some lunch and go!</p>
+            <div className="spacer-20"></div>
 
             <h2 className="paragraph-title">Cold Food</h2>
 
