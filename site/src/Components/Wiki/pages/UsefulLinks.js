@@ -26,7 +26,10 @@ export default function UsefulLinks() {
             <h2 className="paragraph-title">The links:</h2>
 
             <p><ul>
-                <li><a href="https://vert.sh/">https://vert.sh/</a></li>   
+                <li><a href="https://vert.sh/">https://vert.sh/</a></li>
+                <li><a href="https://xkcd.com">https://xkcd.com/</a></li>
+                <li><a href="https://p5js.org/">https://p5js.org/</a></li>
+                <li><a href="https://cambridgeast.org.uk/">https://cambridgeast.org.uk/</a></li>
             </ul></p>
         </div>
 
