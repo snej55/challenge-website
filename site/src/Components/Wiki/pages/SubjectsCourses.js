@@ -55,7 +55,7 @@ export default function SubjectsCourses() {
             <h3>Psychology</h3>
             <p>Ever wanted to learn why people remember some things but not others, or refuse to follow instructions at the worst moments?</p>
             <p>If so, this is the course for you! Learning how the brain works and how people think is a thrilling past time for many curious souls</p>
-            <p>Why not head over and learn more At one of the most detailed pages on the wiki. (404:Wiki page not found)</p>
+            <p>Why not head over and learn more at one of the most detailed pages on the wiki. (404:Wiki page not found)</p>
             <h3>IT</h3>
             <p></p>
             <h3>Health and Social</h3>
