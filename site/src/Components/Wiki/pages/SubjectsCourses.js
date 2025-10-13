@@ -21,15 +21,11 @@ export default function SubjectsCourses() {
             <div className="spacer-20"></div>
             <h1 id="title">📖 Subjects & Courses</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">What can you learn, and how far can you go?</h2>
 
+            <h2 className="paragraph-title">Mandatory subjects</h2>
 
-            
-      
-
-            <h2 className="paragraph-title">This is paragraph title</h2>
-
-            <p>This is the paragraph</p>
+            <p>While you get to choose between many subjects, there are a few you just <i>have</i> to take.</p>
         </div>
 
     );
