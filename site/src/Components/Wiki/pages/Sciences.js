@@ -23,10 +23,6 @@ export default function Sciences() {
 
             <h2 id="subtitle">This is the subtitle, change me</h2>
 
-
-            
-      
-
             <h2 className="paragraph-title">This is paragraph title</h2>
 
             <p>This is the paragraph</p>
