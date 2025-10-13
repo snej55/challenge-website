@@ -44,7 +44,7 @@ export default function Mathematics() {
             <p>Basic Maths is one of the most important things you'll study here at CAST - those who fail it are expected to resit it alongside their A-levels.</p>
             <p>For that reason, its pretty important to get good at it, especially if you're looking into a career in science; Maths is a must-have.</p>
             <p>Fortunately, maths isn't too tough. The teachers here are top-notch at helping struggling students, so you'll be fine as long as you give it your best shot and don't get distracted.</p>
-            <Warning><Warning><Warning><p>Please show your working, though, or the head of Maths Ysanne may get angry. Really, really angry...</p></Warning></Warning></Warning>
+            <Tips><Warning><Warning><Warning><p>Please show your working, though, or the head of Maths whose name begins with a Y may get angry. Really, really angry...</p></Warning></Warning></Warning></Tips>
 
             <h2 className="paragraph-title">Statistics</h2>
 
@@ -58,6 +58,7 @@ export default function Mathematics() {
             <p>From binomials to cubic sequences, Further Maths is a challenging task even for the best, the pinnacle of what GCSE Maths can teach.</p>
             <p>Don't feel scared, though - it's not too different from regular maths. Just a tad more advanced, but a lot less content.</p>
             <p>This means you can really focus on what you do cover, and master it to the fullest extent. </p>
+            <Tips><p>If you really feel like you can't do it, the exam is optional, though it may seem a mite pointless to have sat through all those classes for nothing. Your choice, though.</p></Tips>
         </div>
 
     );
