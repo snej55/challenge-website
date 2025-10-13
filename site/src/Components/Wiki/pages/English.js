@@ -21,11 +21,17 @@ export default function English() {
             <div className="spacer-20"></div>
             <h1 id="title">📖 English</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">Aimee doth murder sleep!</h2>
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
+            <h2 className="paragraph-title">Texts you will study (note: not all of them are novels</h2>
+            
+            <h3>Year 9</h3><br></br>
 
-            <p>This is the paragraph</p>
+            <p>Iridescent Adolescent by the English Media Centre (given to you), The Stories of Sherlock Holmes by Sir Arthur Conan Doyle, The Crucible by Arthur Miller, romantic poetry (given to you), and Romeo and Juliet by William Shakespeare</p><br></br>
+
+            <h3>Year 10</h3><br></br>
+
+            <p>Power poetry (given to you), A Christmas Carol by Charles Dickens, An Inspector Calls by JB Priestley, Conflict poetry (given to you), Unseen poetry (given to you), and Macbeth by William Shakespeare.</p>
         </div>
 
     );
