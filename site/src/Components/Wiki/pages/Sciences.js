@@ -21,25 +21,25 @@ export default function Sciences() {
             <div className="spacer-20"></div>
             <h1 id="title">🧪 Sciences</h1>
 
-            <h2 id="subtitle">explore the beautifull world of sciences</h2>
+            <h2 id="subtitle">explore the beautiful world of sciences</h2>
 
             <h2 className="paragraph-title">🌿 Biology</h2>
             <p>
-                There are a lot of opportunities to learn biology in extracurricular actitivities and clubs at CAST.
+                There are a lot of opurtunities to learn biology in extracuricular actitivities and clubs at CAST.
             </p>
             <br /><br />
 
             <h2 className="paragraph-title">🧪 Chemistry</h2>
             <p>
-                Ronnie is a briliant chemistry teacher.
+                Ronnie is a brilliant chemistry teacher.
             </p>
             <br /><br />
 
             <h2 className="paragraph-title">🧑🏼‍🔬 Physics</h2>
             <p>
-                Physics a big focus at CAST. Aside from lessons there is Isaac Physics homework, Sparx ascience homework, 
+                Physics a big focus at CAST. Aside from lessons there is Isaac Physics homework, Sparx science homework, 
                 <br />
-                Challange projects linking to physics, and many more learning oportunities.
+                Challange projects linking to physics, and many more learning opurtunities.
                 
             </p>
             <br /><br />
