@@ -25,7 +25,7 @@ export default function Sparx() {
 
             <h2 className="paragraph-title">Maths Homework</h2>
 
-            <p>Our benevolent teachers set us 6 sections of compulsory Maths homework every week - If you can't get it done the teachers and staff will support you, as will the website itself.
+            <p>EVIL TOM sets us 6 sections of compulsory Maths homework every week - If you can't get it done the teachers and staff will support you, as will the website itself.
                 There are even subject support sessions for those who struggle!
             </p>
 
