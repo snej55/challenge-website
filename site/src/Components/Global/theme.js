@@ -5,12 +5,12 @@ document.body.setAttribute('data-theme', theme)
 export default function themeChanger() {
     function handleClick() {
         if (localStorage.getItem("theme") === "dark") {
-            let theme = "light"
+            theme = "light"
             localStorage.setItem("theme", theme)
             document.body.setAttribute('data-theme', theme);
         }
         else {
-            let theme = "dark"
+            theme = "dark"
             localStorage.setItem("theme", theme)
             document.body.setAttribute('data-theme', theme);
         }

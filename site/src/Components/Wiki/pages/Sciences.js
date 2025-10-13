@@ -21,15 +21,33 @@ export default function Sciences() {
             <div className="spacer-20"></div>
             <h1 id="title">🧪 Sciences</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">explore the beautifull world of sciences</h2>
 
+            <h2 className="paragraph-title">🌿 Biology</h2>
+            <p>
+                There are a lot of opportunities to learn biology in extracurricular actitivities and clubs at CAST.
+            </p>
+            <br /><br />
 
-            
-      
+            <h2 className="paragraph-title">🧪 Chemistry</h2>
+            <p>
+                Ronnie is a briliant chemistry teacher.
+            </p>
+            <br /><br />
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
-
-            <p>This is the paragraph</p>
+            <h2 className="paragraph-title">🧑🏼‍🔬 Physics</h2>
+            <p>
+                Physics a big focus at CAST. Aside from lessons there is Isaac Physics homework, Sparx ascience homework, 
+                <br />
+                Challange projects linking to physics, and many more learning oportunities.
+                
+            </p>
+            <br /><br />
+            <p>
+                <h4>usefull links:</h4>
+                <a href="https://cognitoedu.org/home">cognito - usefull website for science revision</a><br />
+                <a href="/gfx/shadyman/shadyman.html">Interactive rigid body physics simulation</a>
+            </p>
         </div>
 
     );
