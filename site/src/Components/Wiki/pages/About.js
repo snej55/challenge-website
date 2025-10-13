@@ -36,7 +36,7 @@ export default function About() {
                 <github-card data-user="zibuyin" className="github-card"></github-card>
                 <github-card data-user="Tdem1" className="github-card"></github-card>
                 <github-card data-user="j4mik" className="github-card"></github-card>
-                <github-card data-user="Cheerio2" className="github-card"></github-card>
+                <github-card data-user="Sebastian-Thornton" className="github-card"></github-card>
             </div>
             <p></p>
 
