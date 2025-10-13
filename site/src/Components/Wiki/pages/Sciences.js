@@ -45,8 +45,8 @@ export default function Sciences() {
             <br /><br />
             <p>
                 <h4>usefull links:</h4>
-                <a href="https://cognitoedu.org/home">cognito - usefull website for science revision</a><br />
-                <a href="/gfx/shadyman/shadyman.html">Interactive rigid body physics simulation</a>
+                <a href="https://cognitoedu.org/home" target="_blank">cognito - usefull website for science revision</a><br />
+                <a href="/gfx/shadyman/shadyman.html" target="_blank">Interactive rigid body physics simulation</a>
             </p>
         </div>
 
