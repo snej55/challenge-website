@@ -21,24 +21,24 @@ export default function Sparx() {
             <div className="spacer-20"></div>
             <h1 id="title">✨ Sparx Homework</h1>
 
-            <h2 id="subtitle">Don't look at the trustpilot reviews...</h2>
+            <h2 id="subtitle">The 'Spark' of inspiration for hundreds of students!</h2>
 
             <h2 className="paragraph-title">Maths Homework</h2>
 
-            <p>Our ever so benevolent teachers set us 6 sections of compulsorary Maths homework every week - you must answer every question
-                correctly by the deadline each week or else you shall suffer <b>DETENTION</b> (study support).
+            <p>Our benevolent teachers set us 6 sections of compulsory Maths homework every week - If you can't get it done the teachers and staff will support you, as will the website itself.
+                There are even subject support sessions for those who struggle!
             </p>
 
             <img src="/assets/images/sparx_screenie.png" className="sparx-screenshot"/>
 
             <p>
-                <i>(See above what a typical sparx question looks like)</i> All sparx questions have a "bookwork code", which you used to have to write down for each question, or else you would have to redo that question when it asked for it's answer. However, you youngsters have it easy now, as this is no longer necessary 🎉.
+                <i>The more mathematically minded among you may enjoy solving the sample question above.</i> All questions come with a bookwork code, so those who wish to practice showing working for exams can jot down their answers and input them in the appropriate points, to better prepare you for the real world.
             </p>
             <br/>
 
             <h2 className="paragraph-title">Science Homework</h2>
             <p>
-                Our lovely teachers have also determined that we need more Sparx in the form of Science homework - Sparx Science is basically the same as Sparx maths, but with Biology, Physics and Chemistry exam style questions instead.
+                Given how helpful Sparx is for students, we also get to complete science sparx as well! - Sparx Science is basically the same as Sparx maths, but with Biology, Physics and Chemistry exam style questions instead.
             </p>
 
             <br></br>
