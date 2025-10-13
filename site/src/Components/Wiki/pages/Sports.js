@@ -23,10 +23,6 @@ export default function Sports() {
 
             <h2 id="subtitle">We love tag rugby 😬</h2>
 
-
-            
-      
-
             <h2 className="paragraph-title">Physical Education at CAST</h2>
 
             <p>P.E at CAST is pretty basic - we do mainly capture the flag and tag rugby in Year 9, football & cricket and tag ruby in Year 10, and football and tag rugby in Year 11.
