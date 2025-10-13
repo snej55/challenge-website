@@ -10,6 +10,7 @@ export function Home()
             But you don't have to! Because now, this wiki is here to help.<br/>
             Packed with entertainment, utilites, and an exhaustive amount of info on every school related subject you could name, we're here to assist in any way we can.<br/>
             We've poured our heart and soul into this webpage, and would love to see it help. Have fun!<br/>
+            W_W<br />
         </div>
     );
 }
