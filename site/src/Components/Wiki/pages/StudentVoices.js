@@ -21,15 +21,16 @@ export default function StudentVoices() {
             <div className="spacer-20"></div>
             <h1 id="title">💬 Student Voice</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle"><i>*hoarse screaming*</i> <b>CAAN YOOOU HEEEAR MEEEEEEE?!?!?!?</b></h2>
 
+            <h2 className="paragraph-title">Student Council</h2>
 
-            
-      
+            <p>The Sixth form at CAST has an "active" student council, which does some stuff.</p>
+            <p>
+                The other years don't really do anything, except for bake sales to fund prom.
+            </p>
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
-
-            <p>This is the paragraph</p>
+            <img src="/assets/images/donkeeeeey.gif" className="nerd"/>
         </div>
 
     );
