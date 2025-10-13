@@ -40,7 +40,7 @@ function App() {
       if (window.scrollY > 100) {
         setShowBtn(true);
       } else {
-        setShowBtn(false);
+        setShowBtn(true);
       }
     };
     window.addEventListener('scroll', handleScroll);
