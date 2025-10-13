@@ -25,7 +25,7 @@ export default function Sciences() {
 
             <h2 className="paragraph-title">🌿 Biology</h2>
             <p>
-                There are a lot of oppertunities to learn biology in extracuricular actitivities and clubs at CAST.
+                There are a lot of opurtunities to learn biology in extracuricular actitivities and clubs at CAST.
             </p>
             <br /><br />
 
