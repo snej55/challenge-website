@@ -39,7 +39,7 @@ export default function Sciences() {
             <p>
                 Physics a big focus at CAST. Aside from lessons there is Isaac Physics homework, Sparx science homework, 
                 <br />
-                Challenge projects linking to physics, and many more learning opurtunities.
+                Challange projects linking to physics, and many more learning opurtunities.
                 
             </p>
             <br /><br />
