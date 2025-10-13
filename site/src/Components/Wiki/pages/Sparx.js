@@ -45,7 +45,7 @@ export default function Sparx() {
             <h2 className="subtitle">Some useful info:</h2>
             <br></br>
             <ul>
-                <li><a href="https://uk.trustpilot.com/review/sparx-learning.com">https://uk.trustpilot.com/review/sparx-learning.com</a></li>
+                <li><a href="https://uk.trustpilot.com/review/sparx-learning.com" target="_blank">https://uk.trustpilot.com/review/sparx-learning.com</a></li>
             </ul>
             <br></br>
             {/* invisible gap */}
