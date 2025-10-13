@@ -21,7 +21,7 @@ export default function Geography() {
             <div className="spacer-20"></div>
             <h1 id="title">🌍 Geography</h1>
 
-            <h2 id="subtitle">We love Andy 💖</h2>
+            {/* <h2 id="subtitle">We love Andy <i>XX</i></h2> */}
 
             <h2 className="paragraph-title">Young Geographers at Cambridge Academy for Science and Technology</h2>
             <p>
