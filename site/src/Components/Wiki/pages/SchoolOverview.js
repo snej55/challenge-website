@@ -21,15 +21,15 @@ export default function SchoolOverview() {
             <div className="spacer-20"></div>
             <h1 id="title">🏫 School Overview</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">GCSEs, Level 2s, A-levels, T-levels, and level 3s!</h2>
 
 
             
       
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
+            <h2 className="paragraph-title">CAST</h2>
 
-            <p>This is the paragraph</p>
+            <p>The Cambridge Academy for Science and Technology is the most cultured secondary school and sixth form in the Cambridgeshire area. With the best </p>
         </div>
 
     );

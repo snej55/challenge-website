@@ -29,7 +29,7 @@ export default function Transport() {
 
             <h2 className="paragraph-title">This is paragraph title</h2>
 
-            <iframe src="stagecoachbus.com" height="450" width="800" title="stagecoachbus.com"></iframe>
+            <iframe src="https://www.stagecoachbus.com" height="450" width="800" title="stagecoachbus.com"></iframe>
 
             <p>This is the paragraph</p>
         </div>

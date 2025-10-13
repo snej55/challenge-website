@@ -21,15 +21,15 @@ export default function Sports() {
             <div className="spacer-20"></div>
             <h1 id="title">🏃‍♂️ Sports & PE</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">We love tag rugby 😬</h2>
 
+            <h2 className="paragraph-title">Physical Education at CAST</h2>
 
-            
-      
+            <p>P.E at CAST is pretty basic - we do mainly capture the flag and tag rugby in Year 9, football & cricket and tag ruby in Year 10, and football and tag rugby in Year 11.
+                When it rains, we do dodgeball or table tennis in the lecture theatre. The school also has a small gym on the first floor, which is open to sixth form and Y11 during lunchtime.
+            </p>
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
-
-            <p>This is the paragraph</p>
+            <img src="/assets/images/rugby-tackle.gif" className="rugby-tackle" />
         </div>
 
     );

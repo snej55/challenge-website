@@ -10,7 +10,7 @@ let cards = document.getElementsByClassName("github-cards-div")
 export default function ThemeChanger() {
     function handleClick() {
         if (localStorage.getItem("theme") === "dark") {
-            let theme = "light"
+            theme = "light"
             localStorage.setItem("theme", theme)
             document.body.setAttribute('data-theme', theme);
             for (let i = 0; i < cards.length; i++) {
@@ -18,7 +18,7 @@ export default function ThemeChanger() {
             }
         }
         else {
-            let theme = "dark"
+            theme = "dark"
             localStorage.setItem("theme", theme)
             document.body.setAttribute('data-theme', theme);
             for (let i = 0; i < cards.length; i++) {

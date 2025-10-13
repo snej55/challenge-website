@@ -13,7 +13,7 @@ import { Warning } from '../../Global/InfoCardReact.js'
 
 export default function Miscallaneous() {
     return (
-
+        
         <div className="wiki-pages-div">
             <div className="spacer-20"></div>
             <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>😈 Miscallaneous Info</h3>
@@ -28,6 +28,7 @@ export default function Miscallaneous() {
             <div className='spacer-100'></div>
             <div className='spacer-100'></div>
             <div className='spacer-100'></div>
+            <img src="/assets/images/mosselman.png" className="mossels" width="600" />
             <div className='spacer-100'></div>
             <p>YOU HAVE BEEN WARNED</p>
             <h2 className="paragraph-title">No tips yet :</h2>
@@ -46,6 +47,7 @@ export default function Miscallaneous() {
             <Warning><p>You might need to wait two unnonagintanongentillion two duoseptuagintanongentillion twenty duosexagintanongentillion twenty tresquadragintanongentillion twenty quattuorvigintinongentillion twenty quinnongentillion twenty sexoctogintaoctingentillion twenty septensexagintaoctingentillion two hundred septenquinquagintaoctingentillion two hundred octotrigintaoctingentillion two hundred novendecioctingentillion two hundred octingentillion two hundred unoctogintaseptingentillion two hundred duosexagintaseptingentillion two tresquinquagintaseptingentillion two quattuortrigintaseptingentillion two quindeciseptingentillion two senonagintasescentillion two septenseptuagintasescentillion two octoquinquagintasescentillion twenty octoquadragintasescentillion twenty novemvigintisescentillion twenty decisescentillion twenty unnonagintaquingentillion twenty duoseptuagintaquingentillion twenty tresquinquagintaquingentillion two hundred tresquadragintaquingentillion two hundred quattuorvigintiquingentillion two hundred quinquingentillion two hundred sexoctogintaquadringentillion two hundred septensexagintaquadringentillion two hundred octoquadragintaquadringentillion two noventrigintaquadringentillion two vigintiquadringentillion two unquadringentillion two duooctogintatrecentillion two tresexagintatrecentillion two quattuorquadragintatrecentillion twenty quattuortrigintatrecentillion twenty quindecitrecentillion twenty senonagintaducentillion twenty septenseptuagintaducentillion twenty octoquinquagintaducentillion twenty noventrigintaducentillion two hundred novemvigintiducentillion two hundred deciducentillion two hundred unnonagintacentillion two hundred duoseptuagintacentillion two hundred tresquinquagintacentillion two hundred quattuortrigintacentillion twenty duodecicentillion twenty trenonagintillion twenty quattuorseptuagintillion twenty quinquinquagintillion twenty sextrigintillion twenty septendecillion years before this page shows something useful.</p></Warning>
 
             <iframe src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/bcd1253d6d40d6bdc27a49433d3a83599921e9bf_crabs.mp4" width="640" height="480"/>
+        
         </div>
 
     );

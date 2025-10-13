@@ -28,11 +28,11 @@ export default function UsefulLinks() {
             <iframe src="https://apod.nasa.gov/apod/astropix.html" height="450" width="800" title="Astronomy Picture of the Day"></iframe>
 
             <p><ul>
-                <li><a href="https://vert.sh/">https://vert.sh/</a></li>
-                <li><a href="https://xkcd.com">https://xkcd.com/</a></li>
-                <li><a href="https://p5js.org/">https://p5js.org/</a></li>
-                <li><a href="https://cambridgeast.org.uk/">https://cambridgeast.org.uk/</a></li>
-            </ul></p>
+                <li><a href="https://vert.sh/" target="_blank">https://vert.sh/</a></li>
+                <li><a href="https://xkcd.com" target="_blank">https://xkcd.com/</a></li>
+                <li><a href="https://p5js.org/" target="_blank">https://p5js.org/</a></li>
+                <li><a href="https://cambridgeast.org.uk/" target="_blank">https://cambridgeast.org.uk/</a></li>
+            </ul></p><br></br>
         </div>
 
     );

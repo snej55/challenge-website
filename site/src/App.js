@@ -86,7 +86,7 @@ function App() {
             <Link to="/games" className='header-nav-text'>Games</Link>
             <Link to="/wiki/About" className='header-nav-text'>Wiki</Link>
 
-            <a href="https://github.com/snej55/challenge-website"><i className="fa-brands fa-github github-icon header-icon"></i></a>
+            <a href="https://github.com/snej55/challenge-website" target="_blank"><i className="fa-brands fa-github github-icon header-icon"></i></a>
             <ThemeChanger />
             {/* <HeaderMobileButton /> */}
           </nav>
