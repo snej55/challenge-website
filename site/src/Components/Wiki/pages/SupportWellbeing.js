@@ -30,6 +30,9 @@ export default function SupportWellbeing() {
             <h2 className="paragraph-title">What is mental health?</h2>
 
             <p>Mental health is a state of overall happiness, distinct from the highs and lows of life. If you, or someone you know, is struggling with mental health issues, do not be ashamed. We are here for you. However, if you or that person are just a bit unhappy with the game of life, <b>toughen up!</b></p>
+            <br></br>
+            {/* <p>We have been highly successful at managing students with stress at CAST. 0% of our students have reported stress in the past year. Students who express stress are requested to take an extended break.</p> */}
+        
         </div>
 
     );
