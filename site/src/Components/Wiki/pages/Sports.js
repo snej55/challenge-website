@@ -21,15 +21,15 @@ export default function Sports() {
             <div className="spacer-20"></div>
             <h1 id="title">🏃‍♂️ Sports & PE</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">HANNAH IS THE GOAT!!!</h2>
 
 
             
       
 
-            <h2 className="paragraph-title">This is paragraph title</h2>
+            <h2 className="paragraph-title">Hannah is the best PE teacher in the school!</h2>
 
-            <p>This is the paragraph</p>
+            <p>Ok, yes, she is the only PE teacher in the school, but she is genuinely quite good. She doesn't have time each week to actually teach us (not her fault tho), so she just gets us to play sport and active games. It's great! usually.</p>
         </div>
 
     );
