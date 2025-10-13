@@ -21,7 +21,7 @@ export default function Sparx() {
             <div className="spacer-20"></div>
             <h1 id="title">✨ Sparx Homework</h1>
 
-            <h2 id="subtitle">Don't look at the trustpilot reviews...</h2>
+            <h2 id="subtitle">The 'Spark' of inspiration for hundreds of students!</h2>
 
             <h2 className="paragraph-title">Maths Homework</h2>
 
