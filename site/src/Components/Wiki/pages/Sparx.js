@@ -25,27 +25,27 @@ export default function Sparx() {
 
             <h2 className="paragraph-title">Maths Homework</h2>
 
-            <p>Our non-benevolent teachers set us ~6 sections of compulsory Maths homework every week - If you can't get it done the teachers and staff will punish you, as will the website itself.
-                There are even subject support sessions (detentions) for those who struggle!
+            <p>Our benevolent teachers set us 6 sections of compulsory Maths homework every week - If you can't get it done the teachers and staff will support you, as will the website itself.
+                There are even subject support sessions for those who struggle!
             </p>
 
             <img src="/assets/images/sparx_screenie.png" className="sparx-screenshot"/>
 
             <p>
-                <i>The more mathematically minded among you may hate enjoy solving the sample question above.</i> All questions come with a bookwork code, so those who wish to practice showing working for exams can jot down their answers and input them in the appropriate points, to better prepare you for the fake world.
+                <i>The more mathematically minded among you may enjoy solving the sample question above.</i> All questions come with a bookwork code, so those who wish to practice showing working for exams can jot down their answers and input them in the appropriate points, to better prepare you for the real world.
             </p>
             <br/>
 
             <h2 className="paragraph-title">Science Homework</h2>
             <p>
-                Given how harmful Sparx is for students, we also get to complete science sparx as well! - Sparx Science is basically the same as Sparx maths, but with Biology, Physics and Chemistry exam style questions instead.
+                Given how helpful Sparx is for students, we also get to complete science sparx as well! - Sparx Science is basically the same as Sparx maths, but with Biology, Physics and Chemistry exam style questions instead.
             </p>
 
             <br></br>
             <h2 className="subtitle">Some useful info:</h2>
             <br></br>
             <ul>
-                <li><a href="https://uk.trustpilot.com/review/sparx-learning.com" target="_blank">https://uk.trustpilot.com/review/sparx-learning.com</a></li>
+                <li><a href="https://uk.trustpilot.com/review/sparx-learning.com">https://uk.trustpilot.com/review/sparx-learning.com</a></li>
             </ul>
             <br></br>
             {/* invisible gap */}
