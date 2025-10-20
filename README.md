@@ -1,12 +1,12 @@
-## Challenge website
+<p align="center">
+  <img src="https://raw.githubusercontent.com/snej55/challenge-website/refs/heads/main/site/public/assets/images/CAST_PictureOnly_Logo_nobg.png" alt="Pi-hole website" width="300" height="300">
+<h1 align="center" >Cambridge Academy for Science and Technology WiKi</h1>
+</p>
 
-A website for our school challenge project. The idea is to provide various "services" via the website (e.g. flash cards, school wiki, entertainment, etc).
+<p align="center">
+  CAST WiKi is the one-stop knowlage base for anyone in our school!
+</p>
 
-Run `./gen_docs.sh` to regenerate the README.
-
-Scroll past the todo for info on how to run the website (for editing see `CONTRIBUTING.md`).
-
----
 
 ## TODO:
 
