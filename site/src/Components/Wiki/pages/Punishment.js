@@ -19,7 +19,7 @@ export default function Punishment() {
             <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>Because not everything can go right</h3>
 
             <div className="spacer-20"></div>
-            <h1 id="title">Because not everything can go right</h1>
+            <h1 id="title">Punishment</h1>
 
             <h2 id="subtitle">This is the subtitle, change me</h2>
 
