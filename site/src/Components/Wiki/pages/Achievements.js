@@ -47,6 +47,7 @@ export default function Achievements() {
             <p>Alongside the major awards mentioned, there are others just as prestigious but too many to name.</p>
             <p>Sparx top achievers, GCSE Pod best listeners, you name it, and you'll be awarded it.</p>
             <p>So get learning, and win some awards to remember!</p>
+            <br/>
         </div>
 
     );
