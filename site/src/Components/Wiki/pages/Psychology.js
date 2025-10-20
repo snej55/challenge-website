@@ -37,6 +37,7 @@ export default function Psychology() {
             <p>2: Language and thought</p>
             <p>3: Brain and neuropsychology</p>
             <p>4: Psychological problems</p>
+            <br/>
         </div>
 
     );
