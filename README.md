@@ -1,151 +1,70 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/snej55/challenge-website/refs/heads/main/site/public/assets/images/CAST_PictureOnly_Logo_nobg.png" alt="Pi-hole website" width="300" height="300">
-<h1 align="center" >Cambridge Academy for Science and Technology WiKi</h1>
-</p>
+# Getting Started with Create React App
 
-<p align="center">
-  CAST WiKi is the one-stop knowlage base for anyone in our school!
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## TODO:
+In the project directory, you can run:
 
-- [x] Choose framework
+### `npm start`
 
-- [ ] Add footer
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- [X] Add wiki contents list
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- [ ] Fix dark mode links
+### `npm test`
 
-- [ ] Forum page or chatbot?
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [ ] Timetable generator?
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Running the website
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. First, clone the repo and cd into it:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```
-git clone --depth 1 https://github.com/snej55/challenge-website.git
-cd challenge-website
-```
+### `npm run eject`
 
-2. Install the package.json:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```
-cd site
-npm install
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-3. Start the client!
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```
-npm run start
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Folder structure:
-```
-.
-├── archive
-│   ├── assets
-│   │   ├── dev
-│   │   │   ├── #1_Basic_Page_Demo.jpeg
-│   │   │   ├── #2_Scrollable_Div.png
-│   │   │   └── #3_Header_Icon.png
-│   │   └── images
-│   │       ├── CASTlogo.png
-│   │       ├── CAST_PictureOnly_Logo.png
-│   │       └── newCASTlogo.png
-│   ├── pages
-│   │   ├── about-us.html
-│   │   ├── home-page.html
-│   │   └── toc.html
-│   ├── styles
-│   │   ├── footer.css
-│   │   ├── global.css
-│   │   ├── header.css
-│   │   ├── main.css
-│   │   └── toc.css
-│   └── toc.js
-├── AUTHORS.md
-├── CONTRIBUTING.md
-├── devlog.md
-├── docs
-│   ├── README.md
-│   └── TODO.md
-├── gen_docs.sh
-├── index.html
-├── package.json
-├── package-lock.json
-├── README.md
-├── site
-│   ├── node_modules  [878 entries exceeds filelimit, not opening dir]
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── public
-│   │   ├── assets
-│   │   │   ├── images
-│   │   │   │   ├── 404_Page.png
-│   │   │   │   ├── CASTlogo.png
-│   │   │   │   ├── CAST_PictureOnly_Logo_nobg.png
-│   │   │   │   ├── CAST_PictureOnly_Logo.png
-│   │   │   │   ├── CAST_WIKI_Logo_nobg.png
-│   │   │   │   └── CAST_WIKI_Logo.png
-│   │   │   ├── SchoolPolicies
-│   │   │   │   ├── CAST Uniform Images for Website - Items.svg
-│   │   │   │   ├── CAST Uniform Images for Website - Items.webp
-│   │   │   │   └── CAST Uniform Images for Website - PE Uniform.png
-│   │   │   └── wiki.json
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   └── robots.txt
-│   ├── README.md
-│   ├── src
-│   │   ├── App.css
-│   │   ├── App.js
-│   │   ├── App.test.js
-│   │   ├── Components
-│   │   │   ├── Flashcards.css
-│   │   │   ├── Flashcards.js
-│   │   │   ├── Formtime.css
-│   │   │   ├── Formtime.js
-│   │   │   ├── Games.css
-│   │   │   ├── Games.js
-│   │   │   ├── Global
-│   │   │   │   ├── HeaderMobileButton.css
-│   │   │   │   ├── HeaderMobileButton.js
-│   │   │   │   ├── InfoCardReact.css
-│   │   │   │   ├── InfoCardReact.js
-│   │   │   │   ├── MobileHeader.css
-│   │   │   │   ├── MobileHeader.js
-│   │   │   │   ├── theme.css
-│   │   │   │   └── theme.js
-│   │   │   ├── Home.css
-│   │   │   ├── Home.js
-│   │   │   ├── NoMatch.css
-│   │   │   ├── NoMatch.js
-│   │   │   ├── Wiki
-│   │   │   │   ├── add_page.py
-│   │   │   │   ├── gen_pages.py
-│   │   │   │   ├── gen_pages_v2.py
-│   │   │   │   └── pages  [45 entries exceeds filelimit, not opening dir]
-│   │   │   ├── Wiki.css
-│   │   │   └── Wiki.js
-│   │   ├── index.css
-│   │   ├── index.js
-│   │   ├── logo.svg
-│   │   ├── reportWebVitals.js
-│   │   ├── setupTests.js
-│   │   └── temp.js
-│   └── wiki-styles
-│       └── home-page.css
-└── test-flashcards.json
-```
+## Learn More
 
-Run `tree --filelimit=20` to regenerate the folder structure.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
