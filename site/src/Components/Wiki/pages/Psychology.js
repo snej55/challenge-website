@@ -21,11 +21,22 @@ export default function Psychology() {
             <div className="spacer-20"></div>
             <h1 id="title">🧠 Psychology</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
-
-            <h2 className="paragraph-title">This is paragraph title</h2>
-
-            <p>This is the paragraph</p>
+            <h2 id="subtitle">From conformity to consent, we've got everything</h2>
+            <br/>
+            <h2 className="paragraph-title">A rough overview</h2>
+            <p>Psychology is one of the options to take for GCSE, and is split into two sections, each covering a paper, as per AQA standards.</p>
+            <br/>
+            <h2 className="paragraph-title">Paper 1: Cognition and Behaviour</h2>
+            <p>1: Memory</p>
+            <p>2: Perception</p>
+            <p>3: Development</p>
+            <p>4: Research methods</p>
+            <br/>
+            <h2 className="paragraph-title">Paper 2: Social context and Behaviour </h2>
+            <p>1: Social influence</p>
+            <p>2: Language and thought</p>
+            <p>3: Brain and neuropsychology</p>
+            <p>4: Psychological problems</p>
         </div>
 
     );
