@@ -22,7 +22,7 @@ export default function SchoolPolicies() {
             <h1 id="title">📄 School Policies</h1>
             <t>As useful as our witty commentaries may be, we're aware some of you may wish to look at solid legal documents.</t>
             <t>Therefore, we've added links to each and every one of the school policies for you to read at your own convenience.</t>
-            <t>From Attendance to Whistle blowing, CAST really is prepared for anything!</t>
+            <t>From attendance to whistle blowing, CAST really is prepared for anything!</t>
 {/* links taken from: https://www.cambridgeast.org.uk/about-us/key-information/policies */}
             <ul className="list-group">
                 <li className="list-item"><a href="https://www.cambridgeast.org.uk/Portals/0/adam/Files/hVmFRzHuV02Ti48DY2xDSQ/Url/_Acceptable%20Use%20Policy.pdf" class="list-group-item list-group-item-action ps-1" aria-current="true" target="_blank">
