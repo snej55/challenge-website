@@ -17,7 +17,7 @@ export function Wiki({ wikiData }) {
             {/* wiki contents */}
             <div className="wiki-contents">
                 {/* spacer */}
-                {pages.map(page => <Link to={`/wiki/${page.title.toLowerCase()}`} className="wikilink">{page.desc}</Link>)}
+                {pages.map(page => <Link to={`/challenge-website/wiki/${page.title.toLowerCase()}`} className="wikilink">{page.desc}</Link>)}
                 <div className="spacer-20"></div>
             </div>
 

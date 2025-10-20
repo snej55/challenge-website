@@ -28,7 +28,7 @@ export default function Miscallaneous() {
             <div className='spacer-100'></div>
             <div className='spacer-100'></div>
             <div className='spacer-100'></div>
-            <img src="/assets/images/mosselman.png" className="mossels" width="600" />
+            <img src="assets/images/mosselman.png" className="mossels" width="600" />
             <div className='spacer-100'></div>
             <p>YOU HAVE BEEN WARNED</p>
             <h2 className="paragraph-title">No tips yet :</h2>

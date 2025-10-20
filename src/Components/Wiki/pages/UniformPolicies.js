@@ -33,7 +33,7 @@ export default function UniformPolicies() {
             <Info>
                 <p><i>Our uniform supplier is Sportswear International Ltd (SWI). Orders can be placed online at <a href='www.swischoolwear.co.uk' target="_blank">www.swischoolwear.co.uk</a> or by phone on <a href='tel:01928 752610' target="_blank">01928 752610 (Option1)</a>. Enquiries can be sent to <a href='e:customerservice@swi.co.uk' target="_blank">customerservice@swi.co.uk</a></i></p>
             </Info>
-            <img src="../assets/SchoolPolicies/CAST Uniform Images for Website - Items.svg" alt='CAST Uniform Images for Website - Items' className='cast-uniform-image'></img>
+            <img src="assets/SchoolPolicies/CAST Uniform Images for Website - Items.svg" alt='CAST Uniform Images for Website - Items' className='cast-uniform-image'></img>
         </div>
 
     );
