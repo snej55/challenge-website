@@ -13,9 +13,6 @@ h3,
     font-family: sans-serif !important;
 }
 
-
-
-
 :root {
     --accent: #4285F4;
     --top-button-selected: #4285F4;
@@ -25,9 +22,6 @@ h3,
     --primary: black;
     --selected-color: gainsboro;
     --border-color: #dbdbdb;
-    /* --popup-background: #dbdbdb; */
-
-    /* Cards */
     --blue-accent: #4285F4;
     --blue-background: #cae2f9;
     --green-accent: #34A853;
@@ -47,9 +41,6 @@ h3,
     --primary: black;
     --selected-color: #3f475c;
     --border-color: #282d3b;
-    /* --popup-background: #1c1f29; */
-
-    /* Cards */
     --blue-accent: #448cff;
     --blue-background: rgb(0, 51, 103);
     --green-accent: #12db48;
@@ -58,15 +49,11 @@ h3,
     --orange-background: rgba(219, 125, 39, 0.5);
     --red-accent: #e91313;
     --red-background: rgba(153, 0, 23, 0.5);
-
 }
 
 p {
     font-size: larger;
 }
-
-/* --background: rgb(36, 39, 46); */
-
 
 *:focus {
     outline: invert;

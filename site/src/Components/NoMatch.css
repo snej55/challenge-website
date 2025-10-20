@@ -7,13 +7,11 @@
     width: 100vw;
     max-width: none;
     margin: 0 auto;
-    /* Center horizontally if needed */
     box-sizing: border-box;
 }
 
 .title {
     font-family: 'Fira Code', monospace;
-    /* position: fixed; */
 }
 
 .error-icon {
@@ -48,8 +46,3 @@
 .rescue-button:active {
     box-shadow: 1px 1px 5px black;
 }
-
-
-/* .escape-icon {
-
-} */

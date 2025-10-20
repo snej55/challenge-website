@@ -1,13 +1,10 @@
 .Wiki {
     display: flex;
     flex-direction: row;
-    /* padding: 20px; */
 }
 
 main {
     padding-top: 63px;
-    /* padding-bottom: 20px; */
-
 }
 
 .wiki-contents {
@@ -40,18 +37,6 @@ main {
 .spacer-20 {
     height: 20px;
 }
-
-/* .Wiki {
-    margin-left: 20vw;
-    overflow-x: hidden;
-    overscroll-behavior-x: none;
-    overscroll-behavior-y: none;
-    padding: 20px;
-    border: none;
-    height: calc(100vh - 63px);
-    width: calc(100vw - 20vw - 60px);
-
-} */
 
 .wikilink {
     padding-top: 15px;

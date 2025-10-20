@@ -9,11 +9,6 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* .info-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-} */
-
 .info-card h3 {
     display: flex;
     align-items: center;
@@ -25,12 +20,10 @@
 
 .info-card p {
     color: var(--card-text-color);
-    /* margin-bottom: 20px; */
 }
 
 .info-card a {
     color: var(--blue-accent);
-    /* margin-bottom: 20px; */
 }
 
 .card-list {
@@ -66,7 +59,6 @@
 
 .card-blue h3 {
     color: var(--blue-accent);
-    /* background-color: #F1F8FF; */
 }
 
 
