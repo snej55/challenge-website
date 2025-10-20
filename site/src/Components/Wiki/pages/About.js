@@ -4,7 +4,6 @@ import './info-card.css'
 import '@rocktimsaikia/github-card'
 export default function About() {
     return (
-
         <div className="wiki-pages-div">
             <div className="spacer-20"></div>
             <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>📚 About Us</h3>
