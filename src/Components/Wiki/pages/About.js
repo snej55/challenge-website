@@ -14,7 +14,6 @@ export default function About() {
             <h2 id="subtitle">This is the <i>unofficial</i> wiki of Cambridge Academy for Science and Technology</h2>
             <img src="../assets/images/CAST_WIKI_Logo.png" className="cast-wiki-logo" alt="CAST Wiki Logo" />
 
-
             {/* Spacer 50px */}
             <div className="spacer-50"></div>
 

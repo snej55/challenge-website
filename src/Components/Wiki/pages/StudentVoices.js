@@ -30,7 +30,7 @@ export default function StudentVoices() {
                 The other years don't really do anything, except for bake sales to fund prom.
             </p>
 
-            <img src="assets/images/donkeeeeey.gif" className="nerd"/>
+            <img src="../assets/images/donkeeeeey.gif" className="nerd"/>
         </div>
 
     );

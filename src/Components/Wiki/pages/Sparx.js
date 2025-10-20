@@ -29,7 +29,7 @@ export default function Sparx() {
                 There are even subject support sessions for those who struggle!
             </p>
 
-            <img src="assets/images/sparx_screenie.png" className="sparx-screenshot"/>
+            <img src="../assets/images/sparx_screenie.png" className="sparx-screenshot"/>
 
             <p>
                 <i>The more mathematically minded among you may enjoy solving the sample question above.</i> All questions come with a bookwork code, so those who wish to practice showing working for exams can jot down their answers and input them in the appropriate points, to better prepare you for the real world.

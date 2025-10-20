@@ -30,7 +30,7 @@ export default function PersonalElectronicsPolicies() {
             <p>The only times at which you are allowed to use your phones or similar devices are before and after the school day, not during</p>
             <i><p>Y11s are no longer allowed to use their phones at break times due to difficulties.<b>Please blame the 6th formers.</b></p></i>
             <Tips><p>However, for Y11s who are allowed to leave the school during lunch time, there are no restrictions regarding device usage outside the school grounds</p></Tips>
-            <img src="assets/SchoolPolicies/Tech policies phones.jpg" alt='Phones, Tablets and any other personal devices used recreationally' className='cast-computers'></img>
+            <img src="../assets/SchoolPolicies/Tech policies phones.jpg" alt='Phones, Tablets and any other personal devices used recreationally' className='cast-computers'></img>
             <div className='spacer-50'></div>
             <h2 className="paragraph-title">Laptops and other work devices</h2>
 
@@ -38,7 +38,7 @@ export default function PersonalElectronicsPolicies() {
             <p>Please see the SEND team in the canteen if you think you qualify for this.</p>
             <i><p>Due to students abusing the privilege, previous legislation allowing students to do work during break times has been removed. </p></i>
             <p>If you wish to study in school, there is a designated study space for use after school for those who sign up, next to the information desk.</p>
-            <img src="assets/images/hypehypehype.gif" alt='Laptops, or other devices used for studying' className='cast-computers'></img>
+            <img src="../assets/images/hypehypehype.gif" alt='Laptops, or other devices used for studying' className='cast-computers'></img>
             {/* <img src="http://www.pngall.com/laptop-png/download/5426" alt='Laptops, or other devices used for studying' className='cast-computers'></img> */}
         </div>
 

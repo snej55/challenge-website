@@ -29,7 +29,7 @@ export default function Sports() {
                 When it rains, we do dodgeball or table tennis in the lecture theatre. The school also has a small gym on the ground floor, which is open to sixth form and Y11 during lunchtime.
             </p>
 
-            <img src="assets/images/rugby-tackle.gif" className="rugby-tackle" />
+            <img src="../assets/images/rugby-tackle.gif" className="rugby-tackle" />
         </div>
 
     );
