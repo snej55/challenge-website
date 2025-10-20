@@ -2,3 +2,12 @@
 /* .cast-uniform-image {
     width: 80vw;
 } */
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+}
+.list-item {
+    margin: 5px;
+    color: var(--text-color);
+}
