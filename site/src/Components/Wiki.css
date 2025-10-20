@@ -25,11 +25,10 @@ main {
     border-width: 0px 1px 0px 0px;
     border-style: solid;
     height: calc(100vh - 93px);
-    /* height: 100vh; */
     margin-left: 0px;
 }
 
-*/ .wiki-contents::-webkit-scrollbar {
+* .wiki-contents::-webkit-scrollbar {
     width: 2px;
 
 }
