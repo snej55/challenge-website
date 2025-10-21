@@ -16,10 +16,10 @@ export default function Punishment() {
 
         <div className="wiki-pages-div">
             <div className="spacer-20"></div>
-            <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>Because not everything can go right</h3>
+            <h3 className="nav-label"><i className="fa-solid fa-house"></i><i className="fa-solid fa-arrow-right nav-icon"></i>🪓 Punishment</h3>
 
             <div className="spacer-20"></div>
-            <h1 id="title">Punishment</h1>
+            <h1 id="title">🪓 Punishment</h1>
 
             <h2 id="subtitle">Sometimes, they have to get a little bit naughty...</h2>
 
