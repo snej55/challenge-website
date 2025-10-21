@@ -62,11 +62,7 @@ export default function LunchMenu() {
             <h3 classname = "paragraph-title">Meat-Free Monday</h3>
 
             <p>As the name of the day surely suggests, the food served on Mondays is entirely meat free!</p>
-<<<<<<< HEAD
             <p>While some barbaric carnivores dislike it, the vast majority of the school view it as a vital opportunity to reduce their environmental impact and sample new cuisine.</p>
-=======
-            <p>While some barbaric carnivores dislike it, the vast majority of the (even more savage) school view it as a vital opportunity to reduce their environmental impact and sample new cuisine.</p>
->>>>>>> bc04b48c482a9647a5914c5fe8c2a6cbb3f5de59
             <p>However, other events cater more towards those who disagree with healthy, sustainable eating... and agree with eating a natural human diet</p>
             <Tips><p>(If you really can't bear to go veggie, there's always the option of a sneaky chicken sandwich from the cold food. I didn't tell you that, though.)</p></Tips>
 
