@@ -32,7 +32,7 @@ export default function SubjectsCourses() {
             <p>To learn more, head over to the English page elsewhere in the wiki!</p>
             <h3>Maths</h3>
             <p>Maths is a no-brainer for anyone looking into STEM - serving as the foundation for every bit of research out there.</p>
-            <p>At CAST, you'll learn both standard GCSE Maths and the additional GCSE STatistics, usually reserved for the smartest of most schools!</p>
+            <p>At CAST, you'll learn both standard GCSE Maths and the additional GCSE Statistics, usually reserved for the smartest of most schools!</p>
             <p>Here, the teachers go above and beyond in every way to help you learn.</p>
             <p>Some of the top Y11s even get to study Further Maths, pushing beyond conventional boundaries to reach into the world of A-levels.</p>
             <p>To find out more, just dash to the Maths page elsewhere in the wiki!</p>
