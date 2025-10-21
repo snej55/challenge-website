@@ -28,7 +28,7 @@ export default function Punishment() {
             <p>As simple as it may sound, this tried and tested method is the first - and very often last - technique employed to get students to behave.</p>
             <p>Whether throwing things across the room or simply not listening, this is always the first step deployed before any actual punishment.</p>
             <p>As they are not recorded or acted upon, they represent a way for students to understand their wrongdoing and improve without the need for unnecessary suffering.</p>
-            <Warning>However, for extreme cases, they can be escalated directly to the next step... So don't take a second chance for granted, or you may regret it!</Warning>
+            <Warning><p>However, for extreme cases, they can be escalated directly to the next step... So don't take a second chance for granted, or you may regret it!</p></Warning>
             <br/>
             <h2 className="paragraph-title">Reflection</h2>
             <p>Sometimes, the method of asking people nicely just doesn't work. Thats where these come in.</p>
