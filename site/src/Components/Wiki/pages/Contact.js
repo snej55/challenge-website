@@ -26,6 +26,7 @@ export default function Contact() {
             <h2 className="paragraph-title">Emails:</h2>
 
             <p>You can send stuff to hello@dannygo.net if you really want, but be prepared for rejection. (For bugs and stuff just create an issue on the github).</p>
+            <p>If you have any complaints or ransom demands, please forward them to 21tdu@nhlstudents.org and we will hopefully get in touch shortly.</p>
         </div>
 
     );

@@ -21,15 +21,18 @@ export default function SchoolOverview() {
             <div className="spacer-20"></div>
             <h1 id="title">🏫 School Overview</h1>
 
-            <h2 id="subtitle">GCSEs, Level 2s, A-levels, T-levels, and level 3s!</h2>
-
-
-            
-      
+            <h2 id="subtitle">What do we do here, and where did we get such a funny name?</h2>
 
             <h2 className="paragraph-title">CAST</h2>
 
-            <p>The Cambridge Academy for Science and Technology is the most cultured secondary school and sixth form in the Cambridgeshire area. With the best </p>
+            <p>For those who are wondering, the name stands for Cambridge Academy of Science and Technology.</p>
+            <p>We're a UTC. That means that we study certain subjects in far more detail, while others are erased from the syllabus.</p>
+            <p>For those who were wondering, we mostly focus on the sciences here at CAST, while subjects such as the Arts or languages are virtually unheard of.</p>
+            <Warning><p>If you couldn't guess that from the name, CAST may not be the right school for you. I'd suggest the CRC Bricklaying or Beauty therapy courses instead. Just saying.</p></Warning>
+            <h2 className="paragraph-title">School Spirit</h2>
+            <p>For a school focussed on scientific advancement, CAST, has a surprising amount of this.</p>
+            <p>With weekly assemblies on important values like kindness and collaboration, and a familiar, peer-to-peer relationship between most teachers and students due to the small school size, CAST has a lot to offer that some might not expect.</p>
+            <br/>
         </div>
 
     );
