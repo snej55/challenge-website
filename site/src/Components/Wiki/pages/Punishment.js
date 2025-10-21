@@ -40,6 +40,7 @@ export default function Punishment() {
             <p>When assigned a detention, students must attend at breaktime, lunchtime or after school, and once again, must complete homework or revision for a set amount of time.</p>
             <p>They are sometimes passed out for serious misdeeds, but are most commonly used for students who have failed to complete homework, who are expected to stay until the abandoned task has been completed.</p>
             <br/>
+	    <div className='spacer-100'></div>
         </div>
 
     );
