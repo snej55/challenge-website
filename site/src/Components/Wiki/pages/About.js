@@ -28,8 +28,23 @@ export default function About() {
                 make students' everyday life around the school smoother and easier. </p>
             <div className="spacer-40"></div>
             <h2 className='paragraph-title'>Who made this WIKI?</h2>
-            <div class="github-card" data-user="lepture" data-repo="github-cards"></div>
-            <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
+            {/* <div class="github-card" data-user="lepture" data-repo="github-cards"></div> */}
+            {/* <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script> */}
+            <div>
+                <ul>
+                    <li className="list-item">Jens Kromdijk (<a href="https://github.com/snej55">@snej55</a>)</li>
+                    <li className="list-item">Nathan (Zibu) Yin (<a href="https://github.com/zibuyin">@zibuyin</a>)</li>
+                    <li className="list-item">Tom Dunnee (<a href="https://github.com/tdem1">@tdem1</a>)</li>
+                    <li className="list-item">Jan Lukasiak (<a href="https://github.com/j4mik">@j4mik</a>)</li>
+                    <li className="list-item">Sebastian Thornton (<a href="https://github.com/Sebastian-Thornton">@Sebastian-Thornton</a>)</li>
+                </ul>
+            </div>
+            <div className="spacer-40"></div>
+            <h2 className='paragraph-title'>Why is the commentary so cynical?</h2>
+            <p>
+                Tom and Sebastian were a real helping hand.
+            </p>
+            <div className="spacer-100"></div>
             {/* <div className='github-cards-div'>
                 <github-card data-user="snej55" className="github-card"></github-card>
                 <github-card data-user="zibuyin" className="github-card"></github-card>

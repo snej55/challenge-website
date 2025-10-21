@@ -10,3 +10,7 @@
     border: none;
     scale: 1;
 }
+
+.list-item {
+    color: var(--text-color)
+}
