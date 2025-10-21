@@ -21,15 +21,11 @@ export default function Contact() {
             <div className="spacer-20"></div>
             <h1 id="title">📨 Contact Us</h1>
 
-            <h2 id="subtitle">This is the subtitle, change me</h2>
+            <h2 id="subtitle">Here are some contact details in case you want to chat</h2>
 
+            <h2 className="paragraph-title">Emails:</h2>
 
-            
-      
-
-            <h2 className="paragraph-title">This is paragraph title</h2>
-
-            <p>This is the paragraph</p>
+            <p>You can send stuff to hello@dannygo.net if you really want, but be prepared for rejection. (For bugs and stuff just create an issue on the github).</p>
         </div>
 
     );
