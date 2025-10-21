@@ -22,7 +22,7 @@ export default function About() {
 
             <p>This page was made by five Year 11 CAST students. We realised that many students
                 new to our school were not
-                able to find their way around the school easily, which leaded to the teachers needing to spend days teaching
+                able to find their way around the school easily, which lead to the teachers needing to spend days teaching
                 them how to do basic things, like where is the water fountain, or how to submit homework.</p>
             <p>Because of this, we decided that a WIKI about the school should be made. The objective of the guide is to
                 make students' everyday life around the school smoother and easier. </p>

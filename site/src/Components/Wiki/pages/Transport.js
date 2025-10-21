@@ -23,12 +23,7 @@ export default function Transport() {
 
             <h2 id="subtitle">Public Transport information</h2>
 
-
-            
-      
-
             <h2 className="paragraph-title">Here's yo links: </h2>
-
 
             <p>Just go here honestly: <a href="https://www.stagecoachbus.com">https://www.stagecoachbus.com</a></p>
         </div>
