@@ -27,7 +27,7 @@ export default function Psychology() {
             <p>Psychology is one of the options to take for GCSE, and is split into two sections, each covering a paper, as per AQA standards.</p>
             <br/>
             <h2 className="paragraph-title">Paper 1: Cognition and Behaviour</h2>
-            <p>1: Memory</p>
+            <h6>1: Memory</h6>
             <p>2: Perception</p>
             <p>3: Development</p>
             <p>4: Research methods</p>
