@@ -44,7 +44,7 @@ export default function Mathematics() {
             <p>Basic Maths is one of the most important things you'll study here at CAST - those who fail it are expected to resit it alongside their A-levels.</p>
             <p>For that reason, its pretty important to get good at it, especially if you're looking into a career in science; Maths is a must-have.</p>
             <p>Fortunately, maths isn't too tough. The teachers here are top-notch at helping struggling students, so you'll be fine as long as you give it your best shot and don't get distracted.</p>
-            <Tips><Warning><Warning><Warning><p>Please show your working, though, or the head of Maths whose name begins with a Y may get angry. Really, really angry...</p></Warning></Warning></Warning></Tips>
+            <Tips><Warning><Warning><Warning><p>Please show your working, though, or some teachers may get angry. Really, really angry...</p></Warning></Warning></Warning></Tips>
 
             <h2 className="paragraph-title">Statistics</h2>
 
