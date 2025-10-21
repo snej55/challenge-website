@@ -31,7 +31,7 @@ export default function Sciences() {
 
             <h2 className="paragraph-title">🧪 Chemistry</h2>
             <p>
-                Ronnie is a brilliant chemistry teacher.
+                Ronnie and Clare are brilliant chemistry teachers.
             </p>
             <br /><br />
 
