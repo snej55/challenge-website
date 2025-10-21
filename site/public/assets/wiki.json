@@ -96,9 +96,13 @@
             "desc": "\ud83e\udde0 Psychology",
             "title": "Psychology"
         },
-	{
-	    "desc": "🪓 Punishment",
-	    "title": "Punishment"
-	}
+        {
+            "desc": "\ud83e\ude93 Punishment",
+            "title": "Punishment"
+        },
+        {
+            "desc": "🛑 Computer Restrictions",
+            "title": "ComputerRestrictions"
+        }
     ]
 }
